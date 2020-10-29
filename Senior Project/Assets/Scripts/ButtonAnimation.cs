@@ -9,21 +9,25 @@ public class ButtonAnimation : MonoBehaviour
     public GameObject button3;
     public GameObject button4;
     public GameObject button5;
+    public GameObject button6;
+    public float speed;
+    public GameObject cameraRotator;
     // Start is called before the first frame update
     void Start()
     {
-        LeanTween.moveLocalX(button1, -376, 2).setEaseInOutBack();
-        LeanTween.moveLocalX(button2, -376, 2.5f).setEaseInOutBack();
-        LeanTween.moveLocalX(button3, -376, 3f).setEaseInOutBack();
-        LeanTween.moveLocalX(button4, -376, 3.5f).setEaseInOutBack();
-        LeanTween.moveLocalX(button5, -376, 4f).setEaseInOutBack();
+        LeanTween.moveLocalY(button1, 264, 2).setEaseInOutBack();
+        LeanTween.moveLocalY(button2, 264, 2.5f).setEaseInOutBack();
+        LeanTween.moveLocalY(button3, 264, 3f).setEaseInOutBack();
+        LeanTween.moveLocalY(button4, 264, 3.5f).setEaseInOutBack();
+        LeanTween.moveLocalX(button5, -579, 4f).setEaseInOutBack();
+        LeanTween.moveLocalX(button6, 577, 4f).setEaseInOutBack();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //void Update()
+    //{
+     //   cameraRotator.transform.Rotate(0, speed * Time.deltaTime, 0);
+    //}
     public void Bigger()
     {
         LeanTween.scale(button1, new Vector3(1.25f, 1.25f, 1.25f), 0.5f).setEaseLinear();
@@ -64,4 +68,8 @@ public class ButtonAnimation : MonoBehaviour
     {
         LeanTween.scale(button5, new Vector3(1, 1, 1), 0.5f).setEaseLinear();
     }
+
+    
+
+    
 }
