@@ -333,6 +333,43 @@ RectTransform:
   m_AnchoredPosition: {x: 861, y: 1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &443479505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7126016004575289809, guid: 547afcf3e195d416abc2cd2151bdf231,
+    type: 3}
+  m_PrefabInstance: {fileID: 7126016005711099446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &443479506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443479505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56921b57bce357142a13690308e68bd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  rb: {fileID: 443479511}
+  timerForNewPos: 3
+--- !u!54 &443479511
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443479505}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,10 +2046,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5945937292422939928, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945937292422939928, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945937292422939928, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5945937292422939940, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
         type: 3}
       propertyPath: m_Name
       value: TankProto
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945937292422939941, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe7b64d12d3ed49a8830ce0c837e2b53, type: 3}
@@ -2031,7 +2088,7 @@ PrefabInstance:
     - target: {fileID: 7126016004575289821, guid: 547afcf3e195d416abc2cd2151bdf231,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7126016004575289821, guid: 547afcf3e195d416abc2cd2151bdf231,
         type: 3}
