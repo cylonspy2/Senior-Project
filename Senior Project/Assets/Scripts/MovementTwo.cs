@@ -13,11 +13,24 @@ public class MovementTwo : MonoBehaviour
     public float timerForNewPos;
     bool InCoRoutine;
     Vector3 target;
+    Vector3 fishScale;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        fishScale = getRandSize();
+        this.transform.localScale = fishScale;
+    }
+
+    Vector3 getRandSize()
+    {
+        float x = Random.Range(0.75f, 1.5f);
+        float y = Random.Range(0.75f, 1.5f);
+
+        Vector3 scale = new Vector3(x, y, 1);
+        return scale;
     }
 
     Vector3 getNewRandomPosition()
