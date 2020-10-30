@@ -30,43 +30,43 @@ public class ButtonAnimation : MonoBehaviour
     //}
     public void Bigger()
     {
-        LeanTween.scale(button1, new Vector3(1.25f, 1.25f, 1.25f), 0.5f).setEaseLinear();
+        LeanTween.scale(button1, new Vector3(1.25f, 1.25f, 1.25f), 0.2f).setEaseLinear();
     }
     public void Bigger2()
     {
-        LeanTween.scale(button2, new Vector3(1.25f, 1.25f, 1.25f), 0.5f).setEaseLinear();
+        LeanTween.scale(button2, new Vector3(1.25f, 1.25f, 1.25f), 0.2f).setEaseLinear();
     }
     public void Bigger3()
     {
-        LeanTween.scale(button3, new Vector3(1.25f, 1.25f, 1.25f), 0.5f).setEaseLinear();
+        LeanTween.scale(button3, new Vector3(1.25f, 1.25f, 1.25f), 0.2f).setEaseLinear();
     }
     public void Bigger4()
     {
-        LeanTween.scale(button4, new Vector3(1.25f, 1.25f, 1.25f), 0.5f).setEaseLinear();
+        LeanTween.scale(button4, new Vector3(1.25f, 1.25f, 1.25f), 0.2f).setEaseLinear();
     }
     public void Bigger5()
     {
-        LeanTween.scale(button5, new Vector3(1.25f, 1.25f, 1.25f), 0.5f).setEaseLinear();
+        LeanTween.scale(button5, new Vector3(1.25f, 1.25f, 1.25f), 0.2f).setEaseLinear();
     }
     public void Smaller()
     {
-        LeanTween.scale(button1, new Vector3(1, 1, 1), 0.5f).setEaseLinear();
+        LeanTween.scale(button1, new Vector3(1, 1, 1), 0.2f).setEaseLinear();
     }
     public void Smaller2()
     {
-        LeanTween.scale(button2, new Vector3(1, 1, 1), 0.5f).setEaseLinear();
+        LeanTween.scale(button2, new Vector3(1, 1, 1), 0.2f).setEaseLinear();
     }
     public void Smaller3()
     {
-        LeanTween.scale(button3, new Vector3(1, 1, 1), 0.5f).setEaseLinear();
+        LeanTween.scale(button3, new Vector3(1, 1, 1), 0.2f).setEaseLinear();
     }
     public void Smaller4()
     {
-        LeanTween.scale(button4, new Vector3(1, 1, 1), 0.5f).setEaseLinear();
+        LeanTween.scale(button4, new Vector3(1, 1, 1), 0.2f).setEaseLinear();
     }
     public void Smaller5()
     {
-        LeanTween.scale(button5, new Vector3(1, 1, 1), 0.5f).setEaseLinear();
+        LeanTween.scale(button5, new Vector3(1, 1, 1), 0.2f).setEaseLinear();
     }
 
     
