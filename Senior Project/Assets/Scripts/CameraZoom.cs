@@ -24,7 +24,7 @@ public class CameraZoom : MonoBehaviour
     {
         
         initialFOV -= Input.GetAxis("Mouse ScrollWheel")*foxSpeed;
-        Debug.Log(initialFOV);
+        //Debug.Log(initialFOV);
         initialFOV = Mathf.Clamp(initialFOV, minFOV, maxFOV);
         cam.fieldOfView = initialFOV;
 
