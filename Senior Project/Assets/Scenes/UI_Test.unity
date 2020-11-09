@@ -1175,6 +1175,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602685861}
   m_CullTransparentMesh: 0
+--- !u!1 &1727816516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945937292422939940, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
+    type: 3}
+  m_PrefabInstance: {fileID: 5945937290759492794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1727816521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727816516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32856d0e778ddba4185e7321f35aa43e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FishProtoPrefab: {fileID: 7126016004575289809, guid: 547afcf3e195d416abc2cd2151bdf231,
+    type: 3}
+  createdObjects: []
 --- !u!224 &1902240387 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 898580626659310525, guid: ca941e2816f434e3e9bf4f34c53ee838,
@@ -1468,7 +1489,7 @@ PrefabInstance:
     - target: {fileID: 898580626569764592, guid: ca941e2816f434e3e9bf4f34c53ee838,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 898580626569764592, guid: ca941e2816f434e3e9bf4f34c53ee838,
         type: 3}
@@ -1479,6 +1500,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898580626569764592, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1727816521}
+    - target: {fileID: 898580626569764592, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898580626569764592, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898580626569764592, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: spawnFish, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898580626569764592, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CreateObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 898580626569764592, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 898580626569764593, guid: ca941e2816f434e3e9bf4f34c53ee838,
         type: 3}
