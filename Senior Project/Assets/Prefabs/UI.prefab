@@ -671,6 +671,7 @@ GameObject:
   - component: {fileID: 6750182263665242806}
   - component: {fileID: 6750182263665242807}
   - component: {fileID: 6750182263665242804}
+  - component: {fileID: 1191309480645612104}
   m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
@@ -727,6 +728,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fish: {fileID: 9205683114194142766, guid: 5b81d3057ec3d494392efac7e49c35e8, type: 3}
+--- !u!114 &1191309480645612104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6750182263665242801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a089b9d37256b74abd2867dadc9d00c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fish: {fileID: 0}
+  DecorationPlaceholder: {fileID: 0}
 --- !u!1 &6750182263693372183
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,7 +862,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6750182263693372202}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6750182263693372200
 MonoBehaviour:
   m_ObjectHideFlags: 0
