@@ -19,9 +19,9 @@ public class PositionInstantiate : MonoBehaviour
     {
         
     }
-    public void Fish()
+    public void Fish(GameObject spawn)
     {
         targetPos = new Vector3(Random.Range(-4f, 4f), Random.Range(-4f, 4f), Random.Range(-4f, 4f));
-        Instantiate(fish, targetPos, transform.rotation);
+        Instantiate(spawn, targetPos, transform.rotation);
     }
 }
