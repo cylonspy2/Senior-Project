@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.3816825, g: 0.46846676, b: 0.6133793, a: 1}
+  m_IndirectSpecularColor: {r: 0.38167936, g: 0.46845633, b: 0.6133797, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -761,7 +761,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1194359245}
   m_HandleRect: {fileID: 1194359244}
   m_Direction: 0
-  m_Value: -0.00000015032305
+  m_Value: -0.00000045096914
   m_Size: 0.47407693
   m_NumberOfSteps: 1
   m_OnValueChanged:
@@ -2976,95 +2976,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &1370587095
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5945937290759492795}
-    m_Modifications:
-    - target: {fileID: 5006592806641645873, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_Name
-      value: LargeWater_Grid_instances
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645873, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.487
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.487
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.002
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006592806641645887, guid: 53daf714463a55d4693f140ccd75917b,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.002
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 53daf714463a55d4693f140ccd75917b, type: 3}
 --- !u!1 &1378849258
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,7 +4204,7 @@ MonoBehaviour:
         m_MethodName: Fish
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 9205683114194142754, guid: 5b81d3057ec3d494392efac7e49c35e8,
+          m_ObjectArgument: {fileID: 9205683114194142754, guid: d37768721352bb64b9f5198bb7967bf6,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -5078,44 +4989,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5945937292422939928, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 7.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5945937292422939928, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 7.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5945937292422939928, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 7.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5945937292422939930, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5118cc980287d9e44837c5b4a4d17181, type: 2}
     - target: {fileID: 5945937292422939940, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
         type: 3}
       propertyPath: m_Name
       value: TankProto
       objectReference: {fileID: 0}
-    - target: {fileID: 5945937292422939941, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe7b64d12d3ed49a8830ce0c837e2b53, type: 3}
---- !u!4 &5945937290759492795 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5945937292422939928, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
-    type: 3}
-  m_PrefabInstance: {fileID: 5945937290759492794}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6750182264597001226
 PrefabInstance:
   m_ObjectHideFlags: 0

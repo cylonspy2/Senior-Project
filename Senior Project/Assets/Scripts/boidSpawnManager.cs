@@ -207,8 +207,10 @@ public class boidSpawnManager : MonoBehaviour
             }
            
         }
-
-        output = (output / count);
+        if (count > 0)
+        {
+            output = (output / count);
+        }
         Debug.Log("Align Triggered with " + output);
         return output;
     }
