@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3212575115	Game_Start_Event			\Default Work Unit\Game_Start_Event	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1315107341	Controller_Bass			\Default Work Unit\Controller_Bass	
+	2516872914	Controller_Cymbal			\Default Work Unit\Controller_Cymbal	
+	2721311426	Controller_BDrum			\Default Work Unit\Controller_BDrum	
+	3413926467	Controller_Snare			\Default Work Unit\Controller_Snare	
+	3573041661	Controller_Chords			\Default Work Unit\Controller_Chords	
+	3785382136	Controller_Cowbell2			\Default Work Unit\Controller_Cowbell2	
+	3785382139	Controller_Cowbell1			\Default Work Unit\Controller_Cowbell1	
+	4203175449	Controller_Solo			\Default Work Unit\Controller_Solo	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	106315606	Track-1-Bass Drum	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Windows\SFX\WayTooMuchFunTracks\Track-1-Bass Drum_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-1-Bass Drum		3168064
+	647267972	Track-3-Cymbal	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Windows\SFX\WayTooMuchFunTracks\Track-3-Cymbal_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-3-Cymbal		3168064
+	688382454	Track-8-MOAR COWBELL	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Windows\SFX\WayTooMuchFunTracks\Track-8-MOAR COWBELL_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-8-MOAR COWBELL		3168064
+	705604579	Track-4-Bass	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Windows\SFX\WayTooMuchFunTracks\Track-4-Bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-4-Bass		3168064
+	878100044	Track-2-Snare Drum	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Windows\SFX\WayTooMuchFunTracks\Track-2-Snare Drum_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-2-Snare Drum		3168064
+	888158802	Track-7-Cowbell	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Windows\SFX\WayTooMuchFunTracks\Track-7-Cowbell_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-7-Cowbell		3168064
+	913464124	Track-5-Chords	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Windows\SFX\WayTooMuchFunTracks\Track-5-Chords_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-5-Chords		3168064
+	1030272355	Track-6-Solo	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Windows\SFX\WayTooMuchFunTracks\Track-6-Solo_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-6-Solo		3168064
+

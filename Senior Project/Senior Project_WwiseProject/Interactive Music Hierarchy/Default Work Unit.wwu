@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{649024BD-E417-445D-906F-B9FB05D033BB}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{649024BD-E417-445D-906F-B9FB05D033BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Game_Music" ID="{E65B0FD0-E187-4166-B7C2-78A6E01189C1}" ShortID="357425896">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4797C9BB-54AD-464E-8625-CE23289DD4C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4817D003-919A-4DB1-8561-406024397F81}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="WayTooMuchFunTracks" ID="{245331F1-AED2-4A97-9A00-D71A3A2C4183}" ShortID="508101012">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="27121.9912472648"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4797C9BB-54AD-464E-8625-CE23289DD4C4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4817D003-919A-4DB1-8561-406024397F81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Track-1-Bass Drum" ID="{1C1C60CA-1872-4387-A352-6E4D9FEB9DFF}" ShortID="225609269">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{761FFF79-E8A0-4199-A5CC-AF1B87359A2B}" ShortID="604690672">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Controller_BDrum" ID="{E7B4F5F9-C210-49B3-A517-7FBE67D32054}" WorkUnitID="{A68421F9-5ED0-471F-AC29-60D85D53C820}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{85EC27EE-0E57-4240-9187-093F52B2FB6B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>48.92857</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50.95238</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4817D003-919A-4DB1-8561-406024397F81}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-1-Bass Drum" ID="{F4293FF9-EFCD-49CC-884E-6CC33099B872}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-1-Bass Drum.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="106315606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E92D7322-9553-4A51-842F-3AB000396B24}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{7258046B-BF35-44CB-B182-A7C395AA8368}">
+											<ClipList>
+												<MusicClip Name="Track-1-Bass Drum" ID="{7D8879D5-1398-492E-8602-6E04C60198FC}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-1-Bass Drum" ID="{F4293FF9-EFCD-49CC-884E-6CC33099B872}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Track-2-Snare Drum" ID="{97E10311-DB8C-4125-A3E2-2BF52D707348}" ShortID="556309584">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{8D1C9F76-C648-4F0C-AF47-C61784657532}" ShortID="481877029">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Controller_Snare" ID="{622FBBF6-4965-452C-8CE8-55065EF50FD6}" WorkUnitID="{A68421F9-5ED0-471F-AC29-60D85D53C820}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B6D637D8-2309-475A-8CCD-D35F743D6654}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>49.16667</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50.71429</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4817D003-919A-4DB1-8561-406024397F81}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-2-Snare Drum" ID="{279DA67D-05AD-4576-B0AC-B9259012E3BE}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-2-Snare Drum.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="878100044"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2ABAC6EC-CD80-4FDB-B552-CEE7A9A8FA03}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{00CD247E-A92F-429F-8DD8-F2BFD14A8178}">
+											<ClipList>
+												<MusicClip Name="Track-2-Snare Drum" ID="{8DED6C0B-0D4F-4150-9D94-9FA7B20B5DEB}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-2-Snare Drum" ID="{279DA67D-05AD-4576-B0AC-B9259012E3BE}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Track-3-Cymbal" ID="{05D0AB12-C1CD-4AC0-B6FA-57E0586213F0}" ShortID="786399501">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{FE995C2E-6212-4395-AA82-514E9F1AD46E}" ShortID="961118913">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Controller_Cymbal" ID="{D276E8B0-FD72-419F-B056-B29025DE3FA3}" WorkUnitID="{A68421F9-5ED0-471F-AC29-60D85D53C820}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{91982124-F01A-444F-909D-1A73A347C700}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>49.04762</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50.59524</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4817D003-919A-4DB1-8561-406024397F81}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-3-Cymbal" ID="{E3DE4427-A9E6-45B2-AAA7-406C43209F39}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-3-Cymbal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="647267972"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CB068FF4-035B-4CD7-92FC-055E2641D223}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{FDE94029-E844-4405-BC5F-61D4429F056F}">
+											<ClipList>
+												<MusicClip Name="Track-3-Cymbal" ID="{3F970A8D-7220-4065-8D2D-24005D82174A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-3-Cymbal" ID="{E3DE4427-A9E6-45B2-AAA7-406C43209F39}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Track-4-Bass" ID="{6C6D0313-3F66-44C6-B634-CC90775FCE7A}" ShortID="814560563">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{2CD03F4D-4255-4C95-94FB-B5B12D0E72FE}" ShortID="408319725">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Controller_Bass" ID="{418FF519-512E-40CD-A5FF-9ABB424089B8}" WorkUnitID="{A68421F9-5ED0-471F-AC29-60D85D53C820}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6D664CEB-1418-4EB9-868F-60F76EC41EED}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>49.16667</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>51.19048</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4817D003-919A-4DB1-8561-406024397F81}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-4-Bass" ID="{0FF77D4F-7F25-4556-82A9-BC61FAE79DE0}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-4-Bass.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="705604579"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E6DA01CA-AE52-4CD9-9D21-105FC2B6EAA4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0729E31D-E4DD-4391-8429-9E47D816A1D0}">
+											<ClipList>
+												<MusicClip Name="Track-4-Bass" ID="{77005494-B7F3-45F0-9F2A-59D197E26620}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-4-Bass" ID="{0FF77D4F-7F25-4556-82A9-BC61FAE79DE0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Track-5-Chords" ID="{13852838-0D68-4D62-A6F9-3510B1B838B8}" ShortID="984682056">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{E2370850-869E-4F21-B084-28537A56E2A9}" ShortID="142336749">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Controller_Chords" ID="{8A85364D-488F-4DBF-B280-CBB2FCC2BBAF}" WorkUnitID="{A68421F9-5ED0-471F-AC29-60D85D53C820}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C15C6D28-59D0-42F7-9811-9B6DE9402E2A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>48.33333</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>51.07143</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4817D003-919A-4DB1-8561-406024397F81}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-5-Chords" ID="{1EF64C36-6E31-43B9-9E2A-6840C72192BF}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-5-Chords.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="913464124"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8634A54B-6BC7-4154-9D61-B0C3F224BE93}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{5E9006A0-3F93-4F30-A5F5-EDE01D6AAC68}">
+											<ClipList>
+												<MusicClip Name="Track-5-Chords" ID="{DF201954-1A60-4AB3-9E36-F86448EAE651}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-5-Chords" ID="{1EF64C36-6E31-43B9-9E2A-6840C72192BF}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Track-6-Solo" ID="{7A4F2FAD-C299-4EF6-8B0E-EB6F84D7D571}" ShortID="332840300">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{48D13B67-7F65-4E64-B8E9-24F85C51DA16}" ShortID="61965218">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Controller_Solo" ID="{C596A206-9D31-4C5A-A582-CE5DE711CB52}" WorkUnitID="{A68421F9-5ED0-471F-AC29-60D85D53C820}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{97FDC8AA-9948-4D82-BB86-550CB36B7311}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>48.33333</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>51.30952</XPos>
+																<YPos>-0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4817D003-919A-4DB1-8561-406024397F81}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-6-Solo" ID="{49E3654E-B5D8-41AA-9BC8-C802E72DCCC4}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-6-Solo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1030272355"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{426B5A31-6A5D-4C47-BAEF-1F1B5A8DE23E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{FF4D1B7A-2E94-4AAC-9302-FDCC167D0DCB}">
+											<ClipList>
+												<MusicClip Name="Track-6-Solo" ID="{1F2510E3-2B67-4053-824E-2240ADC8B2B5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-6-Solo" ID="{49E3654E-B5D8-41AA-9BC8-C802E72DCCC4}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Track-7-Cowbell" ID="{95E1C24D-C0EE-4530-B139-6A91850FDB39}" ShortID="67042250">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{F582A155-F0F1-4C55-B486-D4E5C4AFDF66}" ShortID="236938234">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Controller_Cowbell1" ID="{21352BE5-813E-48DE-A433-6AA2BB5FC0E2}" WorkUnitID="{A68421F9-5ED0-471F-AC29-60D85D53C820}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{284443BD-7F24-4689-B158-DEE4E1F5C78C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>48.80952</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50.95238</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4817D003-919A-4DB1-8561-406024397F81}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-7-Cowbell" ID="{809604F1-20A5-4C2F-A156-C4AB3936933C}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-7-Cowbell.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="888158802"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2D8018AD-F20D-47DE-B205-B9456DD3215C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{ECD2753C-01F1-4704-A1AB-55F361B558C6}">
+											<ClipList>
+												<MusicClip Name="Track-7-Cowbell" ID="{F3B0067F-2230-491F-A916-D592321F1E86}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-7-Cowbell" ID="{809604F1-20A5-4C2F-A156-C4AB3936933C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Track-8-MOAR COWBELL" ID="{FF4BCACE-A491-4E86-8C6D-E325E4EC2419}" ShortID="1070248341">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{207934F2-0262-473C-90B1-EAFEEA87AE60}" ShortID="341509315">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Controller_Cowbell2" ID="{8C67825B-044F-49F7-9882-B7508F52C04C}" WorkUnitID="{A68421F9-5ED0-471F-AC29-60D85D53C820}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E698420D-066C-4DE5-8097-8CAE14996232}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>48.92856</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50.71429</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4817D003-919A-4DB1-8561-406024397F81}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-8-MOAR COWBELL" ID="{7FBF26A8-C4FE-4F7E-8303-373844BB7B20}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-8-MOAR COWBELL.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="688382454"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8ED207C7-FBA5-4C91-82AF-2ED90A0CB9BD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{96C9625D-FF30-4B6A-BF17-0AE14E6519DC}">
+											<ClipList>
+												<MusicClip Name="Track-8-MOAR COWBELL" ID="{A2D7251D-779E-476A-9252-B2A27A681643}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-8-MOAR COWBELL" ID="{7FBF26A8-C4FE-4F7E-8303-373844BB7B20}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{137E3BBE-2973-4DC6-89F4-860033F67878}"/>
+								<MusicCue Name="Exit Cue" ID="{3726B2DF-7544-439F-BE2D-A61E9E4FB554}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16019.693654267"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{C666A0CE-A77F-4990-BABB-4B08D7CE917E}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{3A1379FC-6D56-473D-9996-B92CD721C0FF}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{CB9048F8-AF12-4150-9E73-6ECB73DD7118}" ShortID="504033503">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{BC4A4CCC-81BF-43BF-87A8-DD70318BB4CE}" ShortID="155430713">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="WayTooMuchFunTracks" ID="{245331F1-AED2-4A97-9A00-D71A3A2C4183}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b972c9fc6ed79e448960a17d7fdff0e, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 275e2670da1f3140a7c4e1ee757ad9a7
+    GuidInternal: 
+    m_lastTime: -8585953102941242317
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 03d017489a91b14d8561406024397f81
+    GuidInternal: 
+    m_lastTime: -8585953102942413436
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c76a7300e84e954ba2e34c90496fbcd1
+    GuidInternal: 
+    m_lastTime: -8585947898445512562
+    List:
+    - name: Main
+      guid: 0893029bc633374dbeb89b0ab1f13f03
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d419f2ab52f05b44ab030c810672cd4f
+    GuidInternal: 
+    m_lastTime: -8585947898445622665
+    List:
+    - name: Game_Start_Event
+      guid: d43428b1b1d76a4888ceac95ac7172b6
+      id: 3212575115
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_Start_Event
+        ObjectType: 3
+      Path: Default Work Unit\Game_Start_Event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: f92184a6d05e1f47ac2960d85d53c820
+    GuidInternal: 
+    m_lastTime: -8585947902742384908
+    List:
+    - name: Controller_Bass
+      guid: 19f58f412e51cd40a5ff9abb424089b8
+      id: 1315107341
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Bass
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Bass
+    - name: Controller_BDrum
+      guid: f9f5b4e710c2b349a5177fbe67d32054
+      id: 2721311426
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_BDrum
+        ObjectType: 13
+      Path: Default Work Unit\Controller_BDrum
+    - name: Controller_Chords
+      guid: 4d36858a8f48bf4db280cbb2fcc2bbaf
+      id: 3573041661
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Chords
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Chords
+    - name: Controller_Cowbell1
+      guid: e52b35213e81de48a4336aa2bb5fc0e2
+      id: 3785382139
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Cowbell1
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Cowbell1
+    - name: Controller_Cowbell2
+      guid: 5b82678c4f04f7499882b7508f52c04c
+      id: 3785382136
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Cowbell2
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Cowbell2
+    - name: Controller_Cymbal
+      guid: b0e876d272fd9f41b056b29025de3fa3
+      id: 2516872914
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Cymbal
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Cymbal
+    - name: Controller_Snare
+      guid: f6bb2f6265492c458ce855065ef50fd6
+      id: 3413926467
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Snare
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Snare
+    - name: Controller_Solo
+      guid: 06a296c5319d5a4ca582ce5de711cb52
+      id: 4203175449
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Solo
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Solo
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 6b42786455d39948940a806eefab0c0c
+    GuidInternal: 
+    m_lastTime: -8585953102942283316
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: f7e64e58c19e544d9484e960df423972
+    GuidInternal: 
+    m_lastTime: -8585953102941442509
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 6824cb1e3a72aa4994fe890347656723
+    GuidInternal: 
+    m_lastTime: -8585953102941372440
+    List: []
+  ExpandedItems:
+  - /Senior Project_WwiseProject
+  - /Senior Project_WwiseProject/Events
+  - /Senior Project_WwiseProject/Events/Default Work Unit
+  - /Senior Project_WwiseProject/SoundBanks
+  - /Senior Project_WwiseProject/SoundBanks/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
