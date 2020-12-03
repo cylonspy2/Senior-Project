@@ -15,10 +15,10 @@ public class ButtonAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LeanTween.moveLocalY(button1, 565, 2).setEaseInOutBack();
-        LeanTween.moveLocalY(button2, 565, 2.5f).setEaseInOutBack();
-        LeanTween.moveLocalY(button3, 565, 3f).setEaseInOutBack();
-        LeanTween.moveLocalY(button4, 565, 3.5f).setEaseInOutBack();
+        LeanTween.moveLocalY(button1, 400, 2).setEaseInOutBack();
+        LeanTween.moveLocalY(button2, 400, 2.5f).setEaseInOutBack();
+        LeanTween.moveLocalY(button3, 400, 3f).setEaseInOutBack();
+        LeanTween.moveLocalY(button4, 400, 3.5f).setEaseInOutBack();
         LeanTween.moveLocalX(button5, -873, 4f).setEaseInOutBack();
         LeanTween.moveLocalX(button6, 893, 4f).setEaseInOutBack();
     }
