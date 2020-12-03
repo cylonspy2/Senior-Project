@@ -13,11 +13,11 @@ public class TankScale : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey (KeyCode.Keypad0))
+        if (Input.GetKey (KeyCode.Keypad1))
         { 
             gameObject.transform.localScale += new Vector3 (-0.05f, 0.0f, 0.0f);
         } 
-        if (Input.GetKey (KeyCode.Keypad1))
+        if (Input.GetKey (KeyCode.Keypad2))
         { 
             gameObject.transform.localScale += new Vector3 (0.05f, 0.0f, 0.0f);
         }

@@ -55,17 +55,17 @@ public class MovementTwo : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKey (KeyCode.Keypad0))
+        if (Input.GetKey (KeyCode.Keypad1))
             xa += -0.05f;
 
-        if (Input.GetKey (KeyCode.Keypad1))
+        if (Input.GetKey (KeyCode.Keypad2))
             xa += 0.05f;
 
         if (Input.GetKey (KeyCode.Keypad4))
-            ya += -0.05f; 
+            za += -0.05f; 
 
         if (Input.GetKey (KeyCode.Keypad5))
-            ya += 0.05f;
+            za += 0.05f;
 
         if (!InCoRoutine)
             StartCoroutine(Coroutine());
