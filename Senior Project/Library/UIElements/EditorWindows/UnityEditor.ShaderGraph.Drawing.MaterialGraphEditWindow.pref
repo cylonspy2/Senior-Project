@@ -18,7 +18,11 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__0d63d5e9de2ca4d4c84d3e10b0ec4b0c__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
   - __PanelContainer__rootVisualContainer__0d63d5e9de2ca4d4c84d3e10b0ec4b0c__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   m_Values:
+<<<<<<< HEAD
   - '{}'
   - '{}'
   - '{"position":{"x":-1365.0,"y":425.0,"z":0.0},"scale":{"x":0.5717532634735107,"y":0.5717532634735107,"z":1.0}}'
+=======
+  - '{"position":{"x":-11.0,"y":701.0,"z":0.0},"scale":{"x":0.25,"y":0.25,"z":1.0}}'
+>>>>>>> parent of 72a11453... altered fish shaders
   - '{"m_Version":0,"m_SelectedElementsArray":[]}'

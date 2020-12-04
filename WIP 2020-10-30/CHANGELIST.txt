@@ -1,0 +1,7 @@
+0.1
+- implemented changelist
+- implemented readme
+- implemented UI
+- implemented camera rotation
+- implemented fish with rudimentary movement AI
+- implemented fish spawning functionality
