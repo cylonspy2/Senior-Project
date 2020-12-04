@@ -12,7 +12,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Koi
+<<<<<<< Updated upstream:Senior Project/Assets/Materials/Koi.mat
 >>>>>>> Stashed changes:Senior Project/Assets/Materials/Koi.mat
+=======
+>>>>>>> Stashed changes:Senior Project/Assets/Models/Fish/Material_Fish.mat
   m_Shader: {fileID: 4800000, guid: 0d63d5e9de2ca4d4c84d3e10b0ec4b0c, type: 3}
   m_ShaderKeywords: BOOLEAN_DD5A9A0_ON
   m_LightmapFlags: 4
@@ -76,8 +79,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+<<<<<<< Updated upstream:Senior Project/Assets/Materials/Koi.mat
 <<<<<<< Updated upstream:Senior Project/Assets/Models/Fish/Material_Fish.mat
 =======
+=======
+>>>>>>> Stashed changes:Senior Project/Assets/Models/Fish/Material_Fish.mat
     - Boolean_73A18E88: 0
     - Boolean_8F3B0F14: 0
 >>>>>>> Stashed changes:Senior Project/Assets/Materials/Koi.mat
