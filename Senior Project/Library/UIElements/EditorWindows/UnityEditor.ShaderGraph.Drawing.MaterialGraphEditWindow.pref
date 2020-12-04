@@ -16,5 +16,12 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__e081923b55b375a4e9dc3845b8106f83__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
   - __PanelContainer__rootVisualContainer__e081923b55b375a4e9dc3845b8106f83__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   m_Values:
+<<<<<<< Updated upstream
   - '{"position":{"x":-11.0,"y":701.0,"z":0.0},"scale":{"x":0.25,"y":0.25,"z":1.0}}'
   - '{"m_Version":0,"m_SelectedElementsArray":[]}'
+=======
+  - '{}'
+  - '{}'
+  - '{"position":{"x":-1252.0,"y":439.0,"z":0.0},"scale":{"x":0.6575162410736084,"y":0.6575162410736084,"z":1.0}}'
+  - '{"m_Version":7,"m_SelectedElementsArray":[]}'
+>>>>>>> Stashed changes
