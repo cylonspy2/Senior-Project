@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="WayTooMuchFunTracks" ID="{E916CC8A-B20A-4DFE-A9E1-C033D3EE7B9E}" ShortID="383226610">
+					<ChildrenList>
+						<MusicSegment Name="Track-1-Bass Drum" ID="{186FCA0D-8297-4949-A196-00817BB24586}" ShortID="927867124">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Track-1-Bass Drum" ID="{7808BBF3-BB0C-455E-8A74-6A8F2AC89155}" ShortID="99517961">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-1-Bass Drum" ID="{69CC1EB2-354B-405E-BDC4-9163B5054BD1}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-1-Bass Drum.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="991984914"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8D4178B8-9E7B-4F2E-AFF7-45A4B758D9FA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{1B20E71D-5A59-4162-BCC7-5C7CCD9179D8}">
+											<ClipList>
+												<MusicClip Name="Track-1-Bass Drum" ID="{90165FD5-D270-4925-89A8-FFD41F77F7C6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-1-Bass Drum" ID="{69CC1EB2-354B-405E-BDC4-9163B5054BD1}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{33024CE3-8382-479D-BE40-9EB0799C62AD}"/>
+								<MusicCue Name="Exit Cue" ID="{7A73B8C3-948B-435C-99DE-0F8B42F3F7A2}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Track-2-Snare Drum" ID="{593561AE-96B8-4626-8EFF-41DE3CCF5FEF}" ShortID="671779035">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Track-2-Snare Drum" ID="{31373698-0C25-42DE-9EA4-C68AE23F7F9F}" ShortID="754062778">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-2-Snare Drum" ID="{E20F069E-9CB4-48F2-B0CE-D5B0B126A469}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-2-Snare Drum.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="307837311"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0EA4C661-9B66-433C-A630-0379B8C1C8AD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{BD80E3EC-592F-4375-8350-98A03C0C21C1}">
+											<ClipList>
+												<MusicClip Name="Track-2-Snare Drum" ID="{DF68A680-EB1D-4F2E-B932-136FCF61E274}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-2-Snare Drum" ID="{E20F069E-9CB4-48F2-B0CE-D5B0B126A469}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{E1905CD4-F642-48C8-8857-80C344D8E834}"/>
+								<MusicCue Name="Exit Cue" ID="{BAE20C2E-F1FF-4C37-995E-16E37C1118CD}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Track-3-Cymbal" ID="{2F7D06B3-6D2C-4239-AB62-91307E2E7C0B}" ShortID="915701406">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Track-3-Cymbal" ID="{79619EBB-D89A-4F31-9976-0F9F73FAD279}" ShortID="510267035">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-3-Cymbal" ID="{C395A8EF-45B7-47FE-ACA5-2A5951E1E3A1}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-3-Cymbal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1026624132"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2F92D1A1-EECF-41D6-B473-1030FB742113}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3521A4D3-45A8-4BFF-9BB0-C5A8FEDF8476}">
+											<ClipList>
+												<MusicClip Name="Track-3-Cymbal" ID="{62A3609C-C795-467A-9E7C-81276FFBF7B4}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-3-Cymbal" ID="{C395A8EF-45B7-47FE-ACA5-2A5951E1E3A1}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{850F5E1C-5168-480E-A836-806569C509C4}"/>
+								<MusicCue Name="Exit Cue" ID="{3D868F76-55D5-425B-968E-2EBFA8884744}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Track-4-Bass" ID="{F79BC617-CC0B-456E-876E-D1532EE625B0}" ShortID="72332632">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Track-4-Bass" ID="{42026083-20C8-46FA-BCA5-9C95845815F6}" ShortID="854411711">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-4-Bass" ID="{20E71B5E-7422-4E80-B07C-5D4EE1E172D2}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-4-Bass.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="46701256"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9E4EB64F-F52D-4EA6-A515-E57F537F6C4B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F6897455-EEDA-4AB4-8C63-57E0805D5A36}">
+											<ClipList>
+												<MusicClip Name="Track-4-Bass" ID="{C574AD9E-AF61-4382-8B20-AE2B199816D2}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-4-Bass" ID="{20E71B5E-7422-4E80-B07C-5D4EE1E172D2}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{C64A4479-655E-41E5-8075-265A3337FACB}"/>
+								<MusicCue Name="Exit Cue" ID="{26734956-927B-4F6B-9529-BE300167A188}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Track-5-Chords" ID="{3AA5C037-458E-4F68-8129-F4F3B1E8C85C}" ShortID="12405175">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Track-5-Chords" ID="{EF149BE5-EA88-417E-8966-64577D21DC0B}" ShortID="398390101">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-5-Chords" ID="{63D386D0-FA8A-477F-8F38-9E4701FF3028}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-5-Chords.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1066914197"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{80F05A0A-E207-4846-BCCC-E5FDFCB06E21}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{62B1DED3-8F9C-4C9D-8A95-45D415395837}">
+											<ClipList>
+												<MusicClip Name="Track-5-Chords" ID="{A7262B6B-653E-428C-8A50-D19FA7A0E0AB}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-5-Chords" ID="{63D386D0-FA8A-477F-8F38-9E4701FF3028}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{59CE5B4E-5C23-4DE3-9F26-85674E8622B0}"/>
+								<MusicCue Name="Exit Cue" ID="{52A84448-2F92-4D62-9CC6-6BE9FBE6CBEA}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Track-6-Solo" ID="{E6E40E07-1913-4A85-AF30-5F39ECD386DA}" ShortID="447782002">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Track-6-Solo" ID="{A19CB17C-99F5-489B-899F-D80EAA043430}" ShortID="847023355">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-6-Solo" ID="{A6F4A9F6-3255-43DA-AFF6-930C638DD202}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-6-Solo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="889116827"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{41BE855D-A1B9-4B22-994B-FDF26DE2DBB5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{AB671E80-874C-4C5D-8091-A3CA4BD1BE75}">
+											<ClipList>
+												<MusicClip Name="Track-6-Solo" ID="{FD9650B9-9D5E-4745-A414-65A65AC321AB}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-6-Solo" ID="{A6F4A9F6-3255-43DA-AFF6-930C638DD202}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{960BBB01-0350-4368-BCEF-E51626B07D24}"/>
+								<MusicCue Name="Exit Cue" ID="{B2E5144E-2595-4EA2-B913-9534CE8616E6}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Track-7-Cowbell" ID="{1A50622B-9767-4223-9291-A7B0EEFCA807}" ShortID="353093535">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Track-7-Cowbell" ID="{E1B2A0A6-717A-4E9A-A9EC-290A5B6B1465}" ShortID="459756767">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-7-Cowbell" ID="{AB74F32E-001D-4320-B137-951C43E22CAD}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-7-Cowbell.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="634054871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{975D4EDE-D07D-414A-A1B8-13271B3F6E7A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{49D6707E-8423-4BE0-B1C5-04C7D12B7D92}">
+											<ClipList>
+												<MusicClip Name="Track-7-Cowbell" ID="{02B166CE-B38E-4280-8E88-C56FF3DB3E38}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-7-Cowbell" ID="{AB74F32E-001D-4320-B137-951C43E22CAD}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{0CDB1A79-9C2A-400C-9F79-9234247ACBAA}"/>
+								<MusicCue Name="Exit Cue" ID="{400F9673-DCF0-44FF-AAC1-F7267091CBE4}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Track-8-MOAR COWBELL" ID="{026CD836-300E-4A7B-AC9D-D5BEE0E3FFFF}" ShortID="59408214">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="16500"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Track-8-MOAR COWBELL" ID="{7D3229CF-D93C-47E1-B8F7-C6CCF1F46194}" ShortID="534900294">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-8-MOAR COWBELL" ID="{5003E352-7F07-49A8-A332-A04B53E0D74C}">
+											<Language>SFX</Language>
+											<AudioFile>WayTooMuchFunTracks\Track-8-MOAR COWBELL.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="635156882"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{77EB86F0-1E4E-4AB4-9E17-20826E0F7540}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3E980A45-74B2-48EE-8C09-B6149B759117}">
+											<ClipList>
+												<MusicClip Name="Track-8-MOAR COWBELL" ID="{93C2DBC8-C9A8-4F0A-827D-6208896DCA83}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="16500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Track-8-MOAR COWBELL" ID="{5003E352-7F07-49A8-A332-A04B53E0D74C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{8B96641B-B9D9-4FDD-B371-C8CD73423386}"/>
+								<MusicCue Name="Exit Cue" ID="{9DA89036-3180-408D-9C8F-026037EC0E26}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="16500"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
