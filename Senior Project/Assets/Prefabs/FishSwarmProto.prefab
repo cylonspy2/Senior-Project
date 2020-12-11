@@ -87,6 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9205683114194142766}
   - component: {fileID: 732742636077046233}
+  - component: {fileID: -3254459007486830314}
   m_Layer: 0
   m_Name: FishSwarmProto
   m_TagString: Fish1
@@ -133,6 +134,18 @@ MonoBehaviour:
   sightRange: 2.66
   rotationPercentage: 0.95
   Kapu: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &-3254459007486830314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9205683114194142754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62728dd9fc456414d984d70278fa0967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8718940567350712154
 PrefabInstance:
   m_ObjectHideFlags: 0

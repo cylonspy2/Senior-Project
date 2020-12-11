@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6357557959393626257}
   - component: {fileID: 6357557959393626270}
   - component: {fileID: 6357557959393626258}
+  - component: {fileID: 7486002505044039264}
   m_Layer: 0
   m_Name: DecorationPlaceholder
   m_TagString: Untagged
@@ -112,3 +113,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7486002505044039264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6357557959393626271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ba24bf798f6ca46a8c0308539b73b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -922,7 +922,7 @@ MonoBehaviour:
         m_MethodName: Fish
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 9205683114194142754, guid: 43c4b4573a89661439053cf11d82e6e4,
+          m_ObjectArgument: {fileID: 8463272235640991005, guid: 8a554a9af723fb64ca21b7847df0628b,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -1174,7 +1174,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 268383220}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &268383220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1802,7 +1814,7 @@ MonoBehaviour:
         m_MethodName: Fish
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 9205683114194142754, guid: 5b81d3057ec3d494392efac7e49c35e8,
+          m_ObjectArgument: {fileID: 7291311445322085371, guid: f76a6e166ab8efa4cb628cb2ae4245b9,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -3766,6 +3778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1276593000}
+  - component: {fileID: 1276593001}
   m_Layer: 0
   m_Name: Managerial
   m_TagString: Untagged
@@ -3790,6 +3803,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1276593001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276592999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670cdf27c94dd0d48b11bed60b4c4a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2279053ec2b52d342956ce607999e4e2,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1278771183
 GameObject:
   m_ObjectHideFlags: 0
@@ -4817,7 +4855,7 @@ MonoBehaviour:
         m_MethodName: Fish
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 9205683114194142754, guid: 43c4b4573a89661439053cf11d82e6e4,
+          m_ObjectArgument: {fileID: 7291311445322085371, guid: f76a6e166ab8efa4cb628cb2ae4245b9,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -5977,6 +6015,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4281956899699787905, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
+        type: 3}
+      propertyPath: data.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 00df337c619d96e4bba7ae2321a29e98,
+        type: 2}
     - target: {fileID: 5945937292422939928, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6037,7 +6081,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: TankProto
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: fe7b64d12d3ed49a8830ce0c837e2b53, type: 3}
 --- !u!1001 &6750182264597001226
 PrefabInstance:
