@@ -53,7 +53,7 @@
 															</Point>
 															<Point>
 																<XPos>50.01</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -209,7 +209,7 @@
 															</Point>
 															<Point>
 																<XPos>50.01</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -365,7 +365,7 @@
 															</Point>
 															<Point>
 																<XPos>50.01</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -521,7 +521,7 @@
 															</Point>
 															<Point>
 																<XPos>50.01</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -656,7 +656,7 @@
 								<MusicCue Name="Exit Cue" ID="{5F7452A4-1D09-40C8-A21D-B6F4CC6157D9}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+										<Property Name="TimeMs" Type="Real64" Value="16001.6411378556"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -676,7 +676,17 @@
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{3F1F37A1-98F1-4F61-9344-1A053894F9D9}" ShortID="779867033"/>
+						<MusicPlaylistItem Name="" ID="{3F1F37A1-98F1-4F61-9344-1A053894F9D9}" ShortID="779867033">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{23F1C1A6-4CE8-4F4B-8B13-9C7A624AC014}" ShortID="52229606">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="WayTooMuchFunTracks" ID="{07A88EA1-F195-4372-B5C0-6AC7C28E5F58}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
 			</ChildrenList>
