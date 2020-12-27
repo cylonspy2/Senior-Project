@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 27fe401bcb0e8244bcc29e51e273e8ab
     GuidInternal: 
-    m_lastTime: -8585939532995197406
+    m_lastTime: -8585926942765734234
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: acd53ee086b4714babbbe56116590036
     GuidInternal: 
-    m_lastTime: -8585939532995264784
+    m_lastTime: -8585926942770046375
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ec2cbc375126fe48966429feb8315684
     GuidInternal: 
-    m_lastTime: -8585939532995207375
+    m_lastTime: -8585926942765744203
     List:
     - name: Main
       guid: 2ec9be35af3d224c9c5182e6a850ee7e
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 80e1366bd3871a4399f98f538d3d53b4
     GuidInternal: 
-    m_lastTime: -8585939532999221432
+    m_lastTime: -8585926942773128223
     List:
     - name: Game_Start_Event
       guid: 442dca91a0f4094683b67affde0f3626
@@ -90,7 +90,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b1b4cfd5b14df047a3103bda34ef8a11
     GuidInternal: 
-    m_lastTime: -8585939532999221432
+    m_lastTime: -8585926942773118248
     List:
     - name: Controller_Bass
       guid: 64791142e64d48478dc0bf42a593b737
@@ -172,7 +172,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7d2bcb2622a41e468029b0c87fef008c
     GuidInternal: 
-    m_lastTime: -8585939532995207375
+    m_lastTime: -8585926942765744203
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -182,7 +182,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5a2e430526e78740b2a9bad5abec5f2f
     GuidInternal: 
-    m_lastTime: -8585939532995197406
+    m_lastTime: -8585926942765734234
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -192,7 +192,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3a51e36ee5a7464e8a590137a34066e4
     GuidInternal: 
-    m_lastTime: -8585939532995197406
+    m_lastTime: -8585926942765734234
     List: []
   ExpandedItems:
   - /Senior Project_WwiseProject

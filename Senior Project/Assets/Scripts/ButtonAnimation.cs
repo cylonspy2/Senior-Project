@@ -12,6 +12,8 @@ public class ButtonAnimation : MonoBehaviour
     public GameObject button6;
     public float speed;
     public GameObject cameraRotator;
+    public GameObject fishPopsUp;
+    public GameObject dePopsUp;
     // Start is called before the first frame update
     void Start()
     {
@@ -68,8 +70,25 @@ public class ButtonAnimation : MonoBehaviour
     {
         LeanTween.scale(button5, new Vector3(1, 1, 1), 0.2f).setEaseLinear();
     }
-
+    public void fishPopUpEnter()
+    {
+        fishPopsUp.SetActive(true);
+    }
+    public void fishPopUpLeave()
+    {
+        fishPopsUp.SetActive(false);
+    }
+    public void DePopUpEnter()
+    {
+        dePopsUp.SetActive(true);
+    }
+    public void DePopUpLeave()
+    {
+        dePopsUp.SetActive(false);
+    }
     
 
-    
+
+
+
 }
