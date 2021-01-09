@@ -27,26 +27,20 @@ public class gridPlaceScript : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
+                bool hitt = false;
                 foreach (GameObject i in gridTargets)
                 {
-                    if (hit.transform == i.transform)
+                    if (hit.transform.gameObject == i)
                     {
                         cursorVisualise.SetActive(true);
-                        if (cursorVisualise != null)
-                        {
-                            cursorVisualise.transform.position = new Vector3(i.transform.position.x, cursorVisualise.transform.position.y, i.transform.position.z);
-                        }
-                        break;
-                    }
-                    else
-                    {
-                        selectedTarget = gridTargets[0];
-                        if (cursorVisualise != null)
-                        {
-                            cursorVisualise.SetActive(false);
-                        }
+                        cursorVisualise.transform.position = new Vector3(i.transform.position.x, cursorVisualise.transform.position.y, i.transform.position.z);
+                        hitt = true;
                     }
                 }
+            }
+            else
+            {
+                cursorVisualise.SetActive(false);
             }
         }
         else

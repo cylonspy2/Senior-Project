@@ -21586,6 +21586,9 @@ MonoBehaviour:
   isGridPlace: 1
   cursorVisualise: {fileID: 0}
   gridTargets:
+  - {fileID: 8776868903565515574}
+  - {fileID: 1821770189148178226}
+  - {fileID: 1990529863944357726}
   - {fileID: 3548678636563393796}
   - {fileID: 4202932667482950643}
   - {fileID: 190122595597837902}
