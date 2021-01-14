@@ -3,34 +3,36 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-// rename this class to suit your needs
 public class SpawnDecoration : MonoBehaviour
 {
-    // the Equip prefab - required for instantiation
-    public GameObject DecorationPlaceholder;
+    public GameObject Cursor;
+    public GameObject CurrProp;
 
-    // list that holds all created objects - deleate all instances if desired
+    // list that holds all created objects - enables deleting all instances
     public List<GameObject> createdObjects = new List<GameObject>();
 
     private Vector3 targetPos;
 
     void Start()
     {
-        
+
     }
 
-    public void CreateObject()
+    //switches which prop to place
+    public void PrepProp(GameObject i)
     {
-        // a prefab is need to perform the instantiation
-        if (DecorationPlaceholder != null)
+        CurrProp = i;
+    }
+
+    //instantiate's the prop
+    public void CreateProp()
+    {
+        if (CurrProp != null)
         {
+            targetPos = Cursor.transform.position;
 
-            // instantiate the object
-            targetPos = new Vector3(Random.Range(-4f, 4f), Random.Range(-4f, 4f), Random.Range(-4f, 4f));
-
-            GameObject go = (GameObject)Instantiate(DecorationPlaceholder, targetPos, Quaternion.identity);
+            GameObject go = (GameObject)Instantiate(CurrProp, targetPos, Quaternion.identity);
             createdObjects.Add(go);
-
         }
     }
 }

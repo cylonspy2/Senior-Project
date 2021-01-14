@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class gridPlaceScript : MonoBehaviour
 {
+    public SpawnDecoration SpawnManager;
+    public KeyCode spawnKey;
+    public float countDown;
+    float currCountDown;
+
     public bool isGridPlace = true;
 
     public GameObject cursorVisualise;
@@ -20,6 +25,11 @@ public class gridPlaceScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(countDown != 0f && !(currCountDown <= 0f))
+        {
+            currCountDown = currCountDown - Time.deltaTime;
+        }
+
         if (isGridPlace)
         {
             GameObject selectedTarget;
@@ -37,11 +47,17 @@ public class gridPlaceScript : MonoBehaviour
                         hitt = true;
                     }
                 }
+                if (Input.GetKey(spawnKey) && hitt == true && currCountDown <= 0f)
+                {
+                    SpawnManager.CreateProp();
+                }
             }
             else
             {
                 cursorVisualise.SetActive(false);
             }
+
+
         }
         else
         {
@@ -56,6 +72,11 @@ public class gridPlaceScript : MonoBehaviour
                     if (cursorVisualise != null)
                     {
                         cursorVisualise.transform.position = new Vector3(hit.point.x, cursorVisualise.transform.position.y, hit.point.z);
+                    }
+
+                    if (Input.GetKey(spawnKey) && currCountDown <= 0f)
+                    {
+                        SpawnManager.CreateProp();
                     }
                 }
             }

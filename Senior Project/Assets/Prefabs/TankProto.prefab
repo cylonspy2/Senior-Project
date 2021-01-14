@@ -57,7 +57,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: -0.02, w: 1e-45}
+  m_BoundingSphereOverride: {x: 0, y: 2.7824e-41, z: 0, w: -2.9375}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -17726,7 +17726,7 @@ PrefabInstance:
     - target: {fileID: 3199163667959035054, guid: 24d50c1e56c370a49a94902627779844,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4158384048289677383, guid: 24d50c1e56c370a49a94902627779844,
         type: 3}
@@ -17798,15 +17798,35 @@ PrefabInstance:
       propertyPath: cursorVisualise
       value: 
       objectReference: {fileID: 4295071288381076841}
+    - target: {fileID: 8055868261191664499, guid: 24d50c1e56c370a49a94902627779844,
+        type: 3}
+      propertyPath: countDown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055868261191664499, guid: 24d50c1e56c370a49a94902627779844,
+        type: 3}
+      propertyPath: spawnKey
+      value: 323
+      objectReference: {fileID: 0}
     - target: {fileID: 8480344392661287865, guid: 24d50c1e56c370a49a94902627779844,
         type: 3}
       propertyPath: cursorVisualise
       value: 
       objectReference: {fileID: 4295071288381076841}
+    - target: {fileID: 8480344392661287865, guid: 24d50c1e56c370a49a94902627779844,
+        type: 3}
+      propertyPath: spawnKey
+      value: 323
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480344392661287865, guid: 24d50c1e56c370a49a94902627779844,
+        type: 3}
+      propertyPath: countDown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8776868903565515574, guid: 24d50c1e56c370a49a94902627779844,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24d50c1e56c370a49a94902627779844, type: 3}
