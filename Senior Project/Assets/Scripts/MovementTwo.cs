@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Random = UnityEngine.Random;
@@ -9,8 +9,10 @@ using System.Collections.Specialized;
 public class MovementTwo : MonoBehaviour
 {
     public float speed;
-    public Rigidbody rb;
+    public float rotateSpeed;
     public float timerForNewPos;
+    public float visionDistance;
+    public Rigidbody rb;
     bool InCoRoutine;
     Vector3 target;
 
@@ -36,6 +38,7 @@ public class MovementTwo : MonoBehaviour
         yield return new WaitForSeconds(timerForNewPos);
         // get the new path
         getNewPath();
+        
         InCoRoutine = false;
 
     }
@@ -43,13 +46,25 @@ public class MovementTwo : MonoBehaviour
     void getNewPath()
     {
         target = getNewRandomPosition();
-        rb.velocity = (target - transform.position).normalized * speed;
+        rb.velocity = (target - transform.position).normalized*speed;
+        rb.transform.LookAt(target);
+
+        RaycastHit hit;
+        Ray DetectRay = new Ray(transform.position, Vector3.forward);
+        
+        if(Physics.Raycast(DetectRay, out hit, visionDistance) == true)
+        {
+            InCoRoutine = false;
+        }
     }
     
     void Update()
     {
         if (!InCoRoutine)
             StartCoroutine(Coroutine());
+
+        
+        
     }
 
     
