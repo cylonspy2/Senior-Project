@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Senior-Project\Senior Project\Senior Project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Senior-Project\Senior Project\Senior Project_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Senior-Project\Senior Project\Senior Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="526987888">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1593545402">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3212575115" Name="Game_Start_Event" ObjectPath="\Events\Default Work Unit\Game_Start_Event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="46701256" Language="SFX">
+							<ShortName>WayTooMuchFunTracks\Track-4-Bass.wav</ShortName>
+							<Path>SFX\WayTooMuchFunTracks\Track-4-Bass_D79FB2B7.wem</Path>
+						</File>
+						<File Id="307837311" Language="SFX">
+							<ShortName>WayTooMuchFunTracks\Track-2-Snare Drum.wav</ShortName>
+							<Path>SFX\WayTooMuchFunTracks\Track-2-Snare Drum_D79FB2B7.wem</Path>
+						</File>
+						<File Id="634054871" Language="SFX">
+							<ShortName>WayTooMuchFunTracks\Track-7-Cowbell.wav</ShortName>
+							<Path>SFX\WayTooMuchFunTracks\Track-7-Cowbell_D79FB2B7.wem</Path>
+						</File>
+						<File Id="635156882" Language="SFX">
+							<ShortName>WayTooMuchFunTracks\Track-8-MOAR COWBELL.wav</ShortName>
+							<Path>SFX\WayTooMuchFunTracks\Track-8-MOAR COWBELL_D79FB2B7.wem</Path>
+						</File>
+						<File Id="889116827" Language="SFX">
+							<ShortName>WayTooMuchFunTracks\Track-6-Solo.wav</ShortName>
+							<Path>SFX\WayTooMuchFunTracks\Track-6-Solo_D79FB2B7.wem</Path>
+						</File>
+						<File Id="991984914" Language="SFX">
+							<ShortName>WayTooMuchFunTracks\Track-1-Bass Drum.wav</ShortName>
+							<Path>SFX\WayTooMuchFunTracks\Track-1-Bass Drum_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1026624132" Language="SFX">
+							<ShortName>WayTooMuchFunTracks\Track-3-Cymbal.wav</ShortName>
+							<Path>SFX\WayTooMuchFunTracks\Track-3-Cymbal_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1066914197" Language="SFX">
+							<ShortName>WayTooMuchFunTracks\Track-5-Chords.wav</ShortName>
+							<Path>SFX\WayTooMuchFunTracks\Track-5-Chords_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="549677646" Name="Controller_Cowbell" ObjectPath="\Game Parameters\Default Work Unit\Controller_Cowbell"/>
+				<GameParameter Id="1315107341" Name="Controller_Bass" ObjectPath="\Game Parameters\Default Work Unit\Controller_Bass"/>
+				<GameParameter Id="2417179647" Name="Controller_SDrum" ObjectPath="\Game Parameters\Default Work Unit\Controller_SDrum"/>
+				<GameParameter Id="2516872914" Name="Controller_Cymbal" ObjectPath="\Game Parameters\Default Work Unit\Controller_Cymbal"/>
+				<GameParameter Id="2721311426" Name="Controller_BDrum" ObjectPath="\Game Parameters\Default Work Unit\Controller_BDrum"/>
+				<GameParameter Id="3573041661" Name="Controller_Chords" ObjectPath="\Game Parameters\Default Work Unit\Controller_Chords"/>
+				<GameParameter Id="3785382136" Name="Controller_Cowbell2" ObjectPath="\Game Parameters\Default Work Unit\Controller_Cowbell2"/>
+				<GameParameter Id="4203175449" Name="Controller_Solo" ObjectPath="\Game Parameters\Default Work Unit\Controller_Solo"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

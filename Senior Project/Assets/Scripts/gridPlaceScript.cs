@@ -35,7 +35,9 @@ public class gridPlaceScript : MonoBehaviour
             GameObject selectedTarget;
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
+            int layerMask = 1 << 4;
+            layerMask = ~layerMask;
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
                 bool hitt = false;
                 foreach (GameObject i in gridTargets)
@@ -64,7 +66,9 @@ public class gridPlaceScript : MonoBehaviour
             
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
+            int layerMask = 1 << 4;
+            layerMask = ~layerMask;
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
                 if (hit.transform == freePlaceFloor.transform)
                 {
