@@ -14,6 +14,15 @@ public class ButtonAnimation : MonoBehaviour
     public GameObject cameraRotator;
     public GameObject fishPopsUp;
     public GameObject dePopsUp;
+
+    public GameObject pieces;
+    public GameObject button_AddFish;
+    public GameObject button_AddDe;
+    public GameObject reload;
+    public GameObject exit;
+
+    public GameObject camera;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -23,12 +32,21 @@ public class ButtonAnimation : MonoBehaviour
         LeanTween.moveLocalY(button4, 400, 3.5f).setEaseInOutBack();
         LeanTween.moveLocalX(button5, -873, 4f).setEaseInOutBack();
         LeanTween.moveLocalX(button6, 893, 4f).setEaseInOutBack();
+
+        
+    }
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            pieces.SetActive(false);
+        }
     }
 
     // Update is called once per frame
     //void Update()
     //{
-     //   cameraRotator.transform.Rotate(0, speed * Time.deltaTime, 0);
+    //   cameraRotator.transform.Rotate(0, speed * Time.deltaTime, 0);
     //}
     public void Bigger()
     {
@@ -86,7 +104,52 @@ public class ButtonAnimation : MonoBehaviour
     {
         dePopsUp.SetActive(false);
     }
-    
+
+
+    public void FishBigger()
+    {
+        LeanTween.scale(button_AddFish, new Vector3(1.25f, 1.25f, 1.25f), 0.2f).setEaseLinear();
+    }
+    public void FishSmaller()
+    {
+        LeanTween.scale(button_AddFish, new Vector3(1, 1, 1), 0.2f).setEaseLinear();
+    }
+    public void DeBigger()
+    {
+        LeanTween.scale(button_AddDe, new Vector3(1.25f, 1.25f, 1.25f), 0.2f).setEaseLinear();
+    }
+    public void DeSmaller()
+    {
+        LeanTween.scale(button_AddDe, new Vector3(1, 1, 1), 0.2f).setEaseLinear();
+    }
+    public void ReloadBigger()
+    {
+        LeanTween.scale(reload, new Vector3(1.25f, 1.25f, 1.25f), 0.2f).setEaseLinear();
+    }
+    public void ReloadSmaller()
+    {
+        LeanTween.scale(reload, new Vector3(1, 1, 1), 0.2f).setEaseLinear();
+    }
+    public void ExitBigger()
+    {
+        LeanTween.scale(exit, new Vector3(1.25f, 1.25f, 1.25f), 0.2f).setEaseLinear();
+    }
+    public void ExitSmaller()
+    {
+        LeanTween.scale(exit, new Vector3(1, 1, 1), 0.2f).setEaseLinear();
+    }
+
+    public void CameraOn()
+    {
+        camera.GetComponent<moving>().enabled = true;
+    }
+    public void CameraOff()
+    {
+        camera.GetComponent<moving>().enabled = false;
+    }
+
+
+
 
 
 
