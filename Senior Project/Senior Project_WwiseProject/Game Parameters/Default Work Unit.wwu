@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Controller_BDrum" ID="{809B900A-2856-411C-827F-683F69CBDFA3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Controller_SDrum" ID="{0750E809-DE76-466E-B1EA-3A9E55BF2A25}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Controller_Cymbal" ID="{AF911719-7CFE-4DEF-A364-477BEB2C3347}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Controller_Bass" ID="{42117964-4DE6-4748-8DC0-BF42A593B737}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Controller_Chords" ID="{98ED706E-6CCF-4AA6-9A7F-B139DD306404}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Controller_Solo" ID="{11A36BA7-5CF8-48C8-AC8E-8A48B9C25F65}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Controller_Cowbell" ID="{73240556-5830-4DFE-ABBD-EDA961E568D7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Controller_Cowbell2" ID="{771EF06C-4459-4A1F-B645-2AA49BBFE5ED}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

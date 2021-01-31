@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fish1
+  - waterPhys
   layers:
   - Default
   - TransparentFX

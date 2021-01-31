@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7967421b5f1f44b43bf0a4a625014b25, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 27fe401bcb0e8244bcc29e51e273e8ab
+    GuidInternal: 
+    m_lastTime: -8585916964218774843
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: acd53ee086b4714babbbe56116590036
+    GuidInternal: 
+    m_lastTime: -8585916964226321393
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: ec2cbc375126fe48966429feb8315684
+    GuidInternal: 
+    m_lastTime: -8585916964218804869
+    List:
+    - name: Main
+      guid: 2ec9be35af3d224c9c5182e6a850ee7e
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 80e1366bd3871a4399f98f538d3d53b4
+    GuidInternal: 
+    m_lastTime: -8585916964230795456
+    List:
+    - name: Game_Start_Event
+      guid: 442dca91a0f4094683b67affde0f3626
+      id: 3212575115
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_Start_Event
+        ObjectType: 3
+      Path: Default Work Unit\Game_Start_Event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: b1b4cfd5b14df047a3103bda34ef8a11
+    GuidInternal: 
+    m_lastTime: -8585916964230785450
+    List:
+    - name: Controller_Bass
+      guid: 64791142e64d48478dc0bf42a593b737
+      id: 1315107341
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Bass
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Bass
+    - name: Controller_BDrum
+      guid: 0a909b8056281c41827f683f69cbdfa3
+      id: 2721311426
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_BDrum
+        ObjectType: 13
+      Path: Default Work Unit\Controller_BDrum
+    - name: Controller_Chords
+      guid: 6e70ed98cf6ca64a9a7fb139dd306404
+      id: 3573041661
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Chords
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Chords
+    - name: Controller_Cowbell
+      guid: 560524733058fe4dabbdeda961e568d7
+      id: 549677646
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Cowbell
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Cowbell
+    - name: Controller_Cowbell2
+      guid: 6cf01e7759441f4ab6452aa49bbfe5ed
+      id: 3785382136
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Cowbell2
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Cowbell2
+    - name: Controller_Cymbal
+      guid: 191791affe7cef4da364477beb2c3347
+      id: 2516872914
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Cymbal
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Cymbal
+    - name: Controller_SDrum
+      guid: 09e8500776de6e46b1ea3a9e55bf2a25
+      id: 2417179647
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_SDrum
+        ObjectType: 13
+      Path: Default Work Unit\Controller_SDrum
+    - name: Controller_Solo
+      guid: a76ba311f85cc848ac8e8a48b9c25f65
+      id: 4203175449
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Controller_Solo
+        ObjectType: 13
+      Path: Default Work Unit\Controller_Solo
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 7d2bcb2622a41e468029b0c87fef008c
+    GuidInternal: 
+    m_lastTime: -8585916964218794861
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 5a2e430526e78740b2a9bad5abec5f2f
+    GuidInternal: 
+    m_lastTime: -8585916964218794861
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 3a51e36ee5a7464e8a590137a34066e4
+    GuidInternal: 
+    m_lastTime: -8585916964218784851
+    List: []
+  ExpandedItems: []
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

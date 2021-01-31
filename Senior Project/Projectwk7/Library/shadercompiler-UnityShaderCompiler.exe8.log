@@ -1,0 +1,9 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2020.1.6f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=1640 outsize=2210 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at projectCompute.compute(11): syntax error: unexpected token '#'
+  api=4 insize=2703 outsize=0 ok=0
+
+Quitting shader compiler process
