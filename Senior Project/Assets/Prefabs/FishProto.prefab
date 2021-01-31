@@ -127,8 +127,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  rb: {fileID: 9205683113624691730}
+  rotateSpeed: 0
   timerForNewPos: 3
+  visionDistance: 0
+  rb: {fileID: 9205683113624691730}
 --- !u!114 &-7007387386218143978
 MonoBehaviour:
   m_ObjectHideFlags: 0
