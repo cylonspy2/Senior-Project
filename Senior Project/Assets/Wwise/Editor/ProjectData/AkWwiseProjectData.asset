@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 27fe401bcb0e8244bcc29e51e273e8ab
     GuidInternal: 
-    m_lastTime: -8585916964218774843
+    m_lastTime: -8585902755038761465
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: acd53ee086b4714babbbe56116590036
     GuidInternal: 
-    m_lastTime: -8585916964226321393
+    m_lastTime: -8585902755039121785
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ec2cbc375126fe48966429feb8315684
     GuidInternal: 
-    m_lastTime: -8585916964218804869
+    m_lastTime: -8585898295345862364
     List:
     - name: Main
       guid: 2ec9be35af3d224c9c5182e6a850ee7e
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 80e1366bd3871a4399f98f538d3d53b4
     GuidInternal: 
-    m_lastTime: -8585916964230795456
+    m_lastTime: -8585898295345776905
     List:
     - name: Game_Start_Event
       guid: 442dca91a0f4094683b67affde0f3626
@@ -82,6 +82,102 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: VI_Bass01
+      guid: b11091d5f350cb4b9ec5016ba460282d
+      id: 1566012757
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VI_Bass01
+        ObjectType: 3
+      Path: Default Work Unit\VI_Bass01
+      maxAttenuation: 0
+      maxDuration: 16.5
+      minDuration: 16.5
+    - name: VI_BassDrum01
+      guid: 2a4406eb549ea143bbc69364a0446d74
+      id: 3991181389
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VI_BassDrum01
+        ObjectType: 3
+      Path: Default Work Unit\VI_BassDrum01
+      maxAttenuation: 0
+      maxDuration: 16.5
+      minDuration: 16.5
+    - name: VI_Chords01
+      guid: baa1e0571a19f940a3aacbcc951f2109
+      id: 413502601
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VI_Chords01
+        ObjectType: 3
+      Path: Default Work Unit\VI_Chords01
+      maxAttenuation: 0
+      maxDuration: 16.5
+      minDuration: 16.5
+    - name: VI_Cowbell01
+      guid: 546def2b4c7fcb40b4c0a438215fb459
+      id: 2050860192
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VI_Cowbell01
+        ObjectType: 3
+      Path: Default Work Unit\VI_Cowbell01
+      maxAttenuation: 0
+      maxDuration: 16.5
+      minDuration: 16.5
+    - name: VI_Cowbell02
+      guid: fe525f4526a2994f9f6c314ce09cb9ff
+      id: 2050860195
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VI_Cowbell02
+        ObjectType: 3
+      Path: Default Work Unit\VI_Cowbell02
+      maxAttenuation: 0
+      maxDuration: 16.5
+      minDuration: 16.5
+    - name: VI_Cymbal01
+      guid: ba08f0041092174bb7518430ef09e9a5
+      id: 3201313006
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VI_Cymbal01
+        ObjectType: 3
+      Path: Default Work Unit\VI_Cymbal01
+      maxAttenuation: 0
+      maxDuration: 16.5
+      minDuration: 16.5
+    - name: VI_SnareDrum01
+      guid: 491771c31ca6e84588c811fcda75cf11
+      id: 3546710381
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VI_SnareDrum01
+        ObjectType: 3
+      Path: Default Work Unit\VI_SnareDrum01
+      maxAttenuation: 0
+      maxDuration: 16.5
+      minDuration: 16.5
+    - name: VI_Solo01
+      guid: 72e21d2c65149543ba77263559631d6a
+      id: 3584147509
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: VI_Solo01
+        ObjectType: 3
+      Path: Default Work Unit\VI_Solo01
+      maxAttenuation: 0
+      maxDuration: 16.5
+      minDuration: 16.5
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -90,7 +186,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b1b4cfd5b14df047a3103bda34ef8a11
     GuidInternal: 
-    m_lastTime: -8585916964230785450
+    m_lastTime: -8585902755066218263
     List:
     - name: Controller_Bass
       guid: 64791142e64d48478dc0bf42a593b737
@@ -172,7 +268,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7d2bcb2622a41e468029b0c87fef008c
     GuidInternal: 
-    m_lastTime: -8585916964218794861
+    m_lastTime: -8585902755038771473
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -182,7 +278,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5a2e430526e78740b2a9bad5abec5f2f
     GuidInternal: 
-    m_lastTime: -8585916964218794861
+    m_lastTime: -8585902755038771473
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -192,8 +288,13 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3a51e36ee5a7464e8a590137a34066e4
     GuidInternal: 
-    m_lastTime: -8585916964218784851
+    m_lastTime: -8585902755038771473
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /Senior Project_WwiseProject
+  - /Senior Project_WwiseProject/Events
+  - /Senior Project_WwiseProject/Events/Default Work Unit
+  - /Senior Project_WwiseProject/SoundBanks
+  - /Senior Project_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

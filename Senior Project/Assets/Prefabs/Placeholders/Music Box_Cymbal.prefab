@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7160349471603127976}
   m_Layer: 0
   m_Name: Music Box_Cymbal
-  m_TagString: Untagged
+  m_TagString: Cymbal01
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
