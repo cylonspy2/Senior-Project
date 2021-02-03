@@ -17,6 +17,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2721311426	Controller_BDrum			\Default Work Unit\Controller_BDrum	
 	3573041661	Controller_Chords			\Default Work Unit\Controller_Chords	
 	3785382136	Controller_Cowbell2			\Default Work Unit\Controller_Cowbell2	
+	4194816893	Volume_Control			\Default Work Unit\Volume_Control	
 	4203175449	Controller_Solo			\Default Work Unit\Controller_Solo	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

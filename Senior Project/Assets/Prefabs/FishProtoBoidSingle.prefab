@@ -45,8 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  rb: {fileID: 5812107610697039573}
+  rotateSpeed: 0
   timerForNewPos: 3
+  visionDistance: 0
+  rb: {fileID: 5812107610697039573}
 --- !u!54 &5812107610697039573
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -76,6 +78,7 @@ GameObject:
   - component: {fileID: 9205683114194142764}
   - component: {fileID: 9205683114194142765}
   - component: {fileID: 4758400214547008474}
+  - component: {fileID: 7897813720171681530}
   m_Layer: 0
   m_Name: FishProtoBoidSingle
   m_TagString: Fish1
@@ -183,3 +186,15 @@ MonoBehaviour:
   sightRange: 2.75
   rotationPercentage: 1.75
   Kapu: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7897813720171681530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9205683114194142754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8958c5042d7cc4cbaedb46ee8a49d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
