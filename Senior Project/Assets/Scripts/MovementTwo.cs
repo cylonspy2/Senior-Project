@@ -15,6 +15,9 @@ public class MovementTwo : MonoBehaviour
     public Rigidbody rb;
     bool InCoRoutine;
     Vector3 target;
+    public float xa = 4.5f;
+    public float ya = 4.5f;
+    public float za = 4.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,9 +27,13 @@ public class MovementTwo : MonoBehaviour
 
     Vector3 getNewRandomPosition()
     {
-        float x = Random.Range(-4.5f, 4.5f);
-        float y = Random.Range(-4.5f, 4.5f);
-        float z = Random.Range(-4.5f, 4.5f);
+        float xb = xa * -1;
+        float yb = ya * -1;
+        float zb = za * -1;
+
+        float x = Random.Range(xb, xa);
+        float y = Random.Range(yb, ya);
+        float z = Random.Range(zb, za);
 
         Vector3 pos = new Vector3(x, y, z);
         return pos;
@@ -60,6 +67,18 @@ public class MovementTwo : MonoBehaviour
     
     void Update()
     {
+        if (Input.GetKey (KeyCode.Keypad1))
+            xa += -0.05f;
+
+        if (Input.GetKey (KeyCode.Keypad2))
+            xa += 0.05f;
+
+        if (Input.GetKey (KeyCode.Keypad4))
+            za += -0.05f; 
+
+        if (Input.GetKey (KeyCode.Keypad5))
+            za += 0.05f;
+
         if (!InCoRoutine)
             StartCoroutine(Coroutine());
 
