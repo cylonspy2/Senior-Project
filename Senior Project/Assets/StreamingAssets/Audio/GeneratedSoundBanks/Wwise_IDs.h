@@ -34,6 +34,7 @@ namespace AK
         static const AkUniqueID CONTROLLER_CYMBAL = 2516872914U;
         static const AkUniqueID CONTROLLER_SDRUM = 2417179647U;
         static const AkUniqueID CONTROLLER_SOLO = 4203175449U;
+        static const AkUniqueID VOLUME_CONTROL = 4194816893U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

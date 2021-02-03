@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ec2cbc375126fe48966429feb8315684
     GuidInternal: 
-    m_lastTime: -8585898295345862364
+    m_lastTime: -8585894720015139806
     List:
     - name: Main
       guid: 2ec9be35af3d224c9c5182e6a850ee7e
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 80e1366bd3871a4399f98f538d3d53b4
     GuidInternal: 
-    m_lastTime: -8585898295345776905
+    m_lastTime: -8585894720026983710
     List:
     - name: Game_Start_Event
       guid: 442dca91a0f4094683b67affde0f3626
@@ -92,8 +92,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\VI_Bass01
       maxAttenuation: 0
-      maxDuration: 16.5
-      minDuration: 16.5
+      maxDuration: 0
+      minDuration: 0
     - name: VI_BassDrum01
       guid: 2a4406eb549ea143bbc69364a0446d74
       id: 3991181389
@@ -104,8 +104,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\VI_BassDrum01
       maxAttenuation: 0
-      maxDuration: 16.5
-      minDuration: 16.5
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Chords01
       guid: baa1e0571a19f940a3aacbcc951f2109
       id: 413502601
@@ -116,8 +116,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\VI_Chords01
       maxAttenuation: 0
-      maxDuration: 16.5
-      minDuration: 16.5
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Cowbell01
       guid: 546def2b4c7fcb40b4c0a438215fb459
       id: 2050860192
@@ -128,8 +128,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\VI_Cowbell01
       maxAttenuation: 0
-      maxDuration: 16.5
-      minDuration: 16.5
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Cowbell02
       guid: fe525f4526a2994f9f6c314ce09cb9ff
       id: 2050860195
@@ -140,8 +140,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\VI_Cowbell02
       maxAttenuation: 0
-      maxDuration: 16.5
-      minDuration: 16.5
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Cymbal01
       guid: ba08f0041092174bb7518430ef09e9a5
       id: 3201313006
@@ -152,8 +152,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\VI_Cymbal01
       maxAttenuation: 0
-      maxDuration: 16.5
-      minDuration: 16.5
+      maxDuration: -1
+      minDuration: -1
     - name: VI_SnareDrum01
       guid: 491771c31ca6e84588c811fcda75cf11
       id: 3546710381
@@ -164,8 +164,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\VI_SnareDrum01
       maxAttenuation: 0
-      maxDuration: 16.5
-      minDuration: 16.5
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Solo01
       guid: 72e21d2c65149543ba77263559631d6a
       id: 3584147509
@@ -176,8 +176,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\VI_Solo01
       maxAttenuation: 0
-      maxDuration: 16.5
-      minDuration: 16.5
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -186,7 +186,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b1b4cfd5b14df047a3103bda34ef8a11
     GuidInternal: 
-    m_lastTime: -8585902755066218263
+    m_lastTime: -8585892252021470207
     List:
     - name: Controller_Bass
       guid: 64791142e64d48478dc0bf42a593b737
@@ -260,6 +260,15 @@ MonoBehaviour:
       - ElementName: Controller_Solo
         ObjectType: 13
       Path: Default Work Unit\Controller_Solo
+    - name: Volume_Control
+      guid: d1b266cf7a177e4382a1dbffa602971b
+      id: 4194816893
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Volume_Control
+        ObjectType: 13
+      Path: Default Work Unit\Volume_Control
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
