@@ -130,3 +130,6 @@ MonoBehaviour:
   timerForNewPos: 3
   visionDistance: 0
   rb: {fileID: 9205683113624691730}
+  xa: 10
+  ya: 10
+  za: 10
