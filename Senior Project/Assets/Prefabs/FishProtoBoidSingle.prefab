@@ -49,6 +49,9 @@ MonoBehaviour:
   timerForNewPos: 3
   visionDistance: 0
   rb: {fileID: 5812107610697039573}
+  xa: 70
+  ya: 40
+  za: 70
 --- !u!54 &5812107610697039573
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -182,7 +185,7 @@ MonoBehaviour:
   Boid: {fileID: 5011327565069986045, guid: fc37614181cf4c3448437231de9da0d0, type: 3}
   speed: 1.23
   rotSpeed: 1
-  avoidRange: 1.19
+  avoidRange: 1.22
   sightRange: 2.75
   rotationPercentage: 1.75
   Kapu: {x: 0, y: 0, z: 0, w: 0}

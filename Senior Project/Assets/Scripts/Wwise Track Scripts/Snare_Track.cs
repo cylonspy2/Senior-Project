@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class Snare_Track : MonoBehaviour
 {
-    // Start is called before the first frame update
+    MetronomeScript meta;
+    bool hasStarted;
+
     void Start()
     {
-        //AkSoundEngine.SetRTPCValue("Controller_Snare", 100);
-        AkSoundEngine.PostEvent("VI_SnareDrum01", gameObject);
+        meta = gameObject.GetComponent<MetronomeScript>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (meta.Tick == true && hasStarted == false)
+        {
+            AkSoundEngine.PostEvent("VI_SnareDrum01", gameObject);
+            hasStarted = true;
+        }
     }
 }

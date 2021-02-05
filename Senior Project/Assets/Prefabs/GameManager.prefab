@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3334080304718205099}
   - component: {fileID: -5302732154799723887}
-  - component: {fileID: 681921450541887277}
+  - component: {fileID: 7509457161790262372}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -57,7 +57,7 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
---- !u!114 &681921450541887277
+--- !u!114 &7509457161790262372
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
