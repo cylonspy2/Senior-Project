@@ -1,0 +1,53 @@
+CHANGELOG
+
+0.2
+Updated UI
+Fixed prop bug
+Expanded fishtank to encompass the camera system
+Wwise is now fully operational
+placeholder prop now modifies master volume
+hidden metronome implimented (system for insuring fish keep beat with each other)
+
+Known Bugs:
+-moving camera with mouse while hovering over tank floor still spawns a prop
+-UI node, when moved out of bounds, is irrecoverable
+
+
+0.1
+Added cursor
+Added system for placing props at set locations
+Updated UI
+Updated water shader
+Updated fish AI
+Updated fish tank model
+Updated sound system
+
+Known Bugs:
+-cursor acts weird when mouse hovers over props
+-IMPORTANT: props seem to want to eject themselves out of the fishtank
+along the x axis, unless placed along the relative centor of it
+-UI for fiss selection has a scroll bar that leads to more menu that doesnt exist
+
+
+0.0.5
+Revamped fish shader to accept custom textures
+modified fish VFX
+added reset, quit, and back to start menu functions
+
+0.0.4
+added a main menu, and overall UI overhaul, which was a bit of a surprise
+added VFX for fish 
+updated fishtank VFX
+
+0.0.3
+camera rotation visual update
+implimented boid motion to single-asset fish
+added VFX for fishtank
+
+0.0.2
+scroll functionality added to dropdown menu
+dropdown menu moveable within scene
+backend project organisation
+
+0.0.1
+initial setup as of Nov 19 2020. For further changes, please observe the GIT repo

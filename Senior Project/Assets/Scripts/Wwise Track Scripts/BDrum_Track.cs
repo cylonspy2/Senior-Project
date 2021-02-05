@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class BDrum_Track : MonoBehaviour
 {
-    // Start is called before the first frame update
+    MetronomeScript meta;
+    bool hasStarted;
+
     void Start()
     {
-        //AkSoundEngine.SetRTPCValue("Controller_BDrum", 100);
-        AkSoundEngine.PostEvent("VI_BassDrum01", gameObject);
+        meta = gameObject.GetComponent<MetronomeScript>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(meta.Tick == true && hasStarted == false)
+        {
+            AkSoundEngine.PostEvent("VI_BassDrum01", gameObject);
+            hasStarted = true;
+        }
     }
 }

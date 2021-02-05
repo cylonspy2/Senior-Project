@@ -45,9 +45,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56921b57bce357142a13690308e68bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  rb: {fileID: 7993792610755800390}
-  timerForNewPos: 1
+  speed: 1
+  rotateSpeed: 0
+  timerForNewPos: 3
+  visionDistance: 0
+  rb: {fileID: 0}
+  xa: 70
+  ya: 40
+  za: 70
 --- !u!54 &7993792610755800390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -130,7 +135,7 @@ MonoBehaviour:
   Boid: {fileID: 5011327565069986045, guid: 2be081a441877724b9732e8bc82ff922, type: 3}
   speed: 1.41
   rotSpeed: 1
-  avoidRange: 0.8
+  avoidRange: 1.24
   sightRange: 2.66
   rotationPercentage: 0.95
   Kapu: {x: 0, y: 0, z: 0, w: 0}

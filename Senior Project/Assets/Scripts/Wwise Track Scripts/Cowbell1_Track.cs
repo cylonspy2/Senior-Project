@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class Cowbell1_Track : MonoBehaviour
 {
-    // Start is called before the first frame update
+    MetronomeScript meta;
+    bool hasStarted;
+
     void Start()
     {
-        AkSoundEngine.SetRTPCValue("Controller_Cowbell1", 100);
-        AkSoundEngine.PostEvent("VI_Cowbell02", gameObject);
+        meta = gameObject.GetComponent<MetronomeScript>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (meta.Tick == true && hasStarted == false)
+        {
+            AkSoundEngine.PostEvent("VI_Cowbell02", gameObject);
+            hasStarted = true;
+        }
     }
 }
