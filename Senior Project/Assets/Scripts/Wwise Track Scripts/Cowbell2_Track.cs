@@ -7,7 +7,8 @@ public class Cowbell2_Track : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AkSoundEngine.SetRTPCValue("Controller_Cowbell2", 100);
+        //AkSoundEngine.SetRTPCValue("Controller_Cowbell2", 100);
+        AkSoundEngine.PostEvent("VI_Cowbell01", gameObject);
     }
 
     // Update is called once per frame

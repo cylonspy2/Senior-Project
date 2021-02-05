@@ -43,6 +43,7 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

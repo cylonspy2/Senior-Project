@@ -8,6 +8,7 @@ public class Cowbell1_Track : MonoBehaviour
     void Start()
     {
         AkSoundEngine.SetRTPCValue("Controller_Cowbell1", 100);
+        AkSoundEngine.PostEvent("VI_Cowbell02", gameObject);
     }
 
     // Update is called once per frame

@@ -692,6 +692,36 @@
 				<Folder Name="WayTooMuchFunTracks" ID="{8D1DB63B-0420-4862-864D-C2EA70BEFEE0}" ShortID="941263776">
 					<ChildrenList>
 						<MusicPlaylistContainer Name="BassDrum01" ID="{F08A70B5-03D4-4EFC-8D71-73B7291C697A}" ShortID="421299723">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{5F488C39-3EC0-49FF-A7E0-BF3228B3A705}" ShortID="455683890">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{45E67375-24F2-451A-8A96-6179009CD22D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
@@ -794,6 +824,36 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="SnareDrum01" ID="{C8813104-D775-4FC4-A602-0379C0A06BA0}" ShortID="177267187">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{30B275B7-6A8A-413E-B3F4-8BBF458A89DB}" ShortID="441798610">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{DBC35D99-4FDF-4C52-848B-4CCCE43B1DE1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
@@ -896,6 +956,36 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Bass01" ID="{83169D9A-403B-4C92-825E-2A464A9A358C}" ShortID="122823392">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B91643A4-8B82-4953-8065-854DD24BDFF5}" ShortID="756245207">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C28D12AB-4E2F-443B-9F22-BFB394156933}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
@@ -990,6 +1080,43 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Chords01" ID="{141A4BD9-05AA-450C-920E-8DD045A50AFC}" ShortID="1054821441">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B920B221-6139-4BCB-83F6-48BC7F375D66}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{00CBCA4E-1BFD-4E3D-8178-AC576AFBD4E8}" ShortID="90968302">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B0AF2C5F-8085-4E44-9121-E475BDB42004}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
@@ -1092,6 +1219,36 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Solo01" ID="{7B02C058-0D22-480C-828F-8353E38B441B}" ShortID="109619644">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{C79AEA2E-B1CC-4E5C-A62D-53AC2DB3F1E0}" ShortID="213720168">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{66ADD289-C5F4-43F9-87FF-1BDE75E661FB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
@@ -1194,6 +1351,36 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Cowbell01" ID="{C65C70DE-EE2B-4C6D-91C7-D04B0833AA24}" ShortID="725645919">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{F2C72CFA-C86E-4D12-A82F-0771CAE5BB04}" ShortID="1001545147">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{92A9FB04-E163-42ED-95B5-3D24933AEDE1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
@@ -1296,6 +1483,36 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Cowbell02" ID="{5F045903-BBFF-460A-8A1F-F329C0BA2376}" ShortID="264612589">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{AF18F20A-7D0B-47C2-B868-A5BE08EE840B}" ShortID="10164593">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AC37963B-B74F-4830-8A65-716EBB3BA8A3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
@@ -1398,6 +1615,36 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Cymbal01" ID="{9022C97F-27D1-44B5-83E9-A6EFC0120366}" ShortID="855785344">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{33F0845C-251A-4DC5-8AE3-0D78AA236295}" ShortID="791610848">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D3B81474-F0CE-4B5C-831D-569705BCA037}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
