@@ -5,16 +5,18 @@ using UnityEngine;
 public class BDrum_Track : MonoBehaviour
 {
     MetronomeScript meta;
-    bool hasStarted;
+    bool hasStarted = false;
 
     void Start()
     {
-        meta = gameObject.GetComponent<MetronomeScript>();
+        GameObject manager = GameObject.Find("GameManager");
+        //AkSoundEngine.PostEvent("VI_BassDrum01", gameObject);
+        meta = manager.GetComponent<MetronomeScript>();
     }
 
     void Update()
     {
-        if(meta.Tick == true && hasStarted == false)
+        if (meta.Tick == true && hasStarted == false)
         {
             AkSoundEngine.PostEvent("VI_BassDrum01", gameObject);
             hasStarted = true;

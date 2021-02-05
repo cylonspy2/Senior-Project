@@ -5,18 +5,20 @@ using UnityEngine;
 public class Cowbell1_Track : MonoBehaviour
 {
     MetronomeScript meta;
-    bool hasStarted;
+    bool hasStarted = false;
 
     void Start()
     {
-        meta = gameObject.GetComponent<MetronomeScript>();
+        GameObject manager = GameObject.Find("GameManager");
+        //AkSoundEngine.PostEvent("VI_Cowbell01", gameObject);
+        meta = manager.GetComponent<MetronomeScript>();
     }
 
     void Update()
     {
         if (meta.Tick == true && hasStarted == false)
         {
-            AkSoundEngine.PostEvent("VI_Cowbell02", gameObject);
+            AkSoundEngine.PostEvent("VI_Cowbell01", gameObject);
             hasStarted = true;
         }
     }

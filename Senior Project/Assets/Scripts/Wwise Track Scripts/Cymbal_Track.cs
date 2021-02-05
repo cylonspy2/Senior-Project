@@ -5,11 +5,13 @@ using UnityEngine;
 public class Cymbal_Track : MonoBehaviour
 {
     MetronomeScript meta;
-    bool hasStarted;
+    bool hasStarted = false;
 
     void Start()
     {
-        meta = gameObject.GetComponent<MetronomeScript>();
+        GameObject manager = GameObject.Find("GameManager");
+        //AkSoundEngine.PostEvent("VI_Cymbal01", gameObject);
+        meta = manager.GetComponent<MetronomeScript>();
     }
 
     void Update()

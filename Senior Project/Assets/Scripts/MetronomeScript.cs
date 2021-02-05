@@ -16,7 +16,7 @@ public class MetronomeScript : MonoBehaviour
 
     void Update()
     {
-        if(baka == 0f){
+        if(baka <= 0f){
             Tick = true;
             baka = count;
         }

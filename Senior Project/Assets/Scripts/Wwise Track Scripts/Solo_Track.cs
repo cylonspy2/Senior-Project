@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class Solo_Track : MonoBehaviour
 {
-    MetronomeScript meta;
-    bool hasStarted;
+    public MetronomeScript meta;
+    bool hasStarted = false;
 
     void Start()
     {
-        meta = gameObject.GetComponent<MetronomeScript>();
+        GameObject manager = GameObject.Find("GameManager");
+        //AkSoundEngine.PostEvent("VI_Solo01", gameObject);
+        meta = manager.GetComponent<MetronomeScript>();
     }
 
     void Update()
     {
         if (meta.Tick == true && hasStarted == false)
         {
+            print("The sound has started!");
             AkSoundEngine.PostEvent("VI_Solo01", gameObject);
             hasStarted = true;
         }
