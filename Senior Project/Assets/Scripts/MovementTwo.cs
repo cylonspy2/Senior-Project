@@ -15,9 +15,9 @@ public class MovementTwo : MonoBehaviour
     public Rigidbody rb;
     bool InCoRoutine;
     Vector3 target;
-    public float xa = 4.5f;
-    public float ya = 4.5f;
-    public float za = 4.5f;
+    public float xa;
+    public float ya;
+    public float za;
 
     // Start is called before the first frame update
     void Start()
@@ -60,25 +60,12 @@ public class MovementTwo : MonoBehaviour
         Ray DetectRay = new Ray(transform.position, Vector3.forward);
         
         if(Physics.Raycast(DetectRay, out hit, visionDistance) == true)
-        {
             InCoRoutine = false;
-        }
     }
     
     void Update()
     {
-        if (Input.GetKey (KeyCode.Keypad1))
-            xa += -0.05f;
-
-        if (Input.GetKey (KeyCode.Keypad2))
-            xa += 0.05f;
-
-        if (Input.GetKey (KeyCode.Keypad4))
-            za += -0.05f; 
-
-        if (Input.GetKey (KeyCode.Keypad5))
-            za += 0.05f;
-
+        
         if (!InCoRoutine)
             StartCoroutine(Coroutine());
 
