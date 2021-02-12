@@ -14,6 +14,15 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID GAME_START_EVENT = 3212575115U;
+        static const AkUniqueID RESET_ALL = 2081023666U;
+        static const AkUniqueID RESET_BASS01 = 1309399501U;
+        static const AkUniqueID RESET_BASSDRUM01 = 365945877U;
+        static const AkUniqueID RESET_CHORDS01 = 1851298689U;
+        static const AkUniqueID RESET_COWBELL01 = 1735431224U;
+        static const AkUniqueID RESET_COWBELL02 = 1735431227U;
+        static const AkUniqueID RESET_CYMBAL01 = 3773451286U;
+        static const AkUniqueID RESET_SNAREDRUM01 = 2907261653U;
+        static const AkUniqueID RESET_SOLO01 = 2676278653U;
         static const AkUniqueID VI_BASS01 = 1566012757U;
         static const AkUniqueID VI_BASSDRUM01 = 3991181389U;
         static const AkUniqueID VI_CHORDS01 = 413502601U;

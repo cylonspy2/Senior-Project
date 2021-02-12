@@ -14,94 +14,233 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="VI_Bass01" ID="{D59110B1-50F3-4BCB-9EC5-016BA460282D}">
+				<Folder Name="Instruments" ID="{FB5CDAC3-9EA2-4448-A367-E9CCC8C62EA9}" ShortID="1040495148">
 					<ChildrenList>
-						<Action Name="" ID="{4EA42D90-43B3-4AEB-A5CE-5300FD8F74FF}" ShortID="20126928">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Bass01" ID="{83169D9A-403B-4C92-825E-2A464A9A358C}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="VI_Chords01" ID="{57E0A1BA-191A-40F9-A3AA-CBCC951F2109}">
+							<ChildrenList>
+								<Action Name="" ID="{52473BB3-D9A1-4DD5-8D34-55D7A2C73930}" ShortID="197476824">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chords01" ID="{141A4BD9-05AA-450C-920E-8DD045A50AFC}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="VI_Cymbal01" ID="{04F008BA-9210-4B17-B751-8430EF09E9A5}">
+							<ChildrenList>
+								<Action Name="" ID="{76D50B5B-6F31-4A33-83F5-9E33579CD240}" ShortID="231020576">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cymbal01" ID="{9022C97F-27D1-44B5-83E9-A6EFC0120366}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="VI_Cowbell01" ID="{2BEF6D54-7F4C-40CB-B4C0-A438215FB459}">
+							<ChildrenList>
+								<Action Name="" ID="{4D14C0C9-B26D-46BB-843B-42033A63D416}" ShortID="298880228">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cowbell01" ID="{C65C70DE-EE2B-4C6D-91C7-D04B0833AA24}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="VI_Bass01" ID="{D59110B1-50F3-4BCB-9EC5-016BA460282D}">
+							<ChildrenList>
+								<Action Name="" ID="{4EA42D90-43B3-4AEB-A5CE-5300FD8F74FF}" ShortID="20126928">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bass01" ID="{83169D9A-403B-4C92-825E-2A464A9A358C}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="VI_SnareDrum01" ID="{C3711749-A61C-45E8-88C8-11FCDA75CF11}">
+							<ChildrenList>
+								<Action Name="" ID="{CE0DADED-E1F5-462F-BC4C-1BB7C2A46C2E}" ShortID="478821119">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SnareDrum01" ID="{C8813104-D775-4FC4-A602-0379C0A06BA0}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="VI_BassDrum01" ID="{EB06442A-9E54-43A1-BBC6-9364A0446D74}">
+							<ChildrenList>
+								<Action Name="" ID="{00D679BE-9060-4A25-AB23-0F26D87F4101}" ShortID="312603015">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BassDrum01" ID="{F08A70B5-03D4-4EFC-8D71-73B7291C697A}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="VI_Solo01" ID="{2C1DE272-1465-4395-BA77-263559631D6A}">
+							<ChildrenList>
+								<Action Name="" ID="{7B5650FC-514A-430E-9822-8D4A22201DC7}" ShortID="640251107">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Solo01" ID="{7B02C058-0D22-480C-828F-8353E38B441B}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="VI_Cowbell02" ID="{455F52FE-A226-4F99-9F6C-314CE09CB9FF}">
+							<ChildrenList>
+								<Action Name="" ID="{16B1D651-E57D-4554-91BB-183470C68706}" ShortID="929429352">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cowbell02" ID="{5F045903-BBFF-460A-8A1F-F329C0BA2376}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="VI_BassDrum01" ID="{EB06442A-9E54-43A1-BBC6-9364A0446D74}">
+				</Folder>
+				<Folder Name="Resets" ID="{49EBE974-0A0F-468C-AC4D-8EF10CF92B95}" ShortID="541358025">
 					<ChildrenList>
-						<Action Name="" ID="{00D679BE-9060-4A25-AB23-0F26D87F4101}" ShortID="312603015">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="BassDrum01" ID="{F08A70B5-03D4-4EFC-8D71-73B7291C697A}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="reset_All" ID="{82B5672B-A1A7-41EC-BD80-021F46DE413F}">
+							<ChildrenList>
+								<Action Name="" ID="{D68C6D4B-008F-4E4F-831C-E4C44B479FC5}" ShortID="813743576">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="reset_Bass01" ID="{E6ECEE6B-B592-4158-B3C9-CAF9A14B5258}">
+							<ChildrenList>
+								<Action Name="" ID="{8C5B5425-0496-407F-944E-218A9DB5635F}" ShortID="271487006">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bass01" ID="{83169D9A-403B-4C92-825E-2A464A9A358C}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="reset_BassDrum01" ID="{17282A30-2C6C-4454-9D96-70FAAAEECECD}">
+							<ChildrenList>
+								<Action Name="" ID="{21EB7C7E-869A-44E3-ADD7-856F39111E02}" ShortID="260666521">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BassDrum01" ID="{F08A70B5-03D4-4EFC-8D71-73B7291C697A}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="reset_Chords01" ID="{67B2F800-5A71-4215-8DDE-F31F23432E57}">
+							<ChildrenList>
+								<Action Name="" ID="{7C4CB614-F296-46A3-8204-45B7D2CBA739}" ShortID="292496019">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chords01" ID="{141A4BD9-05AA-450C-920E-8DD045A50AFC}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="reset_Cowbell01" ID="{4F97E5E5-1D4F-4E6A-820A-640CBFC62C10}">
+							<ChildrenList>
+								<Action Name="" ID="{D05E70D3-AD87-4CBC-971C-040EA0B38FC3}" ShortID="698190175">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cowbell01" ID="{C65C70DE-EE2B-4C6D-91C7-D04B0833AA24}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="reset_Cowbell02" ID="{D3B5D919-3B1C-4486-8E94-60C31B3C9F59}">
+							<ChildrenList>
+								<Action Name="" ID="{2943F628-0070-468C-8ECB-E47E0AB06D1E}" ShortID="914105652">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cowbell02" ID="{5F045903-BBFF-460A-8A1F-F329C0BA2376}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="reset_Cymbal01" ID="{E0DF4E83-B817-4DC2-8421-0D2F541530C7}">
+							<ChildrenList>
+								<Action Name="" ID="{DD388581-40F9-4070-8485-3777A7C136BA}" ShortID="194495725">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cymbal01" ID="{9022C97F-27D1-44B5-83E9-A6EFC0120366}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="reset_SnareDrum01" ID="{834E87A5-A3BE-4DCB-9FD5-DA956B2A867A}">
+							<ChildrenList>
+								<Action Name="" ID="{0C75B12B-E139-4E22-B9A6-CC2585D4E9BB}" ShortID="451162321">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SnareDrum01" ID="{C8813104-D775-4FC4-A602-0379C0A06BA0}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="reset_Solo01" ID="{C9D22059-D954-47F6-B4FF-0CECD20B7B35}">
+							<ChildrenList>
+								<Action Name="" ID="{C20E4140-3FBF-41EF-813B-438386E9FCD2}" ShortID="201831144">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Solo01" ID="{7B02C058-0D22-480C-828F-8353E38B441B}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="VI_SnareDrum01" ID="{C3711749-A61C-45E8-88C8-11FCDA75CF11}">
-					<ChildrenList>
-						<Action Name="" ID="{CE0DADED-E1F5-462F-BC4C-1BB7C2A46C2E}" ShortID="478821119">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SnareDrum01" ID="{C8813104-D775-4FC4-A602-0379C0A06BA0}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VI_Cymbal01" ID="{04F008BA-9210-4B17-B751-8430EF09E9A5}">
-					<ChildrenList>
-						<Action Name="" ID="{76D50B5B-6F31-4A33-83F5-9E33579CD240}" ShortID="231020576">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Cymbal01" ID="{9022C97F-27D1-44B5-83E9-A6EFC0120366}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VI_Chords01" ID="{57E0A1BA-191A-40F9-A3AA-CBCC951F2109}">
-					<ChildrenList>
-						<Action Name="" ID="{52473BB3-D9A1-4DD5-8D34-55D7A2C73930}" ShortID="197476824">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Chords01" ID="{141A4BD9-05AA-450C-920E-8DD045A50AFC}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VI_Solo01" ID="{2C1DE272-1465-4395-BA77-263559631D6A}">
-					<ChildrenList>
-						<Action Name="" ID="{7B5650FC-514A-430E-9822-8D4A22201DC7}" ShortID="640251107">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Solo01" ID="{7B02C058-0D22-480C-828F-8353E38B441B}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VI_Cowbell02" ID="{455F52FE-A226-4F99-9F6C-314CE09CB9FF}">
-					<ChildrenList>
-						<Action Name="" ID="{16B1D651-E57D-4554-91BB-183470C68706}" ShortID="929429352">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Cowbell02" ID="{5F045903-BBFF-460A-8A1F-F329C0BA2376}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="VI_Cowbell01" ID="{2BEF6D54-7F4C-40CB-B4C0-A438215FB459}">
-					<ChildrenList>
-						<Action Name="" ID="{4D14C0C9-B26D-46BB-843B-42033A63D416}" ShortID="298880228">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Cowbell01" ID="{C65C70DE-EE2B-4C6D-91C7-D04B0833AA24}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

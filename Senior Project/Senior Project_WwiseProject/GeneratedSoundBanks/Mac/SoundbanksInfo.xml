@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1335967041">
+		<SoundBank Id="3161908922" Language="SFX" Hash="701746369">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -57,7 +57,16 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1566012757" Name="VI_Bass01" ObjectPath="\Events\Default Work Unit\VI_Bass01" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+				<Event Id="2081023666" Name="reset_All" ObjectPath="\Events\Default Work Unit\Resets\reset_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1309399501" Name="reset_Bass01" ObjectPath="\Events\Default Work Unit\Resets\reset_Bass01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="365945877" Name="reset_BassDrum01" ObjectPath="\Events\Default Work Unit\Resets\reset_BassDrum01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1851298689" Name="reset_Chords01" ObjectPath="\Events\Default Work Unit\Resets\reset_Chords01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1735431224" Name="reset_Cowbell01" ObjectPath="\Events\Default Work Unit\Resets\reset_Cowbell01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1735431227" Name="reset_Cowbell02" ObjectPath="\Events\Default Work Unit\Resets\reset_Cowbell02" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3773451286" Name="reset_Cymbal01" ObjectPath="\Events\Default Work Unit\Resets\reset_Cymbal01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2907261653" Name="reset_SnareDrum01" ObjectPath="\Events\Default Work Unit\Resets\reset_SnareDrum01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2676278653" Name="reset_Solo01" ObjectPath="\Events\Default Work Unit\Resets\reset_Solo01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1566012757" Name="VI_Bass01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Bass01" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<IncludedMemoryFiles>
 						<File Id="25700626" Language="SFX">
 							<ShortName>Track-4-Bass.wav</ShortName>
@@ -65,7 +74,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3991181389" Name="VI_BassDrum01" ObjectPath="\Events\Default Work Unit\VI_BassDrum01" DurationType="Infinite">
+				<Event Id="3991181389" Name="VI_BassDrum01" ObjectPath="\Events\Default Work Unit\Instruments\VI_BassDrum01" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="812095860" Language="SFX">
 							<ShortName>Track-1-Bass Drum.wav</ShortName>
@@ -73,7 +82,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="413502601" Name="VI_Chords01" ObjectPath="\Events\Default Work Unit\VI_Chords01" DurationType="Infinite">
+				<Event Id="413502601" Name="VI_Chords01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Chords01" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="256753979" Language="SFX">
 							<ShortName>Track-5-Chords.wav</ShortName>
@@ -81,7 +90,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2050860192" Name="VI_Cowbell01" ObjectPath="\Events\Default Work Unit\VI_Cowbell01" DurationType="Infinite">
+				<Event Id="2050860192" Name="VI_Cowbell01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Cowbell01" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="634054871" Language="SFX">
 							<ShortName>WayTooMuchFunTracks\Track-7-Cowbell.wav</ShortName>
@@ -89,7 +98,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2050860195" Name="VI_Cowbell02" ObjectPath="\Events\Default Work Unit\VI_Cowbell02" DurationType="Infinite">
+				<Event Id="2050860195" Name="VI_Cowbell02" ObjectPath="\Events\Default Work Unit\Instruments\VI_Cowbell02" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="635156882" Language="SFX">
 							<ShortName>WayTooMuchFunTracks\Track-8-MOAR COWBELL.wav</ShortName>
@@ -97,7 +106,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3201313006" Name="VI_Cymbal01" ObjectPath="\Events\Default Work Unit\VI_Cymbal01" DurationType="Infinite">
+				<Event Id="3201313006" Name="VI_Cymbal01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Cymbal01" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="38553108" Language="SFX">
 							<ShortName>Track-3-Cymbal.wav</ShortName>
@@ -105,7 +114,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3546710381" Name="VI_SnareDrum01" ObjectPath="\Events\Default Work Unit\VI_SnareDrum01" DurationType="Infinite">
+				<Event Id="3546710381" Name="VI_SnareDrum01" ObjectPath="\Events\Default Work Unit\Instruments\VI_SnareDrum01" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="307837311" Language="SFX">
 							<ShortName>WayTooMuchFunTracks\Track-2-Snare Drum.wav</ShortName>
@@ -113,7 +122,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3584147509" Name="VI_Solo01" ObjectPath="\Events\Default Work Unit\VI_Solo01" DurationType="Infinite">
+				<Event Id="3584147509" Name="VI_Solo01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Solo01" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="889116827" Language="SFX">
 							<ShortName>WayTooMuchFunTracks\Track-6-Solo.wav</ShortName>
