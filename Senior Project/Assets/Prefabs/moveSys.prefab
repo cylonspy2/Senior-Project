@@ -915,7 +915,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0c3f5653dafb20747aeadd49b4db7a74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8439,7 +8439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8658942791726449551
 Transform:
   m_ObjectHideFlags: 0
@@ -8480,6 +8480,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81878b97d626594099eafa02344cfea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpawnManager: {fileID: 0}
+  spawnKey: 0
+  countDown: 0
   isGridPlace: 0
   cursorVisualise: {fileID: 0}
   gridTargets: []
@@ -21541,7 +21544,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8206415303835094075
 Transform:
   m_ObjectHideFlags: 0
@@ -21583,6 +21586,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e81878b97d626594099eafa02344cfea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpawnManager: {fileID: 0}
+  spawnKey: 0
+  countDown: 0
   isGridPlace: 1
   cursorVisualise: {fileID: 0}
   gridTargets:
