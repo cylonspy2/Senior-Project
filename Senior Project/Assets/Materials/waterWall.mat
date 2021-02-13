@@ -13,7 +13,7 @@ Material:
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -48,6 +48,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_A6F8E76B_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 34efce77e014feb459960f32b6f343a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -55,7 +59,12 @@ Material:
     m_Floats:
     - Vector1_143BC8DE: 0
     - Vector1_659EF215: 0
-    - Vector1_F86ACA32: 0.79
+    - Vector1_943997B8: 0.06
+    - Vector1_B775E33B: 0.01
+    - Vector1_DEEEB50F: 0.1
+    - Vector1_EC8074CE: 0.5
+    - Vector1_F86ACA32: 1
+    - Vector1_FEA085C9: 0.01
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1

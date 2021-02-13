@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ec2cbc375126fe48966429feb8315684
     GuidInternal: 
-    m_lastTime: -8585891009774671793
+    m_lastTime: -8585883650317665946
     List:
     - name: Main
       guid: 2ec9be35af3d224c9c5182e6a850ee7e
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 80e1366bd3871a4399f98f538d3d53b4
     GuidInternal: 
-    m_lastTime: -8585891009782797416
+    m_lastTime: -8585883650323018923
     List:
     - name: Game_Start_Event
       guid: 442dca91a0f4094683b67affde0f3626
@@ -82,15 +82,167 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Instruments
+      guid: c3da5cfba29e4844a367e9ccc8c62ea9
+      id: 559901361
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 4
+      Path: Default Work Unit\Instruments
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: reset_All
+      guid: 2b67b582a7a1ec41bd80021f46de413f
+      id: 2081023666
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      - ElementName: reset_All
+        ObjectType: 3
+      Path: Default Work Unit\Resets\reset_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: reset_Bass01
+      guid: 6beeece692b55841b3c9caf9a14b5258
+      id: 1309399501
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      - ElementName: reset_Bass01
+        ObjectType: 3
+      Path: Default Work Unit\Resets\reset_Bass01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: reset_BassDrum01
+      guid: 302a28176c2c54449d9670faaaeececd
+      id: 365945877
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      - ElementName: reset_BassDrum01
+        ObjectType: 3
+      Path: Default Work Unit\Resets\reset_BassDrum01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: reset_Chords01
+      guid: 00f8b267715a15428ddef31f23432e57
+      id: 1851298689
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      - ElementName: reset_Chords01
+        ObjectType: 3
+      Path: Default Work Unit\Resets\reset_Chords01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: reset_Cowbell01
+      guid: e5e5974f4f1d6a4e820a640cbfc62c10
+      id: 1735431224
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      - ElementName: reset_Cowbell01
+        ObjectType: 3
+      Path: Default Work Unit\Resets\reset_Cowbell01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: reset_Cowbell02
+      guid: 19d9b5d31c3b86448e9460c31b3c9f59
+      id: 1735431227
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      - ElementName: reset_Cowbell02
+        ObjectType: 3
+      Path: Default Work Unit\Resets\reset_Cowbell02
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: reset_Cymbal01
+      guid: 834edfe017b8c24d84210d2f541530c7
+      id: 3773451286
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      - ElementName: reset_Cymbal01
+        ObjectType: 3
+      Path: Default Work Unit\Resets\reset_Cymbal01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: reset_SnareDrum01
+      guid: a5874e83bea3cb4d9fd5da956b2a867a
+      id: 2907261653
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      - ElementName: reset_SnareDrum01
+        ObjectType: 3
+      Path: Default Work Unit\Resets\reset_SnareDrum01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: reset_Solo01
+      guid: 5920d2c954d9f647b4ff0cecd20b7b35
+      id: 2676278653
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      - ElementName: reset_Solo01
+        ObjectType: 3
+      Path: Default Work Unit\Resets\reset_Solo01
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Resets
+      guid: 74e9eb490f0a8c46ac4d8ef10cf92b95
+      id: 804838205
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      Path: Default Work Unit\Resets
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Bass01
       guid: b11091d5f350cb4b9ec5016ba460282d
       id: 1566012757
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 4
       - ElementName: VI_Bass01
         ObjectType: 3
-      Path: Default Work Unit\VI_Bass01
+      Path: Default Work Unit\Instruments\VI_Bass01
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -100,9 +252,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 4
       - ElementName: VI_BassDrum01
         ObjectType: 3
-      Path: Default Work Unit\VI_BassDrum01
+      Path: Default Work Unit\Instruments\VI_BassDrum01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -112,9 +266,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 4
       - ElementName: VI_Chords01
         ObjectType: 3
-      Path: Default Work Unit\VI_Chords01
+      Path: Default Work Unit\Instruments\VI_Chords01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -124,9 +280,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 4
       - ElementName: VI_Cowbell01
         ObjectType: 3
-      Path: Default Work Unit\VI_Cowbell01
+      Path: Default Work Unit\Instruments\VI_Cowbell01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -136,9 +294,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 4
       - ElementName: VI_Cowbell02
         ObjectType: 3
-      Path: Default Work Unit\VI_Cowbell02
+      Path: Default Work Unit\Instruments\VI_Cowbell02
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -148,9 +308,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 4
       - ElementName: VI_Cymbal01
         ObjectType: 3
-      Path: Default Work Unit\VI_Cymbal01
+      Path: Default Work Unit\Instruments\VI_Cymbal01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -160,9 +322,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 4
       - ElementName: VI_SnareDrum01
         ObjectType: 3
-      Path: Default Work Unit\VI_SnareDrum01
+      Path: Default Work Unit\Instruments\VI_SnareDrum01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -172,9 +336,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 4
       - ElementName: VI_Solo01
         ObjectType: 3
-      Path: Default Work Unit\VI_Solo01
+      Path: Default Work Unit\Instruments\VI_Solo01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
