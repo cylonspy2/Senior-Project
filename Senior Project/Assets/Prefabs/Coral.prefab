@@ -15,12 +15,12 @@ GameObject:
   - component: {fileID: 6357557959393626258}
   - component: {fileID: 2202860606792064157}
   m_Layer: 0
-  m_Name: DecorationPlaceholder
+  m_Name: Coral
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6357557959393626259
 Transform:
   m_ObjectHideFlags: 0
