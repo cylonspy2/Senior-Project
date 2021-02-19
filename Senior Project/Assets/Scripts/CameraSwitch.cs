@@ -5,38 +5,39 @@ using UnityEngine;
 public class CameraSwitch : MonoBehaviour
 {
     public GameObject maincamera;
-    public GameObject sideCamera_1;
-    public GameObject sideCamera_2;
+    public GameObject UI_Bottom;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    public void MainOn()
-    {
-        maincamera.GetComponent<Camera>().enabled = true;
-        sideCamera_1.SetActive(false);
-        sideCamera_2.SetActive(false);
+        if (Input.GetKey(KeyCode.Alpha1))
+        {
+            
+            maincamera.GetComponent<FlyCamera>().enabled = false;
+            maincamera.GetComponent<CameraZoom>().enabled = true;
+            maincamera.GetComponent<moving>().enabled = true;
 
-    }
-    public void Side1On()
-    {
-        maincamera.GetComponent<Camera>().enabled = false;
-        sideCamera_1.SetActive(true);
-        sideCamera_2.SetActive(false);
+            UI_Bottom.SetActive(true);
 
-    }
-    public void Side2On()
-    {
-        maincamera.GetComponent<Camera>().enabled = false;
-        sideCamera_1.SetActive(false);
-        sideCamera_2.SetActive(true);
+            
 
+        }
+
+        if (Input.GetKey(KeyCode.Alpha2))
+        {
+            maincamera.GetComponent<FlyCamera>().enabled = true;
+            maincamera.GetComponent<CameraZoom>().enabled = false;
+            maincamera.GetComponent<moving>().enabled = false;
+
+            UI_Bottom.SetActive(false);
+        }
     }
+    
+
 }
+    

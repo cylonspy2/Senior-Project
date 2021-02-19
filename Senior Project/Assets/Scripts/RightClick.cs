@@ -8,6 +8,7 @@ public class RightClick : MonoBehaviour, IPointerClickHandler
 {
     public GameObject image1;
     public GameObject image2;
+    
 
     public GameObject deletedUI;
     // Start is called before the first frame update
@@ -26,10 +27,13 @@ public class RightClick : MonoBehaviour, IPointerClickHandler
             image1.GetComponent<Image>().color = new Color(255, 255, 255, 0.2f);
             image2.GetComponent<Image>().color = new Color(255, 255, 255, 0.2f);
         }
+        
         if (eventData.button == PointerEventData.InputButton.Left)
         {
             image1.GetComponent<Image>().color = new Color(255, 255, 255, 1f);
             image2.GetComponent<Image>().color = new Color(255, 255, 255, 1f);
         }
     }
+    
+        
 }
