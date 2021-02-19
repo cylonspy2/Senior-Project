@@ -36,8 +36,7 @@ public class Overlord_Music : MonoBehaviour
 
     void OnDisable()
     {
-        disableMusic = "reset_" + selectedMusic;
-        AkSoundEngine.PostEvent(disableMusic, gameObject);
+        AkSoundEngine.PostEvent("reset_All", gameObject);
         Debug.Log("PrintOnDisable: script was disabled");
     }
 

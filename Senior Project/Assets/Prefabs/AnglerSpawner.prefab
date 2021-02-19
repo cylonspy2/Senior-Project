@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 9205683114194142766}
   - component: {fileID: 732742636077046233}
   - component: {fileID: -3254459007486830314}
+  - component: {fileID: -447816369896247729}
   m_Layer: 0
   m_Name: AnglerSpawner
   m_TagString: Fish1
@@ -146,11 +147,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9205683114194142754}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62728dd9fc456414d984d70278fa0967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-447816369896247729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9205683114194142754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bf9b2679e710b04f8cc56e80f360503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meta: {fileID: 0}
+  selectedMusic: VI_Chords01
 --- !u!1001 &8718940567350712154
 PrefabInstance:
   m_ObjectHideFlags: 0
