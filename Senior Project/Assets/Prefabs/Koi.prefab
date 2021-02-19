@@ -5098,7 +5098,7 @@ PrefabInstance:
     - target: {fileID: 9205683114194142754, guid: 5b81d3057ec3d494392efac7e49c35e8,
         type: 3}
       propertyPath: m_Name
-      value: KoiModel
+      value: Koi
       objectReference: {fileID: 0}
     - target: {fileID: 9205683114194142764, guid: 5b81d3057ec3d494392efac7e49c35e8,
         type: 3}
@@ -5163,17 +5163,17 @@ PrefabInstance:
     - target: {fileID: 9205683114194142766, guid: 5b81d3057ec3d494392efac7e49c35e8,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.51285
+      value: 0.7400938
       objectReference: {fileID: 0}
     - target: {fileID: 9205683114194142766, guid: 5b81d3057ec3d494392efac7e49c35e8,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.51285
+      value: 0.7400938
       objectReference: {fileID: 0}
     - target: {fileID: 9205683114194142766, guid: 5b81d3057ec3d494392efac7e49c35e8,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.51285
+      value: 0.7400938
       objectReference: {fileID: 0}
     - target: {fileID: 9205683114194142767, guid: 5b81d3057ec3d494392efac7e49c35e8,
         type: 3}

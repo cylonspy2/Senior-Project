@@ -44,14 +44,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56921b57bce357142a13690308e68bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
   rotateSpeed: 0
-  timerForNewPos: 3
+  timerForNewPos: 10
   visionDistance: 0
   rb: {fileID: 5812107610697039573}
-  xa: 70
-  ya: 40
-  za: 70
+  xa: 110
+  ya: 110
+  za: 110
 --- !u!54 &5812107610697039573
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 4758400214547008474}
   - component: {fileID: 7897813720171681530}
   m_Layer: 0
-  m_Name: FishProtoBoidSingle
+  m_Name: KoiSpawner
   m_TagString: Fish1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
   boidParent: {fileID: 9205683114194142754}
   _target: {fileID: 3609961581493566078}
   Boid: {fileID: 5011327565069986045, guid: fc37614181cf4c3448437231de9da0d0, type: 3}
-  speed: 1.23
+  speed: 0.96
   rotSpeed: 1
   avoidRange: 1.22
   sightRange: 2.75
@@ -201,3 +201,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de8958c5042d7cc4cbaedb46ee8a49d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meta: {fileID: 0}
