@@ -1,6 +1,279 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8C531608-646D-4959-A33B-0814F5B202F7}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{8C531608-646D-4959-A33B-0814F5B202F7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8C531608-646D-4959-A33B-0814F5B202F7}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="music_Actor_Mixer" ID="{EA489583-C8C2-4441-B367-916510AECDEB}" ShortID="591507439">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{10DC0665-9CD8-493D-BA90-E76193773906}" ShortID="680916011">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{66512336-4460-40FD-B4E3-4483B33C6737}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{467E15E7-C2F1-44D9-9A5F-2C62456B0A59}" ShortID="774493077">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{48CA487C-7383-41F2-B874-B9183AADD75D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BassDrum01" ID="{37741A7F-0AA3-407C-8A39-BAF6238CD300}" ShortID="49298849">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Track-1-Bass Drum" ID="{13A0F563-AD79-429C-8016-2E342ABF7EFA}">
+									<Language>SFX</Language>
+									<AudioFile>Track-1-Bass Drum.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="812095860"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Track-1-Bass Drum" ID="{13A0F563-AD79-429C-8016-2E342ABF7EFA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SnareDrum01" ID="{043ADA34-0CFD-4135-9162-83EC7A4D5432}" ShortID="69193490">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Track-2-Snare Drum" ID="{7A375FEB-AE71-474C-95C5-E7294E53FDDE}">
+									<Language>SFX</Language>
+									<AudioFile>Track-2-Snare Drum.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="58300401"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Track-2-Snare Drum" ID="{7A375FEB-AE71-474C-95C5-E7294E53FDDE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cymbal01" ID="{1D7E0439-C79D-4817-B179-4863F44649D8}" ShortID="785975528">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Track-3-Cymbal" ID="{01729A74-F159-4B97-B363-72804859A796}">
+									<Language>SFX</Language>
+									<AudioFile>Track-3-Cymbal.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="38553108"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Track-3-Cymbal" ID="{01729A74-F159-4B97-B363-72804859A796}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bass01" ID="{F35057B6-1276-439D-A3A8-1A6DD2113A41}" ShortID="607783519">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Track-4-Bass" ID="{9DB1A021-D685-4752-851B-19ADBE537668}">
+									<Language>SFX</Language>
+									<AudioFile>Track-4-Bass.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="25700626"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Track-4-Bass" ID="{9DB1A021-D685-4752-851B-19ADBE537668}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Chords01" ID="{214F79FC-6A5F-493C-963E-16E80011FA04}" ShortID="786519887">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Track-5-Chords" ID="{DE6FF483-13A6-41D6-891A-92DACAD7E46C}">
+									<Language>SFX</Language>
+									<AudioFile>Track-5-Chords.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="256753979"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Track-5-Chords" ID="{DE6FF483-13A6-41D6-891A-92DACAD7E46C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Solo01" ID="{EFF00F73-B098-4B14-BFBA-A0BC65548995}" ShortID="1043455865">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Track-6-Solo" ID="{CED86BA6-7DBB-4374-905B-90F29EE09060}">
+									<Language>SFX</Language>
+									<AudioFile>Track-6-Solo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="131098360"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Track-6-Solo" ID="{CED86BA6-7DBB-4374-905B-90F29EE09060}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cowbell01" ID="{0052AF9C-DB88-4A7A-9B9E-B19BE711473D}" ShortID="749480734">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Track-7-Cowbell" ID="{A5F1C309-638D-45C3-97C7-3AA2973973C7}">
+									<Language>SFX</Language>
+									<AudioFile>Track-7-Cowbell.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="739007233"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Track-7-Cowbell" ID="{A5F1C309-638D-45C3-97C7-3AA2973973C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cowbell02" ID="{37308239-B299-4C44-8D47-5B45BC9A8D20}" ShortID="882567249">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Track-8-MOAR COWBELL" ID="{755E5697-A1D3-492B-9029-FF1C2980A352}">
+									<Language>SFX</Language>
+									<AudioFile>Track-8-MOAR COWBELL.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="9502657"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Track-8-MOAR COWBELL" ID="{755E5697-A1D3-492B-9029-FF1C2980A352}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
