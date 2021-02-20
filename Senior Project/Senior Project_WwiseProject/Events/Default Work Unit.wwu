@@ -21,7 +21,7 @@
 								<Action Name="" ID="{52473BB3-D9A1-4DD5-8D34-55D7A2C73930}" ShortID="197476824">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Chords01" ID="{141A4BD9-05AA-450C-920E-8DD045A50AFC}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+											<ObjectRef Name="Chords01" ID="{214F79FC-6A5F-493C-963E-16E80011FA04}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -32,7 +32,7 @@
 								<Action Name="" ID="{76D50B5B-6F31-4A33-83F5-9E33579CD240}" ShortID="231020576">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Cymbal01" ID="{9022C97F-27D1-44B5-83E9-A6EFC0120366}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+											<ObjectRef Name="Cymbal01" ID="{1D7E0439-C79D-4817-B179-4863F44649D8}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -43,7 +43,7 @@
 								<Action Name="" ID="{4D14C0C9-B26D-46BB-843B-42033A63D416}" ShortID="298880228">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Cowbell01" ID="{C65C70DE-EE2B-4C6D-91C7-D04B0833AA24}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+											<ObjectRef Name="Cowbell01" ID="{0052AF9C-DB88-4A7A-9B9E-B19BE711473D}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -54,7 +54,7 @@
 								<Action Name="" ID="{4EA42D90-43B3-4AEB-A5CE-5300FD8F74FF}" ShortID="20126928">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Bass01" ID="{83169D9A-403B-4C92-825E-2A464A9A358C}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+											<ObjectRef Name="Bass01" ID="{F35057B6-1276-439D-A3A8-1A6DD2113A41}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -65,7 +65,7 @@
 								<Action Name="" ID="{CE0DADED-E1F5-462F-BC4C-1BB7C2A46C2E}" ShortID="478821119">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SnareDrum01" ID="{C8813104-D775-4FC4-A602-0379C0A06BA0}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+											<ObjectRef Name="SnareDrum01" ID="{043ADA34-0CFD-4135-9162-83EC7A4D5432}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -76,7 +76,7 @@
 								<Action Name="" ID="{00D679BE-9060-4A25-AB23-0F26D87F4101}" ShortID="312603015">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BassDrum01" ID="{F08A70B5-03D4-4EFC-8D71-73B7291C697A}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+											<ObjectRef Name="BassDrum01" ID="{37741A7F-0AA3-407C-8A39-BAF6238CD300}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -87,7 +87,7 @@
 								<Action Name="" ID="{7B5650FC-514A-430E-9822-8D4A22201DC7}" ShortID="640251107">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Solo01" ID="{7B02C058-0D22-480C-828F-8353E38B441B}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+											<ObjectRef Name="Solo01" ID="{EFF00F73-B098-4B14-BFBA-A0BC65548995}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -98,7 +98,7 @@
 								<Action Name="" ID="{16B1D651-E57D-4554-91BB-183470C68706}" ShortID="929429352">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Cowbell02" ID="{5F045903-BBFF-460A-8A1F-F329C0BA2376}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+											<ObjectRef Name="Cowbell02" ID="{37308239-B299-4C44-8D47-5B45BC9A8D20}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

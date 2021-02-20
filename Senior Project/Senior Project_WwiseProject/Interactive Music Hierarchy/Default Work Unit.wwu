@@ -1316,6 +1316,8 @@
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Solo01" ID="{7B02C058-0D22-480C-828F-8353E38B441B}" ShortID="109619644">
 							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{C79AEA2E-B1CC-4E5C-A62D-53AC2DB3F1E0}" ShortID="213720168">
@@ -1370,6 +1372,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
 								</Reference>
@@ -1441,6 +1446,9 @@
 									</CueList>
 								</MusicSegment>
 							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{98BD51B6-3329-4719-AFBD-F60E69E1E115}"/>
+							</PositioningInfo>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{2F149E0B-F5FE-45B6-813D-8A4CB70FD632}">
 									<PropertyList>
