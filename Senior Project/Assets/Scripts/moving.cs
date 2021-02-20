@@ -11,12 +11,19 @@ public class moving : MonoBehaviour
     public KeyCode mouseMov;
     public bool Mov;
     private Vector3 previousPos;
+    private Quaternion prevCamRot;
+    private Vector3 prevCamPos;
+
+    public bool isFollowing;
+
+    public KeyCode followMov;
+    public gridPlaceScript selectMov;
     // Start is called before the first frame update
 
-    
+
     void Start()
     {
-        
+        isFollowing = false;
     }
 
     // Update is called once per frame
@@ -28,7 +35,35 @@ public class moving : MonoBehaviour
             {
                 previousPos = cam.ScreenToViewportPoint(Input.mousePosition);
             }
-            if (Input.GetKey(mouseMov))
+            if (Input.GetKeyDown(followMov))
+            {
+                isFollowing = true;
+                Debug.Log("CamAcknowledgingTarget");
+                prevCamRot = cam.transform.rotation;
+                prevCamPos = cam.transform.position;
+            }
+            else if(Input.GetKey(followMov))
+            {
+                Debug.Log("CamFollowingTarget");
+                switch(selectMov.choice)
+                {
+                    case 0:
+                        cam.transform.LookAt(selectMov.selectedPhish.transform.position);
+                        break;
+                    case 1:
+                        cam.transform.LookAt(selectMov.selectedObj.transform.position);
+                        break;
+                }
+            }
+            else if(Input.GetKeyUp(followMov))
+            {
+                isFollowing = false;
+                Debug.Log("CamResettingCamera");
+                cam.transform.position = prevCamPos;
+                cam.transform.rotation = prevCamRot;
+
+            }
+            else if (Input.GetKey(mouseMov))
             {
                 Vector3 direction = previousPos - cam.ScreenToViewportPoint(Input.mousePosition);
 

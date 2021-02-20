@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3334080304718205099}
   - component: {fileID: -5302732154799723887}
   - component: {fileID: 7509457161790262372}
+  - component: {fileID: 2133141952}
+  - component: {fileID: 2133141953}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -70,3 +72,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tick: 1
+--- !u!114 &2133141952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3334080304718205092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81878b97d626594099eafa02344cfea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnManager: {fileID: 0}
+  spawnKey: 323
+  targetKey: 323
+  deleteKey: 32
+  countDown: 4
+  isGridPlace: 0
+  cursorVisualise: {fileID: 0}
+  gridTargets: []
+  freePlaceFloor: {fileID: 0}
+  choice: 0
+  selectedObj: {fileID: 0}
+  selectedPhish: {fileID: 0}
+  selectedPhishMaster: {fileID: 0}
+--- !u!114 &2133141953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3334080304718205092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401dd417f3392914aad41e861e7ae2db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maincamera: {fileID: 0}
+  UI_Bottom: {fileID: 0}

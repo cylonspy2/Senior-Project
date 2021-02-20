@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 6357557959393626258}
   - component: {fileID: 2202860606792064157}
   m_Layer: 0
-  m_Name: DecorationPlaceholder
-  m_TagString: Untagged
+  m_Name: Metronome
+  m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
