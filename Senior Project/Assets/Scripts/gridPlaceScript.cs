@@ -6,6 +6,8 @@ public class gridPlaceScript : MonoBehaviour
 {
     public SpawnDecoration SpawnManager;
     public KeyCode spawnKey;
+    public KeyCode targetKey;
+    public KeyCode deleteKey;
     public float countDown;
     float currCountDown;
 
@@ -15,6 +17,14 @@ public class gridPlaceScript : MonoBehaviour
     public GameObject[] gridTargets;
     public GameObject freePlaceFloor;
 
+    [HideInInspector]
+    public int choice;
+    [HideInInspector]
+    public GameObject selectedObj;
+    [HideInInspector]
+    public GameObject selectedPhish;
+    [HideInInspector]
+    public GameObject selectedPhishMaster;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +42,6 @@ public class gridPlaceScript : MonoBehaviour
 
         if (isGridPlace)
         {
-            GameObject selectedTarget;
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             int layerMask = 1 << 4;
@@ -70,7 +79,25 @@ public class gridPlaceScript : MonoBehaviour
             layerMask = ~layerMask;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
-                if (hit.transform == freePlaceFloor.transform)
+                if(hit.transform.gameObject.tag == "Fish1" && Input.GetKeyDown(targetKey))
+                {
+                    GameObject phish = hit.transform.gameObject;
+                    GameObject phishMaster = phish.transform.parent.gameObject;
+
+                    Debug.Log("FIIIIIISH");
+
+                    selectedPhish = phish;
+                    selectedPhishMaster = phishMaster;
+                    choice = 0;
+                }
+                else if (hit.transform.gameObject.tag == "Prop" && Input.GetKeyDown(targetKey))
+                {
+                    GameObject OObj = hit.transform.gameObject;
+
+                    selectedObj = OObj;
+                    choice = 1;
+                }
+                else if (hit.transform == freePlaceFloor.transform)
                 {
                     cursorVisualise.SetActive(true);
                     if (cursorVisualise != null)
@@ -87,6 +114,21 @@ public class gridPlaceScript : MonoBehaviour
             else
             {
                 cursorVisualise.SetActive(false);
+            }
+
+            if (Input.GetKeyDown(deleteKey))
+            {
+                Debug.Log("RemovingTargettedThing");
+                switch (choice)
+                {
+                    case 0:
+                        Destroy(selectedPhishMaster);
+                        break;
+
+                    case 1:
+                        Destroy(selectedObj);
+                        break;
+                }
             }
         }
     }

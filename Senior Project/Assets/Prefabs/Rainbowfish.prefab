@@ -5088,6 +5088,19 @@ MonoBehaviour:
   rotationPercentage: 0.96
   separationProximity: 0.5
   neighbourDetectRadius: 2
+--- !u!135 &1653980541916596590
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5011327565069986045}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.48
+  m_Center: {x: 0, y: 0.022520646, z: -0.2529062}
 --- !u!1001 &4200424527194500831
 PrefabInstance:
   m_ObjectHideFlags: 0
