@@ -44,6 +44,7 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}"/>
+				<GameParameter Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

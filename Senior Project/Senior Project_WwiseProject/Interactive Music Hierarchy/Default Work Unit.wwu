@@ -719,6 +719,30 @@
 												</PointList>
 											</Curve>
 										</RTPC>
+										<RTPC Name="" ID="{65A8D37A-51B4-4B62-8284-10E484D6F0C3}" ShortID="867663009">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{795C1780-86E1-49C2-890D-04C5241361A8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 									</RTPCList>
 								</Property>
 							</PropertyList>
@@ -827,6 +851,30 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
+										<RTPC Name="" ID="{B61D769A-56B2-4EF8-BD61-DB3CB90092B3}" ShortID="343760047">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B7BEFCAC-D991-4081-BDF1-81FD005622CA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 										<RTPC Name="" ID="{30B275B7-6A8A-413E-B3F4-8BBF458A89DB}" ShortID="441798610">
 											<ReferenceList>
 												<Reference Name="ControlInput">
@@ -959,6 +1007,30 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
+										<RTPC Name="" ID="{3DF0B44E-EAA1-4FD2-9F5B-ECD77016AAB0}" ShortID="261878758">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0A28F5D0-B9E7-496E-A34A-16CF8A49D0F5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 										<RTPC Name="" ID="{B91643A4-8B82-4953-8065-854DD24BDFF5}" ShortID="756245207">
 											<ReferenceList>
 												<Reference Name="ControlInput">
@@ -1114,6 +1186,30 @@
 												</PointList>
 											</Curve>
 										</RTPC>
+										<RTPC Name="" ID="{432BC0F8-A68B-4145-8C44-DA951C9FD3CF}" ShortID="732795523">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{BD8DD283-5E6B-4F7B-A9ED-A961BAF8B786}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 									</RTPCList>
 								</Property>
 							</PropertyList>
@@ -1246,6 +1342,30 @@
 												</PointList>
 											</Curve>
 										</RTPC>
+										<RTPC Name="" ID="{75025E39-6978-4564-9E50-22DCC943BD9B}" ShortID="184084482">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{160A8E22-B95A-429F-B0A5-1DB6ECF83F41}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 									</RTPCList>
 								</Property>
 							</PropertyList>
@@ -1354,6 +1474,30 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
+										<RTPC Name="" ID="{9428029D-B715-4F7E-BBF6-43F5123AB09B}" ShortID="922687551">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6F804CC1-66EE-4609-AAAD-3FA517AA601A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 										<RTPC Name="" ID="{F2C72CFA-C86E-4D12-A82F-0771CAE5BB04}" ShortID="1001545147">
 											<ReferenceList>
 												<Reference Name="ControlInput">
@@ -1510,6 +1654,30 @@
 												</PointList>
 											</Curve>
 										</RTPC>
+										<RTPC Name="" ID="{0D7822D0-32D2-4508-A971-6ABF3836E04B}" ShortID="698481170">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B68463D5-FD09-413C-B431-A22A778B08A8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 									</RTPCList>
 								</Property>
 							</PropertyList>
@@ -1618,6 +1786,30 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
+										<RTPC Name="" ID="{BCA9D83F-BB46-4A65-BF62-6BCC504FC260}" ShortID="988771246">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B14A07FD-0D49-4134-96C0-DD508FE19952}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 										<RTPC Name="" ID="{33F0845C-251A-4DC5-8AE3-0D78AA236295}" ShortID="791610848">
 											<ReferenceList>
 												<Reference Name="ControlInput">
