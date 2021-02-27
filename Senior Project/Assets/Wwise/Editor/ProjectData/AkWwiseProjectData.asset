@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 27fe401bcb0e8244bcc29e51e273e8ab
     GuidInternal: 
-    m_lastTime: -8585902755038761465
+    m_lastTime: -8585894773870796851
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: acd53ee086b4714babbbe56116590036
     GuidInternal: 
-    m_lastTime: -8585902755039121785
+    m_lastTime: -8585894773897010614
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ec2cbc375126fe48966429feb8315684
     GuidInternal: 
-    m_lastTime: -8585881673604700604
+    m_lastTime: -8585878914937555539
     List:
     - name: Main
       guid: 2ec9be35af3d224c9c5182e6a850ee7e
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 80e1366bd3871a4399f98f538d3d53b4
     GuidInternal: 
-    m_lastTime: -8585881673608078033
+    m_lastTime: -8585872513648114233
     List:
     - name: Game_Start_Event
       guid: 442dca91a0f4094683b67affde0f3626
@@ -243,9 +243,9 @@ MonoBehaviour:
       - ElementName: VI_Bass01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Bass01
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: VI_BassDrum01
       guid: 2a4406eb549ea143bbc69364a0446d74
       id: 3991181389
@@ -257,7 +257,7 @@ MonoBehaviour:
       - ElementName: VI_BassDrum01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_BassDrum01
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: VI_Chords01
@@ -271,7 +271,7 @@ MonoBehaviour:
       - ElementName: VI_Chords01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Chords01
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: VI_Cowbell01
@@ -285,7 +285,7 @@ MonoBehaviour:
       - ElementName: VI_Cowbell01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Cowbell01
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: VI_Cowbell02
@@ -299,7 +299,7 @@ MonoBehaviour:
       - ElementName: VI_Cowbell02
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Cowbell02
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: VI_Cymbal01
@@ -313,7 +313,7 @@ MonoBehaviour:
       - ElementName: VI_Cymbal01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Cymbal01
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: VI_SnareDrum01
@@ -327,7 +327,7 @@ MonoBehaviour:
       - ElementName: VI_SnareDrum01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_SnareDrum01
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: VI_Solo01
@@ -341,7 +341,7 @@ MonoBehaviour:
       - ElementName: VI_Solo01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Solo01
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
@@ -352,7 +352,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b1b4cfd5b14df047a3103bda34ef8a11
     GuidInternal: 
-    m_lastTime: -8585891009782797416
+    m_lastTime: -8585872513648104280
     List:
     - name: Controller_Bass
       guid: 64791142e64d48478dc0bf42a593b737
@@ -426,6 +426,15 @@ MonoBehaviour:
       - ElementName: Controller_Solo
         ObjectType: 13
       Path: Default Work Unit\Controller_Solo
+    - name: Master_Volume_Control
+      guid: 774a1769cc411f409995d190c01493df
+      id: 2232728930
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master_Volume_Control
+        ObjectType: 13
+      Path: Default Work Unit\Master_Volume_Control
     - name: Volume_Control
       guid: d1b266cf7a177e4382a1dbffa602971b
       id: 4194816893
@@ -443,7 +452,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7d2bcb2622a41e468029b0c87fef008c
     GuidInternal: 
-    m_lastTime: -8585902755038771473
+    m_lastTime: -8585894773870806680
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -453,7 +462,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5a2e430526e78740b2a9bad5abec5f2f
     GuidInternal: 
-    m_lastTime: -8585902755038771473
+    m_lastTime: -8585894773870796851
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -463,7 +472,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3a51e36ee5a7464e8a590137a34066e4
     GuidInternal: 
-    m_lastTime: -8585902755038771473
+    m_lastTime: -8585894773870796851
     List: []
   ExpandedItems:
   - /Senior Project_WwiseProject

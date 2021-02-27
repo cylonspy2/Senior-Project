@@ -10,14 +10,16 @@ public class MovementTwo : MonoBehaviour
 {
     public float speed;
     public float rotateSpeed;
-    public float timerForNewPos;
+    static public float timerForNewPos = 5f;
     public float visionDistance;
     public Rigidbody rb;
     bool InCoRoutine;
-    Vector3 target;
+    public Vector3 target;
+    static public Vector3 allTarget;
     public float xa;
     public float ya;
     public float za;
+    public float targetTime = 5f;
 
     // Start is called before the first frame update
     void Start()
@@ -41,18 +43,28 @@ public class MovementTwo : MonoBehaviour
 
     IEnumerator Coroutine()
     {
-        InCoRoutine = true;
-        yield return new WaitForSeconds(timerForNewPos);
-        // get the new path
-        getNewPath();
-        
+        while(true){
+            InCoRoutine = true;
+            print("timerForNewPos = " + timerForNewPos);
+            if (timerForNewPos < 0f) {
+                target = allTarget;
+                setNewPath();
+                yield return new WaitForSeconds(targetTime);
+                timerForNewPos = 5f;
+            } else {
+                yield return new WaitForSeconds(timerForNewPos);
+                target = getNewRandomPosition();
+                // get the new path
+                setNewPath();
+            }
+        }
         InCoRoutine = false;
 
     }
 
-    void getNewPath()
+    void setNewPath()
     {
-        target = getNewRandomPosition();
+        //target = getNewRandomPosition();
         rb.velocity = (target - transform.position).normalized*speed;
         rb.transform.LookAt(target);
 
