@@ -20,6 +20,9 @@ public class MovementTwo : MonoBehaviour
     public float ya;
     public float za;
     public float targetTime = 5f;
+    static public bool repel;
+    private float minRange = 5f;
+    private float distanceToTarget;
 
     // Start is called before the first frame update
     void Start()
@@ -46,19 +49,32 @@ public class MovementTwo : MonoBehaviour
         while(true){
             InCoRoutine = true;
             print("timerForNewPos = " + timerForNewPos);
-            if (timerForNewPos < 0f) {
+            if (timerForNewPos < 0f) { //if food in tank go to food
                 target = allTarget;
                 setNewPath();
                 yield return new WaitForSeconds(targetTime);
-                timerForNewPos = 5f;
-            } else {
+                timerForNewPos = targetTime;
+            } else if (repel == true) { //if repel avoid the object
+                print("Repel is set to = " + repel);
+                target = getNewRandomPosition();
+                distanceToTarget = Vector3.Distance(target, allTarget);
+                bool tooClose = distanceToTarget < minRange;
+                yield return new WaitForSeconds(targetTime);
+                if (tooClose != true) {
+                    setNewPath();
+                } else { // behave normally
+                    yield return new WaitForSeconds(timerForNewPos);
+                    target = getNewRandomPosition();
+                    setNewPath();
+                }
+            } else { //if anything else just do normal behavior
                 yield return new WaitForSeconds(timerForNewPos);
                 target = getNewRandomPosition();
                 // get the new path
                 setNewPath();
             }
         }
-        InCoRoutine = false;
+        //InCoRoutine = false;
 
     }
 
