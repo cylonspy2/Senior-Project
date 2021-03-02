@@ -21,6 +21,11 @@ public class FlyCamera : MonoBehaviour
     private Vector3 lastMouse = new Vector3(255, 255, 255); //kind of in the middle of the screen, rather than at the top (play)
     private float totalRun = 1.0f;
 
+    void Start()
+    {
+        lastMouse = Input.mousePosition;
+    }
+
     void Update()
     {
         lastMouse = Input.mousePosition - lastMouse;
@@ -31,7 +36,6 @@ public class FlyCamera : MonoBehaviour
         //Mouse  camera angle done.  
 
         //Keyboard commands
-        float f = 0.0f;
         Vector3 p = GetBaseInput();
         if (Input.GetKey(KeyCode.LeftShift))
         {
