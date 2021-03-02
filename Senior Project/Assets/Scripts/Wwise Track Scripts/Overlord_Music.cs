@@ -38,8 +38,10 @@ public class Overlord_Music : MonoBehaviour
     void OnDisable()
     {
         music = selectedMusic.Split('_');
-        //disableMusic = "\"reset_" + music[1] + "\"";
-        disableMusic = "reset_" + music[1];
+        //This is with quotes around the disableMusic
+        disableMusic = "\"reset_" + music[1] + "\"";
+        //This is without quotes
+        //disableMusic = "reset_" + music[1];
         print(disableMusic);
         AkSoundEngine.ExecuteActionOnEvent(disableMusic, 0, gameObject);
         Debug.Log("PrintOnDisable: script " + music[1] + " was disabled");
