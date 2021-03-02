@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class MetronomeScript : MonoBehaviour
 {
-    float count = 0.5f;
+    public float count = 0.49f;
     public bool Tick = true;
-    float baka = 0;
+    public float baka = 0f;
+    public float tickGap = 0.01f;
 
     // Start is called before the first frame update
     void Start()
@@ -16,17 +17,19 @@ public class MetronomeScript : MonoBehaviour
 
     void Update()
     {
-        if(baka <= 0f){
+        baka = baka - Time.deltaTime;
+        if (baka <= 0f){
             Tick = true;
-            baka = count;
         }
         else
             {
         Tick = false;
         }
 
-        baka = baka - Time.deltaTime; 
-
+        if(baka <= count - (count + tickGap))
+        {
+            baka = count;
+        }
     }
 
 

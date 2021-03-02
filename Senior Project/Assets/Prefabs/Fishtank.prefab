@@ -19805,6 +19805,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6370725112675190268, guid: 24d50c1e56c370a49a94902627779844,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6370725112675190268, guid: 24d50c1e56c370a49a94902627779844,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6588739658120002058, guid: 24d50c1e56c370a49a94902627779844,
         type: 3}
       propertyPath: m_RootOrder
