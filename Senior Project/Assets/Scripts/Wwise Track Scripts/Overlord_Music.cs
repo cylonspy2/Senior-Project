@@ -16,7 +16,6 @@ public class Overlord_Music : MonoBehaviour
     public MetronomeScript meta;
     bool hasStarted = false;
     public string selectedMusic;
-    string disableMusic;
 
     void Start()
     {
@@ -36,8 +35,8 @@ public class Overlord_Music : MonoBehaviour
 
     void OnDisable()
     {
-        AkSoundEngine.PostEvent("reset_All", gameObject);
-        Debug.Log("PrintOnDisable: script was disabled");
+        AkSoundEngine.ExecuteActionOnEvent(selectedMusic, 0, gameObject);
+        Debug.Log("PrintOnDisable: script " + selectedMusic + " was disabled");
     }
 
 }
