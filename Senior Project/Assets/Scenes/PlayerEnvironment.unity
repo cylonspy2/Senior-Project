@@ -4216,7 +4216,7 @@ MonoBehaviour:
   subMerse: {fileID: 242719830}
   camControl: {fileID: 963194225}
   camRoot: {fileID: 242719829}
-  mainSpeed: 100
+  mainSpeed: 40
   mainRotMult: 0.25
   camSens: 0.25
   camClamp: {x: 60, y: 60}

@@ -35,7 +35,7 @@ public class submerseScript : MonoBehaviour
 
         lastMouse = Input.mousePosition - lastMouse;
         lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
-        //lastMouse = new Vector3(Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, camClamp.x, -camClamp.x), Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, camClamp.y, -camClamp.y), 0);
+        //lastMouse = new Vector3(Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, -camClamp.x, camClamp.x), Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, -camClamp.y, camClamp.y), 0);
         lastMouse = new Vector3(camControl.transform.eulerAngles.x + lastMouse.x, camControl.transform.eulerAngles.y + lastMouse.y, 0);
         camControl.transform.eulerAngles = lastMouse;
         lastMouse = Input.mousePosition;
@@ -47,13 +47,13 @@ public class submerseScript : MonoBehaviour
 
 
 
-        subMerse.transform.eulerAngles = new Vector3(subMerse.transform.eulerAngles.x + p.x, subMerse.transform.eulerAngles.y, subMerse.transform.eulerAngles.z);
-
+        subMerse.transform.eulerAngles = new Vector3(subMerse.transform.eulerAngles.x, subMerse.transform.eulerAngles.y + p.x, subMerse.transform.eulerAngles.z);
+        camControl.transform.eulerAngles = new Vector3(camControl.transform.eulerAngles.x, camControl.transform.eulerAngles.y + p.x, camControl.transform.eulerAngles.z);
 
 
         Vector3 q = new Vector3(0, p.y, p.z);
         subMerse.transform.Translate(q);
-        subMerse.transform.position = new Vector3(Mathf.Clamp(subMerse.transform.position.x, subClamp.x, -subClamp.x), Mathf.Clamp(subMerse.transform.position.y, subClamp.y, -subClamp.y), Mathf.Clamp(subMerse.transform.position.z, subClamp.z, -subClamp.z));
+        subMerse.transform.position = new Vector3(Mathf.Clamp(subMerse.transform.position.x, -subClamp.x, subClamp.x), Mathf.Clamp(subMerse.transform.position.y, -subClamp.y, subClamp.y), Mathf.Clamp(subMerse.transform.position.z, -subClamp.z, subClamp.z));
 
     }
 

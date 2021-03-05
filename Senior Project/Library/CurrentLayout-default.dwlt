@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1600
     height: 857
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Console
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -70,10 +70,10 @@ MonoBehaviour:
     y: 30
     width: 1600
     height: 807
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 12003, y: 14042}
+  m_MinSize: {x: 678, y: 342}
+  m_MaxSize: {x: 12003, y: 8042}
   vertical: 0
-  controlID: 112
+  controlID: 22
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -119,14 +119,14 @@ MonoBehaviour:
     y: 536
     width: 1600
     height: 271
-  m_MinSize: {x: 230, y: 271}
-  m_MaxSize: {x: 10000, y: 10021}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 100, y: 121}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 16}
   - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
     y: 0
     width: 1600
     height: 857
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -222,10 +222,10 @@ MonoBehaviour:
     y: 0
     width: 1600
     height: 807
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 12003, y: 14042}
+  m_MinSize: {x: 678, y: 342}
+  m_MaxSize: {x: 12003, y: 8042}
   vertical: 1
-  controlID: 113
+  controlID: 23
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 221}
   m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 114
+  controlID: 24
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -444,21 +444,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Materials
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\rowan\Documents\GitHub\Senior-Project\Senior Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 12240100
-    m_LastClickedID: 74770
-    m_ExpandedIDs: 0000000096420000bc230100be230100c0230100c2230100c4230100c6230100c8230100ca230100cc230100ce230100d0230100d2230100d4230100d6230100d8230100da230100dc230100de230100e0230100e2230100e4230100e6230100e8230100ea230100ec230100ee230100f0230100f2230100
+    m_SelectedIDs: b0250100
+    m_LastClickedID: 75184
+    m_ExpandedIDs: 000000007caf00006c2501006e25010070250100722501007425010076250100782501007a2501007c2501007e25010080250100822501008425010086250100882501008a2501008c2501008e25010090250100922501009425010096250100982501009a2501009c2501009e250100a0250100a2250100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -486,7 +486,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000096420000bc230100be230100c0230100c2230100c4230100c6230100c8230100ca230100cc230100ce230100d0230100d2230100d4230100d6230100d8230100da230100dc230100de230100e0230100e2230100e4230100e6230100e8230100ea230100ec230100ee230100f0230100f2230100
+    m_ExpandedIDs: 000000007caf00006c2501006e25010070250100722501007425010076250100782501007a2501007c2501007e25010080250100822501008425010086250100882501008a2501008c2501008e25010090250100922501009425010096250100982501009a2501009c2501009e250100a0250100a2250100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -571,23 +571,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 20470000
-      m_LastClickedID: 18208
-      m_ExpandedIDs: 60fbffff6a45000088450000d845000088460000a0460000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ea21ffff4ab20000b8b2000068b30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: MetroBeat
-        m_OriginalName: MetroBeat
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -28854
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -687,9 +687,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.1578555, y: -0.09848948, z: 0.015722835, w: -0.9824125}
   m_Size:
-    m_Target: 347.94785
+    m_Target: 303.05695
     speed: 2
-    m_Value: 332.96445
+    m_Value: 303.05695
   m_Ortho:
     m_Target: 0
     speed: 2
