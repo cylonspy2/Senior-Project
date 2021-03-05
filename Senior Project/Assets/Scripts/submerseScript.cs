@@ -10,7 +10,8 @@ public class submerseScript : MonoBehaviour
     public float mainSpeed = 100.0f;
     public float mainRotMult = 0.25f;
     public float camSens = 0.25f;
-    public Vector3 camClamp;
+    public Vector2 camClamp;
+    public Vector3 subClamp;
 
     public KeyCode forward;
     public KeyCode leftTurn;
@@ -34,17 +35,24 @@ public class submerseScript : MonoBehaviour
 
         lastMouse = Input.mousePosition - lastMouse;
         lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
-        lastMouse = new Vector3(camControl.transform.eulerAngles.x + lastMouse.x, camControl.transform.eulerAngles.y + lastMouse.y, 0);
+        lastMouse = new Vector3(Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, camClamp.x, -camClamp.x), Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, camClamp.y, -camClamp.y), 0);
         camControl.transform.eulerAngles = lastMouse;
         lastMouse = Input.mousePosition;
+
+
 
         Vector3 p = GetBaseInput();
         p = p * mainSpeed * Time.deltaTime;
 
+
+
         subMerse.transform.eulerAngles = new Vector3(subMerse.transform.eulerAngles.x + p.x, subMerse.transform.eulerAngles.y, subMerse.transform.eulerAngles.z);
+
+
 
         Vector3 q = new Vector3(0, p.y, p.z);
         subMerse.transform.Translate(q);
+        subMerse.transform.position = new Vector3(Mathf.Clamp(subMerse.transform.position.x, subClamp.x, -subClamp.x), Mathf.Clamp(subMerse.transform.position.y, subClamp.y, -subClamp.y), Mathf.Clamp(subMerse.transform.position.z, subClamp.z, -subClamp.z));
 
     }
 

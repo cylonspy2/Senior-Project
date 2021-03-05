@@ -29,7 +29,7 @@ public class gridPlaceScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        currCountDown = countDown;
     }
 
     // Update is called once per frame
@@ -61,6 +61,7 @@ public class gridPlaceScript : MonoBehaviour
                 if (Input.GetKey(spawnKey) && hitt == true && currCountDown <= 0f)
                 {
                     SpawnManager.CreateProp();
+                    currCountDown = countDown;
                 }
             }
             else
@@ -108,6 +109,7 @@ public class gridPlaceScript : MonoBehaviour
                     if (Input.GetKey(spawnKey) && currCountDown <= 0f)
                     {
                         SpawnManager.CreateProp();
+                        currCountDown = countDown;
                     }
                 }
             }
