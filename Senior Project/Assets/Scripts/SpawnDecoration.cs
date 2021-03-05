@@ -7,6 +7,7 @@ public class SpawnDecoration : MonoBehaviour
 {
     public GameObject Cursor;
     public GameObject CurrProp;
+    public float heightAdjust;
 
     // list that holds all created objects - enables deleting all instances
     public List<GameObject> createdObjects = new List<GameObject>();
@@ -29,7 +30,7 @@ public class SpawnDecoration : MonoBehaviour
     {
         if (CurrProp != null)
         {
-            targetPos = Cursor.transform.position;
+            targetPos = new Vector3(Cursor.transform.position.x, Cursor.transform.position.y + heightAdjust, Cursor.transform.position.z);
 
             GameObject go = (GameObject)Instantiate(CurrProp, targetPos, Quaternion.identity);
             createdObjects.Add(go);

@@ -8437,7 +8437,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2133141952, guid: a1f8e841d2b9f4975aecbbccbfb378a0, type: 3}
       propertyPath: countDown
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2133141952, guid: a1f8e841d2b9f4975aecbbccbfb378a0, type: 3}
       propertyPath: deleteKey
@@ -8640,9 +8640,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 20275, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20276, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3394927, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
       propertyPath: cameraRotator
@@ -8718,7 +8722,7 @@ PrefabInstance:
       objectReference: {fileID: 1676520258}
     - target: {fileID: 1307651621, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1378849259, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -8740,9 +8744,13 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2013317034, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2013317035, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2021315115, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
       propertyPath: m_AnchorMax.x
@@ -8770,6 +8778,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1191309480645612104, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: heightAdjust
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6750182262681068532, guid: ca941e2816f434e3e9bf4f34c53ee838,
         type: 3}

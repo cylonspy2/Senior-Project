@@ -35,7 +35,8 @@ public class submerseScript : MonoBehaviour
 
         lastMouse = Input.mousePosition - lastMouse;
         lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
-        lastMouse = new Vector3(Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, camClamp.x, -camClamp.x), Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, camClamp.y, -camClamp.y), 0);
+        //lastMouse = new Vector3(Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, camClamp.x, -camClamp.x), Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, camClamp.y, -camClamp.y), 0);
+        lastMouse = new Vector3(camControl.transform.eulerAngles.x + lastMouse.x, camControl.transform.eulerAngles.y + lastMouse.y, 0);
         camControl.transform.eulerAngles = lastMouse;
         lastMouse = Input.mousePosition;
 
