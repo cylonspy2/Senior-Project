@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// OLD MUSIC WOULD STILL BE AVAILABLE 
 //VI_Cowbell01
 //VI_Cowbell02
 //VI_BassDrum01
@@ -10,6 +10,16 @@ using UnityEngine;
 //VI_Cymbal01
 //VI_SnareDrum01
 //VI_Solo01
+
+// NEW MUSIC 
+// VI_Bass01
+// VI_Bass02
+// VI_Bass03
+// VI_Percussion01
+// VI_Percussion02
+// VI_Percussion03
+// VI_Piano01
+// VI_Piano02
 
 public class Overlord_Music : MonoBehaviour
 {
