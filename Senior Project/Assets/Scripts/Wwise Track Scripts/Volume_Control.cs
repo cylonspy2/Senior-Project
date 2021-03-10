@@ -17,5 +17,6 @@ public class Volume_Control : MonoBehaviour
         pos = transform.position.x + 50;
 
         AkSoundEngine.SetRTPCValue("Volume_Control", pos);
+        Debug.Log("The master volume was set to: " + pos);
     }
 }
