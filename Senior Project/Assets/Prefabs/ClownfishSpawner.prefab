@@ -47,12 +47,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   rotateSpeed: 0
-  timerForNewPos: 10
   visionDistance: 0
   rb: {fileID: 7993792610755800390}
+  target: {x: 0, y: 0, z: 0}
   xa: 110
   ya: 110
   za: 110
+  targetTime: 5
 --- !u!54 &7993792610755800390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -165,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meta: {fileID: 0}
-  selectedMusic: VI_Chords01
+  selectedMusic: VI_Piano02
 --- !u!1001 &8718940567350712154
 PrefabInstance:
   m_ObjectHideFlags: 0
