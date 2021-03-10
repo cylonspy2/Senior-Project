@@ -1,6 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="Pitch" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{4CD38C00-F34F-4924-9599-0424B73B3AAB}" ShortID="205893829">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Pitch_Control" ID="{61592847-FDC7-4C0B-B11F-A0E74917AA08}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{EB4DBA36-8434-49E4-B2C9-77C70061AF6D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-2000</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2000</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Time_Stretch" ID="{86091C41-278A-42A1-A9E1-CFD42259B6C8}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3"/>
+				<Effect Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+					<PropertyList>
+						<Property Name="ReverbTime" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{06C3A20F-EB14-415A-AC2F-EA84AB1218B2}" ShortID="3216683">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Reverb_Control" ID="{4E9222B1-88A5-4C2F-9B6A-098C3BC243B5}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B48525C2-38C1-4C67-A01D-1E33B91ADDCE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.5</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>7</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

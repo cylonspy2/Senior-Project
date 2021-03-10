@@ -5,24 +5,24 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{35BEC92E-3DAF-4C22-9C51-82E6A850EE7E}">
 					<ObjectInclusionList>
-						<ObjectRef Name="VI_Cowbell01" ID="{2BEF6D54-7F4C-40CB-B4C0-A438215FB459}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="VI_Chords01" ID="{57E0A1BA-191A-40F9-A3AA-CBCC951F2109}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VI_Percussion01" ID="{2BEF6D54-7F4C-40CB-B4C0-A438215FB459}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VI_Bass03" ID="{57E0A1BA-191A-40F9-A3AA-CBCC951F2109}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_Bass01" ID="{E6ECEE6B-B592-4158-B3C9-CAF9A14B5258}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_All" ID="{82B5672B-A1A7-41EC-BD80-021F46DE413F}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_Chords01" ID="{67B2F800-5A71-4215-8DDE-F31F23432E57}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="VI_Solo01" ID="{2C1DE272-1465-4395-BA77-263559631D6A}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="VI_BassDrum01" ID="{EB06442A-9E54-43A1-BBC6-9364A0446D74}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VI_Piano02" ID="{2C1DE272-1465-4395-BA77-263559631D6A}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VI_Bass02" ID="{EB06442A-9E54-43A1-BBC6-9364A0446D74}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_BassDrum01" ID="{17282A30-2C6C-4454-9D96-70FAAAEECECD}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_Cowbell02" ID="{D3B5D919-3B1C-4486-8E94-60C31B3C9F59}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="VI_SnareDrum01" ID="{C3711749-A61C-45E8-88C8-11FCDA75CF11}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VI_Piano01" ID="{C3711749-A61C-45E8-88C8-11FCDA75CF11}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Game_Start_Event" ID="{91CA2D44-F4A0-4609-83B6-7AFFDE0F3626}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_Solo01" ID="{C9D22059-D954-47F6-B4FF-0CECD20B7B35}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="VI_Cymbal01" ID="{04F008BA-9210-4B17-B751-8430EF09E9A5}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VI_Percussion03" ID="{04F008BA-9210-4B17-B751-8430EF09E9A5}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="VI_Bass01" ID="{D59110B1-50F3-4BCB-9EC5-016BA460282D}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_Cymbal01" ID="{E0DF4E83-B817-4DC2-8421-0D2F541530C7}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_SnareDrum01" ID="{834E87A5-A3BE-4DCB-9FD5-DA956B2A867A}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_Cowbell01" ID="{4F97E5E5-1D4F-4E6A-820A-640CBFC62C10}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="VI_Cowbell02" ID="{455F52FE-A226-4F99-9F6C-314CE09CB9FF}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VI_Percussion02" ID="{455F52FE-A226-4F99-9F6C-314CE09CB9FF}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

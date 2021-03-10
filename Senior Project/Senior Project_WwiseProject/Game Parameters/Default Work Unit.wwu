@@ -45,6 +45,13 @@
 				</GameParameter>
 				<GameParameter Name="Volume_Control" ID="{CF66B2D1-177A-437E-82A1-DBFFA602971B}"/>
 				<GameParameter Name="Master_Volume_Control" ID="{69174A77-41CC-401F-9995-D190C01493DF}"/>
+				<GameParameter Name="Reverb_Control" ID="{4E9222B1-88A5-4C2F-9B6A-098C3BC243B5}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Pitch_Control" ID="{61592847-FDC7-4C0B-B11F-A0E74917AA08}"/>
+				<GameParameter Name="Speed_Control" ID="{BF25EA13-41A9-460A-92A9-A12A8EF96B2A}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

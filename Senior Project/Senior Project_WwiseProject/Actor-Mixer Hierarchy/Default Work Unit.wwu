@@ -66,6 +66,12 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+							<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+							<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
 						</Reference>
@@ -269,6 +275,182 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Track-8-MOAR COWBELL" ID="{755E5697-A1D3-492B-9029-FF1C2980A352}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="musicTrack-AcBass01" ID="{6AD58BB2-1548-4200-BA54-4B782C9A562A}" ShortID="148651935">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="musicTrack-AcBass01" ID="{FEE53B35-7B04-4706-BDF4-FC431B4D2805}">
+									<Language>SFX</Language>
+									<AudioFile>musicTrack-AcBass01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="883452480"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="musicTrack-AcBass01" ID="{FEE53B35-7B04-4706-BDF4-FC431B4D2805}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="musicTrack-AcBass02" ID="{CB175C93-3C43-4E4D-B3D4-B2F6316F33E0}" ShortID="172034378">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="musicTrack-AcBass02" ID="{A8BE1802-99D5-4E95-8D0B-8C6CC2E51002}">
+									<Language>SFX</Language>
+									<AudioFile>musicTrack-AcBass02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="627535368"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="musicTrack-AcBass02" ID="{A8BE1802-99D5-4E95-8D0B-8C6CC2E51002}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="musicTrack-ACBass03" ID="{BCD22200-F874-4C85-83B3-97221E010B56}" ShortID="24698593">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="musicTrack-ACBass03" ID="{51CA6995-C3E5-4214-8371-844676F3ADA8}">
+									<Language>SFX</Language>
+									<AudioFile>musicTrack-ACBass03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="425941899"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="musicTrack-ACBass03" ID="{51CA6995-C3E5-4214-8371-844676F3ADA8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="musicTrack-Percussion01" ID="{DCCC88E8-1A82-4BBB-BADF-E9C45C355CAF}" ShortID="211350218">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="musicTrack-Percussion01" ID="{F8356626-3755-4046-B456-3A38923148A4}">
+									<Language>SFX</Language>
+									<AudioFile>musicTrack-Percussion01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="230581524"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="musicTrack-Percussion01" ID="{F8356626-3755-4046-B456-3A38923148A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="musicTrack-Percussion02" ID="{AC2134CA-F1D1-4FC1-80B7-1B39037617B5}" ShortID="636287859">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="musicTrack-Percussion02" ID="{804B26AC-0B83-4C29-902D-87B98E756D5F}">
+									<Language>SFX</Language>
+									<AudioFile>musicTrack-Percussion02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="86761749"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="musicTrack-Percussion02" ID="{804B26AC-0B83-4C29-902D-87B98E756D5F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="musicTrack-Percussion03" ID="{74A1F104-D8A8-40C3-BF6A-0612ABCD6846}" ShortID="962176484">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="musicTrack-Percussion03" ID="{5B17A914-3C3B-464E-9611-D43C028BE96F}">
+									<Language>SFX</Language>
+									<AudioFile>musicTrack-Percussion03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="582895261"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="musicTrack-Percussion03" ID="{5B17A914-3C3B-464E-9611-D43C028BE96F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="musicTrack-Piano01" ID="{961BD4B7-4956-4BC6-A405-1AA358B1B372}" ShortID="4967698">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="musicTrack-Piano01" ID="{E0AE0972-06C9-46A1-B73B-F00E6F1AADF0}">
+									<Language>SFX</Language>
+									<AudioFile>musicTrack-Piano01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="231471481"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="musicTrack-Piano01" ID="{E0AE0972-06C9-46A1-B73B-F00E6F1AADF0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="musicTrack-Piano02" ID="{C8D64856-5E2B-4846-A384-88E7E49545F1}" ShortID="112328981">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="musicTrack-Piano02" ID="{CC2B8737-4B7B-425B-AC33-B34C1351DC41}">
+									<Language>SFX</Language>
+									<AudioFile>musicTrack-Piano02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="776578335"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="musicTrack-Piano02" ID="{CC2B8737-4B7B-425B-AC33-B34C1351DC41}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

@@ -24,13 +24,13 @@ namespace AK
         static const AkUniqueID RESET_SNAREDRUM01 = 2907261653U;
         static const AkUniqueID RESET_SOLO01 = 2676278653U;
         static const AkUniqueID VI_BASS01 = 1566012757U;
-        static const AkUniqueID VI_BASSDRUM01 = 3991181389U;
-        static const AkUniqueID VI_CHORDS01 = 413502601U;
-        static const AkUniqueID VI_COWBELL01 = 2050860192U;
-        static const AkUniqueID VI_COWBELL02 = 2050860195U;
-        static const AkUniqueID VI_CYMBAL01 = 3201313006U;
-        static const AkUniqueID VI_SNAREDRUM01 = 3546710381U;
-        static const AkUniqueID VI_SOLO01 = 3584147509U;
+        static const AkUniqueID VI_BASS02 = 1566012758U;
+        static const AkUniqueID VI_BASS03 = 1566012759U;
+        static const AkUniqueID VI_PERCUSSION01 = 1531115851U;
+        static const AkUniqueID VI_PERCUSSION02 = 1531115848U;
+        static const AkUniqueID VI_PERCUSSION03 = 1531115849U;
+        static const AkUniqueID VI_PIANO01 = 3922322737U;
+        static const AkUniqueID VI_PIANO02 = 3922322738U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
@@ -44,6 +44,9 @@ namespace AK
         static const AkUniqueID CONTROLLER_SDRUM = 2417179647U;
         static const AkUniqueID CONTROLLER_SOLO = 4203175449U;
         static const AkUniqueID MASTER_VOLUME_CONTROL = 2232728930U;
+        static const AkUniqueID PITCH_CONTROL = 507607291U;
+        static const AkUniqueID REVERB_CONTROL = 261899543U;
+        static const AkUniqueID SPEED_CONTROL = 1451107664U;
         static const AkUniqueID VOLUME_CONTROL = 4194816893U;
     } // namespace GAME_PARAMETERS
 
