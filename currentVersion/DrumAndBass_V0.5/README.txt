@@ -8,6 +8,12 @@ Esc - pause menu
 1 - default cam
 2 - fly cam
 3 - Bassosphere
+
+(while in Bassosphere)
+WASD - forward/backward, and Bassosphere rotation
+Space - move up
+Left CTRL - move down
+
 Right click - hold to rotate camera in default cam
 Left click - context sensitive (fire food while in Bassosphere, select menu options, place props, select fish and props)
 Tab - zoom in on selected fish or prop

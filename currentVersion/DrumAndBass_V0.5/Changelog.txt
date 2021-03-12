@@ -1,5 +1,26 @@
 CHANGELOG
 
+0.5
+Updated prop placement schema
+Updated music system
+Updated props to have individual effects
+Added Bassosphere
+Added food pellets
+Added repel pellets
+Added option to view from fish
+
+known bugs:
+- on the backend, the prop placement scipt only places the coral prop, regardless of what's selected.
+
+0.4
+Updated water shader
+Updated skybox
+Added selection system
+Added Obj Deletion
+Added targeted zoom
+Added pause menu
+Added global volume controls
+
 0.3
 Updated UI
 Fixed particle effect bug
