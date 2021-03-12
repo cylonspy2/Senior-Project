@@ -5101,6 +5101,36 @@ MonoBehaviour:
   rotationPercentage: 0.96
   separationProximity: 0.5
   neighbourDetectRadius: 2
+--- !u!1 &6985524180040746700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906174352175390511}
+  m_Layer: 0
+  m_Name: camRoot
+  m_TagString: camRoot
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906174352175390511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6985524180040746700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.231, z: 0.232}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5011327565069986033}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4200424527194500831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5198,6 +5228,12 @@ PrefabInstance:
 --- !u!1 &5011327565069986045 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9205683114194142754, guid: 5b81d3057ec3d494392efac7e49c35e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4200424527194500831}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5011327565069986033 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9205683114194142766, guid: 5b81d3057ec3d494392efac7e49c35e8,
     type: 3}
   m_PrefabInstance: {fileID: 4200424527194500831}
   m_PrefabAsset: {fileID: 0}

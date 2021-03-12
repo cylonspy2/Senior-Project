@@ -7,6 +7,7 @@ TagManager:
   - Fish1
   - waterPhys
   - Prop
+  - camRoot
   layers:
   - Default
   - TransparentFX

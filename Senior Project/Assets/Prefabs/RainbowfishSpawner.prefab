@@ -135,8 +135,8 @@ MonoBehaviour:
   boidParent: {fileID: 9205683114194142754}
   _target: {fileID: 748094592836283646}
   Boid: {fileID: 5011327565069986045, guid: 279533dd1c16aab469b3e815ca95fb21, type: 3}
-  speed: 3.83
-  rotSpeed: 3.39
+  speed: 4.61
+  rotSpeed: 1.94
   avoidRange: 1.58
   sightRange: 2.66
   rotationPercentage: 0.95

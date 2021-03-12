@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -5302732154799723887}
   - component: {fileID: 7509457161790262372}
   - component: {fileID: 2133141952}
+  - component: {fileID: 4059550829404974504}
   - component: {fileID: 2133141953}
   m_Layer: 0
   m_Name: GameManager
@@ -71,7 +72,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d33d354968282c4aa83fd63073cf5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  count: 0.49
   Tick: 1
+  baka: 0
+  tickGap: 0.01
 --- !u!114 &2133141952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,7 +92,7 @@ MonoBehaviour:
   spawnKey: 323
   targetKey: 323
   deleteKey: 32
-  countDown: 4
+  countDown: 2
   isGridPlace: 0
   cursorVisualise: {fileID: 0}
   gridTargets: []
@@ -97,6 +101,19 @@ MonoBehaviour:
   selectedObj: {fileID: 0}
   selectedPhish: {fileID: 0}
   selectedPhishMaster: {fileID: 0}
+--- !u!114 &4059550829404974504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3334080304718205092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04a8afaece2ca2b4ba40ef816cc2bb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Volume: {fileID: 0}
 --- !u!114 &2133141953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,3 +128,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maincamera: {fileID: 0}
   UI_Bottom: {fileID: 0}
+  toggleToDefault: 49
+  toggleToOne: 50
+  toggleToTwo: 51
+  startingCamScript: moving
+  optionOneCam: FlyCamera
+  optionTwoCam: submerseScript
