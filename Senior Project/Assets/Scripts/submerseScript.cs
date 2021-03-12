@@ -7,6 +7,15 @@ public class submerseScript : MonoBehaviour
     public GameObject subMerse;
     public GameObject camControl;
     public GameObject camRoot;
+
+    public GameObject foodPellet;
+    public GameObject repellant;
+    public GameObject fireNozzle;
+
+    public gridPlaceScript propPlacementSystem;
+
+    public bool attract;
+
     public float mainSpeed = 100.0f;
     public float mainRotMult = 0.25f;
     public float camSens = 0.25f;
@@ -19,6 +28,8 @@ public class submerseScript : MonoBehaviour
     public KeyCode backward;
     public KeyCode up;
     public KeyCode down;
+    public KeyCode fire;
+    public KeyCode toggle;
 
     private Vector3 lastMouse;
 
@@ -40,21 +51,45 @@ public class submerseScript : MonoBehaviour
         camControl.transform.eulerAngles = lastMouse;
         lastMouse = Input.mousePosition;
 
-
-
         Vector3 p = GetBaseInput();
         p = p * mainSpeed * Time.deltaTime;
 
-
-
         subMerse.transform.eulerAngles = new Vector3(subMerse.transform.eulerAngles.x, subMerse.transform.eulerAngles.y + p.x, subMerse.transform.eulerAngles.z);
         camControl.transform.eulerAngles = new Vector3(camControl.transform.eulerAngles.x, camControl.transform.eulerAngles.y + p.x, camControl.transform.eulerAngles.z);
-
 
         Vector3 q = new Vector3(0, p.y, p.z);
         subMerse.transform.Translate(q);
         subMerse.transform.position = new Vector3(Mathf.Clamp(subMerse.transform.position.x, -subClamp.x, subClamp.x), Mathf.Clamp(subMerse.transform.position.y, -subClamp.y, subClamp.y), Mathf.Clamp(subMerse.transform.position.z, -subClamp.z, subClamp.z));
 
+
+        if(Input.GetKeyDown(fire))
+        {
+            shootGun();
+        }
+
+
+    }
+
+    public void OnEnable()
+    {
+        propPlacementSystem.enabled = false;
+    }
+
+    public void OnDisable()
+    {
+        propPlacementSystem.enabled = true;
+    }
+
+    public void shootGun()
+    {
+        if(attract)
+        {
+            Instantiate(foodPellet, fireNozzle.transform.position, fireNozzle.transform.rotation);
+        }
+        else
+        {
+            Instantiate(repellant, fireNozzle.transform.position, fireNozzle.transform.rotation);
+        }
     }
 
     private Vector3 GetBaseInput()

@@ -232,6 +232,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 242719828}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &242719831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5077429302047249446, guid: 714b957eaba3d9042b7524e451901615,
+    type: 3}
+  m_PrefabInstance: {fileID: 242719828}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,7 +841,14 @@ MonoBehaviour:
   subMerse: {fileID: 242719830}
   camControl: {fileID: 963194225}
   camRoot: {fileID: 242719829}
-  mainSpeed: 40
+  foodPellet: {fileID: 6848040821557057696, guid: bda3e2514bd576046b977376cffcb81f,
+    type: 3}
+  repellant: {fileID: 1385769793421108492, guid: 906bfc2aafabe99459a74feb3d2dff22,
+    type: 3}
+  fireNozzle: {fileID: 242719831}
+  propPlacementSystem: {fileID: 3334080305280216900}
+  attract: 1
+  mainSpeed: 20
   mainRotMult: 0.25
   camSens: 0.25
   camClamp: {x: 60, y: 60}
@@ -846,6 +859,8 @@ MonoBehaviour:
   backward: 115
   up: 32
   down: 306
+  fire: 323
+  toggle: 113
 --- !u!114 &963194238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1366,6 +1381,98 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 20276, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 604
+      objectReference: {fileID: 0}
+    - target: {fileID: 20276, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20276, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 914674929, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317035, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 660.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317035, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 367
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317035, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -362
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317035, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317035, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317035, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317035, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317036, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_Text
+      value: 'Press 1: Rotate Camera Mode
+
+        Press 2: Freelock Camera Mode
+
+        Press
+        3: Enter the Bassosphere
+
+
+        Left click on fish/prop: select it
+
+        Left
+        click on ground: place prop
+
+
+        (while selected, hold)
+
+        Space:
+        delete
+
+        Tab: zoom
+
+        E: fish-view
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317036, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317036, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317036, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317036, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2013317036, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 1191309480645612104, guid: ca941e2816f434e3e9bf4f34c53ee838,
         type: 3}
       propertyPath: Cursor

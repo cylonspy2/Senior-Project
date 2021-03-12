@@ -10,17 +10,17 @@ public class MovementTwo : MonoBehaviour
 {
     public float speed;
     public float rotateSpeed;
-    static public float timerForNewPos = 5f;
+    public float timerForNewPos = 5f;
     public float visionDistance;
     public Rigidbody rb;
     bool InCoRoutine;
     public Vector3 target;
-    static public Vector3 allTarget;
+    public Vector3 allTarget;
     public float xa;
     public float ya;
     public float za;
     public float targetTime = 5f;
-    static public bool repel;
+    public bool repel;
     private float minRange = 5f;
     private float distanceToTarget;
 

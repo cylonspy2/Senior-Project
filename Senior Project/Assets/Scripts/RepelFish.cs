@@ -4,21 +4,55 @@ using UnityEngine;
 
 public class RepelFish : MonoBehaviour
 {
+    public GameObject thisThing;
+    public float effectRange;
+
     // Start is called before the first frame update
     void Start()
     {
-        MovementTwo.allTarget = transform.position;
-        MovementTwo.repel = true;
+
     }
 
     void OnDestroy()
     {
-        MovementTwo.repel = false;
+
+        GameObject[] area = GameObject.FindGameObjectsWithTag("fishTarg");
+        foreach (GameObject buul in area)
+        {
+            buul.GetComponent<MovementTwo>().repel = false;
+        }
+        
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        //check for collider with tag "fish" then destroy the "food"
+        //the static variable for timerForNewPos should have a static and local version
+        //static overrides local one
+
+        Destroy(thisThing);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        GameObject[] withinRange = GameObject.FindGameObjectsWithTag("fishTarg");
+
+
+        foreach (GameObject buul in withinRange)
+        {
+            float distSqr = (buul.transform.position - thisThing.transform.position).sqrMagnitude;
+
+            if (distSqr <= effectRange)
+            {
+                buul.GetComponent<MovementTwo>().repel = true;
+                buul.GetComponent<MovementTwo>().allTarget = thisThing.transform.position;
+            }
+            else
+            {
+                buul.GetComponent<MovementTwo>().repel = false;
+            }
+        }
+
     }
 }
