@@ -2311,5 +2311,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/PlayerEnvironment.unity
-  playerPath: C:/Users/rowan/Documents/GitHub/Senior-Project/currentVersion/DrumAndBass_V0.5/Windows/Senior
-    Project.exe
+  playerPath: C:/Users/super/Desktop/New folder (2)/Senior Project.exe

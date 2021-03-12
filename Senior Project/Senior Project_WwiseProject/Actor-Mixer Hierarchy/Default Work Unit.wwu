@@ -7,6 +7,9 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{10DC0665-9CD8-493D-BA90-E76193773906}" ShortID="680916011">
 									<ReferenceList>
@@ -280,6 +283,11 @@
 						<Sound Name="musicTrack-AcBass01" ID="{6AD58BB2-1548-4200-BA54-4B782C9A562A}" ShortID="148651935">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -305,6 +313,11 @@
 						<Sound Name="musicTrack-AcBass02" ID="{CB175C93-3C43-4E4D-B3D4-B2F6316F33E0}" ShortID="172034378">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -330,6 +343,11 @@
 						<Sound Name="musicTrack-ACBass03" ID="{BCD22200-F874-4C85-83B3-97221E010B56}" ShortID="24698593">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -355,6 +373,11 @@
 						<Sound Name="musicTrack-Percussion01" ID="{DCCC88E8-1A82-4BBB-BADF-E9C45C355CAF}" ShortID="211350218">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -380,6 +403,11 @@
 						<Sound Name="musicTrack-Percussion02" ID="{AC2134CA-F1D1-4FC1-80B7-1B39037617B5}" ShortID="636287859">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -405,6 +433,11 @@
 						<Sound Name="musicTrack-Percussion03" ID="{74A1F104-D8A8-40C3-BF6A-0612ABCD6846}" ShortID="962176484">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -430,6 +463,11 @@
 						<Sound Name="musicTrack-Piano01" ID="{961BD4B7-4956-4BC6-A405-1AA358B1B372}" ShortID="4967698">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -455,6 +493,11 @@
 						<Sound Name="musicTrack-Piano02" ID="{C8D64856-5E2B-4846-A384-88E7E49545F1}" ShortID="112328981">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

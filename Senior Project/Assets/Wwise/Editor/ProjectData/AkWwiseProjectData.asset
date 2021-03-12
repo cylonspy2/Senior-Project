@@ -243,7 +243,7 @@ MonoBehaviour:
       - ElementName: VI_Bass01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Bass01
-      maxAttenuation: 100
+      maxAttenuation: 200
       maxDuration: 16
       minDuration: 16
     - name: VI_Bass02
@@ -257,7 +257,7 @@ MonoBehaviour:
       - ElementName: VI_Bass02
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Bass02
-      maxAttenuation: 100
+      maxAttenuation: 200
       maxDuration: 16
       minDuration: 16
     - name: VI_Bass03
@@ -271,7 +271,7 @@ MonoBehaviour:
       - ElementName: VI_Bass03
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Bass03
-      maxAttenuation: 100
+      maxAttenuation: 200
       maxDuration: 8
       minDuration: 8
     - name: VI_Percussion01
@@ -285,7 +285,7 @@ MonoBehaviour:
       - ElementName: VI_Percussion01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Percussion01
-      maxAttenuation: 100
+      maxAttenuation: 200
       maxDuration: 16
       minDuration: 16
     - name: VI_Percussion02
@@ -299,7 +299,7 @@ MonoBehaviour:
       - ElementName: VI_Percussion02
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Percussion02
-      maxAttenuation: 100
+      maxAttenuation: 200
       maxDuration: 16
       minDuration: 16
     - name: VI_Percussion03
@@ -313,7 +313,7 @@ MonoBehaviour:
       - ElementName: VI_Percussion03
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Percussion03
-      maxAttenuation: 100
+      maxAttenuation: 200
       maxDuration: 16
       minDuration: 16
     - name: VI_Piano01
@@ -327,7 +327,7 @@ MonoBehaviour:
       - ElementName: VI_Piano01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Piano01
-      maxAttenuation: 100
+      maxAttenuation: 200
       maxDuration: 32
       minDuration: 32
     - name: VI_Piano02
@@ -341,7 +341,7 @@ MonoBehaviour:
       - ElementName: VI_Piano02
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Piano02
-      maxAttenuation: 100
+      maxAttenuation: 200
       maxDuration: 32
       minDuration: 32
   RtpcWwu:

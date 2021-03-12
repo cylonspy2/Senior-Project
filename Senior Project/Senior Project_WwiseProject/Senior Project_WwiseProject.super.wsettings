@@ -42,7 +42,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="O2VcbCh+JUyioFVEgQ7dJQ=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="Lsm+Na89IkycUYLmqFDufg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="xtl+DxXlsken2PuXQ6SExQGEdIf/////ry4Fhcs1kEqZyUIE8YKxGgGEdIf/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="xtl+DxXlsken2PuXQ6SExQGEjzr/////ry4Fhcs1kEqZyUIE8YKxGgGEjzr/////"/>
 				<Property Name="Interactive Music\x64_{07A88EA1-F195-4372-B5C0-6AC7C28E5F58} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP7LJJptssktAAAAAAAAA8D8AAAAAAAAAAAAAAAAA+IRA"/>
 				<Property Name="Interactive Music\x64_{0DC68289-D4CB-42FA-9409-894E3CFF214B} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP+GDDz744APAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{15A74DAB-CE38-47DC-B6E5-3FD25BEB1D31} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP/jggw8++E1AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -92,7 +92,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="ZCWsVe6AaEGq7pVYAAeion/JIpDRJ7VEg+mm78ASA2bZSxoUqgUMRZIOjdBFpQr8A1kEX/+7CkaKH/MpwLojdljAAnsiDQxIgo+DU+OLRBs7th2NIARiSIZNwupwvv7g3nBcxivubUyRx9BLCDOqJJqdFoM7QJJMgl4qRkqaNYy1cIrw1AP8To1xc7cpHGl6BDGByHXXxE+mAgN5wKBroA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value="yj7M453/SEacZzNfLosRpQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
