@@ -2,11 +2,18 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
 
 public class SpawnDecoration : MonoBehaviour
 {
     public GameObject Cursor;
-    public GameObject CurrProp;
+    private GameObject CurrProp;
+    public GameObject sample_1;
+    public GameObject sample_2;
+    public GameObject sample_3;
+    public GameObject sample_4;
+    public GameObject sample_5;
+    public GameObject sample_6;
     public float heightAdjust;
 
     // list that holds all created objects - enables deleting all instances
@@ -18,11 +25,16 @@ public class SpawnDecoration : MonoBehaviour
     {
 
     }
+    private void Update()
+    {
+        //CurrProp = sample_1;
+    }
 
     //switches which prop to place
     public void PrepProp(GameObject i)
     {
         CurrProp = i;
+        
     }
 
     //instantiate's the prop
@@ -30,10 +42,62 @@ public class SpawnDecoration : MonoBehaviour
     {
         if (CurrProp != null)
         {
-            targetPos = new Vector3(Cursor.transform.position.x, Cursor.transform.position.y + heightAdjust, Cursor.transform.position.z);
+            if (!IsPointerOverUIObject())
+            {
+                targetPos = new Vector3(Cursor.transform.position.x, Cursor.transform.position.y + heightAdjust, Cursor.transform.position.z);
 
-            GameObject go = (GameObject)Instantiate(CurrProp, targetPos, Quaternion.identity);
-            createdObjects.Add(go);
+                GameObject go = (GameObject)Instantiate(CurrProp, targetPos, Quaternion.identity);
+                createdObjects.Add(go);
+            }
         }
+
+        
     }
+
+    private bool IsPointerOverUIObject()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
+    }
+
+
+    public void TurnOn_Antenna()
+    {
+        CurrProp = sample_1;
+    }
+
+    public void TurnOn_Coral()
+    {
+        CurrProp = sample_2;
+    }
+
+    public void TurnOn_Metronome()
+    {
+        CurrProp = sample_3;
+    }
+
+    public void TurnOn_Oyster()
+    {
+        CurrProp = sample_4;
+    }
+
+    public void TurnOn_PirateShip()
+    {
+        CurrProp = sample_5;
+    }
+
+    public void TurnOn_PirateSkull()
+    {
+        CurrProp = sample_6;
+    }
+
+    public void SwitchToFish()
+    {
+        CurrProp = null;
+    }
+
+    
 }

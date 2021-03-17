@@ -70,7 +70,7 @@ public class moving : MonoBehaviour
                 cam.transform.position = target.position;// new Vector3();
 
                 cam.transform.Rotate(new Vector3(x: 1, y: 0, z: 0), angle: direction.y * 180);
-                cam.transform.Rotate(new Vector3(x: 0, y: 1, z: 0), angle: direction.x * 180, relativeTo: Space.World);
+                cam.transform.Rotate(new Vector3(x: 0, y: -1, z: 0), angle: direction.x * 180, relativeTo: Space.World);
                 cam.transform.Translate(startPos);
 
                 previousPos = cam.ScreenToViewportPoint(Input.mousePosition);
