@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.3816825, g: 0.46846676, b: 0.6133793, a: 1}
+  m_IndirectSpecularColor: {r: 0.38167936, g: 0.46845633, b: 0.6133797, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -821,9 +821,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2146446ec990dd4587164a4593c2410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lerpSpeed: 2
+  lerpClamp: 1648
   cam: {fileID: 963194227}
   target: {fileID: 93579180}
-  startPos: {x: 0, y: 0, z: -50}
+  startPos: {x: 0, y: 0, z: -40}
   mouseMov: 324
   Mov: 1
   isFollowing: 0
@@ -887,6 +889,8 @@ MonoBehaviour:
   mainSpeed: 20
   mainRotMult: 0.25
   camSens: 0.25
+  lerpSpeed: 10
+  lerpClamp: 0.51
   camClamp: {x: 60, y: 60}
   subClamp: {x: 500, y: 500, z: 500}
   forward: 119
@@ -912,6 +916,7 @@ MonoBehaviour:
   manager: {fileID: 3334080305280216900}
   cam: {fileID: 963194227}
   activ: 101
+  lerpSpeed: 0.75
 --- !u!1 &1035753431 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1959618485, guid: ca941e2816f434e3e9bf4f34c53ee838,

@@ -8,6 +8,9 @@ public class fishView : MonoBehaviour
     public Camera cam;
     public KeyCode activ;
 
+    public float lerpSpeed;
+    float lerpCount;
+
     Vector3 jeef;
     Quaternion beef;
 
@@ -39,11 +42,13 @@ public class fishView : MonoBehaviour
         }
         if(Input.GetKey(activ))
         {
-            cam.transform.position = camRoot.transform.position;
-            cam.transform.rotation = camRoot.transform.rotation;
+            lerpCount = Mathf.Clamp(lerpCount + Time.deltaTime * lerpSpeed, 0, 1);
+            cam.transform.position = Vector3.Lerp(jeef, camRoot.transform.position, lerpCount);
+            cam.transform.rotation = Quaternion.Lerp(beef, camRoot.transform.rotation, lerpCount);
         }
         if (Input.GetKeyUp(activ))
         {
+            lerpCount = 0;
             cam.transform.position = jeef;
             cam.transform.rotation = beef;
         }

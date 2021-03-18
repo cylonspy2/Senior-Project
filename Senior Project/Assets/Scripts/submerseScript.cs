@@ -19,6 +19,8 @@ public class submerseScript : MonoBehaviour
     public float mainSpeed = 100.0f;
     public float mainRotMult = 0.25f;
     public float camSens = 0.25f;
+    public float lerpSpeed = 1.0f;
+    public float lerpClamp;
     public Vector2 camClamp;
     public Vector3 subClamp;
 
@@ -40,9 +42,9 @@ public class submerseScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        camControl.transform.position = camRoot.transform.position;
+        
 
         lastMouse = Input.mousePosition - lastMouse;
         lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
@@ -61,8 +63,17 @@ public class submerseScript : MonoBehaviour
         subMerse.transform.Translate(q);
         subMerse.transform.position = new Vector3(Mathf.Clamp(subMerse.transform.position.x, -subClamp.x, subClamp.x), Mathf.Clamp(subMerse.transform.position.y, -subClamp.y, subClamp.y), Mathf.Clamp(subMerse.transform.position.z, -subClamp.z, subClamp.z));
 
+        if((Mathf.Abs((camControl.transform.position.x - camRoot.transform.position.x) * (camControl.transform.position.y - camRoot.transform.position.y) * (camControl.transform.position.z - camRoot.transform.position.z)) <= lerpClamp))
+        {
+            camControl.transform.position = camRoot.transform.position;
+        }
+        else
+        {
+            camControl.transform.position = Vector3.Lerp(camControl.transform.position, camRoot.transform.position, Time.deltaTime * lerpSpeed);
+        }
+        
 
-        if(Input.GetKeyDown(fire))
+        if (Input.GetKeyDown(fire))
         {
             shootGun();
         }
