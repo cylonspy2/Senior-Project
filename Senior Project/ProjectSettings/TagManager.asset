@@ -8,6 +8,13 @@ TagManager:
   - waterPhys
   - Prop
   - camRoot
+  - PirateSkull
+  - Antenna
+  - Metronome
+  - PirateShip
+  - Oyster
+  - fishTarg
+  - Coral
   layers:
   - Default
   - TransparentFX
