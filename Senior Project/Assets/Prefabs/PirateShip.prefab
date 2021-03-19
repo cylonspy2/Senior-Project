@@ -204,11 +204,36 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.8952503
       objectReference: {fileID: 0}
+    - target: {fileID: -2357948792710841007, guid: 1817043a7282d844ca0785b3018e22e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5152c52d84f81347a346a051ecd6dc8, type: 2}
     - target: {fileID: 919132149155446097, guid: 1817043a7282d844ca0785b3018e22e1,
         type: 3}
       propertyPath: m_Name
       value: ship.v1
       objectReference: {fileID: 0}
+    - target: {fileID: 942302510836643402, guid: 1817043a7282d844ca0785b3018e22e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5152c52d84f81347a346a051ecd6dc8, type: 2}
+    - target: {fileID: 4035225228350023442, guid: 1817043a7282d844ca0785b3018e22e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5152c52d84f81347a346a051ecd6dc8, type: 2}
+    - target: {fileID: 4982722472209646022, guid: 1817043a7282d844ca0785b3018e22e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5152c52d84f81347a346a051ecd6dc8, type: 2}
+    - target: {fileID: 9090644558433448497, guid: 1817043a7282d844ca0785b3018e22e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5152c52d84f81347a346a051ecd6dc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1817043a7282d844ca0785b3018e22e1, type: 3}
 --- !u!4 &2928431580809724908 stripped
