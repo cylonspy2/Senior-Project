@@ -28,6 +28,7 @@ ScriptsOnlyBuild:
     - PauseMenu
     - PositionInstantiate
     - RepelFish
+    - Reverb_Control
     - RightClick
     - SelectDecorations
     - Solo_Track
@@ -178,6 +179,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12316}
     - Class: 114
+      Script: {instanceID: 12390}
+    - Class: 114
       Script: {instanceID: 12450}
     - Class: 114
       Script: {instanceID: 12474}
@@ -210,6 +213,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13614}
     - Class: 114
+      Script: {instanceID: 13674}
+    - Class: 114
       Script: {instanceID: 13702}
     - Class: 114
       Script: {instanceID: 13752}
@@ -226,6 +231,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14186}
     - Class: 114
+      Script: {instanceID: 14246}
+    - Class: 114
       Script: {instanceID: 14272}
     - Class: 114
       Script: {instanceID: 14300}
@@ -239,6 +246,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14338}
     - Class: 114
       Script: {instanceID: 14346}
+    - Class: 114
+      Script: {instanceID: 14650}
     - Class: 114
       Script: {instanceID: 14670}
     - Class: 114
@@ -307,6 +316,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16730}
     - Class: 114
       Script: {instanceID: 16766}
+    - Class: 114
+      Script: {instanceID: 16800}
     - Class: 114
       Script: {instanceID: 16914}
     - Class: 114
@@ -450,6 +461,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14346}
     - Class: 114
       Script: {instanceID: 14630}
+    - Class: 114
+      Script: {instanceID: 14650}
     - Class: 114
       Script: {instanceID: 14670}
     - Class: 114
@@ -773,7 +786,7 @@ ScriptsOnlyBuild:
     className: SplitToning
   - hash:
       serializedVersion: 2
-      Hash: d77b1c29d893d77286f4c72872b3874d
+      Hash: c3e17b050924c09fb20e49d4de13949c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: fishView
@@ -1211,7 +1224,7 @@ ScriptsOnlyBuild:
     className: UniversalRenderPipelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 598e0d2283b370bee83ebe728f24e661
+      Hash: c4ad66cc9940d747e8a0de4eea399d99
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: moving
@@ -1709,7 +1722,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerButton
   - hash:
       serializedVersion: 2
-      Hash: 520902aab09b0376828c15fdbbfe94f5
+      Hash: 6cd1ffe7cf7214c56a275d0ea70f4189
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: submerseScript
@@ -1979,7 +1992,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerUIntField
   - hash:
       serializedVersion: 2
-      Hash: 8708e177c721e409a50c46f9d8abde21
+      Hash: aebf8ba81c6548a7946bf472884194dd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnDecoration
@@ -2311,4 +2324,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/PlayerEnvironment.unity
-  playerPath: C:/Users/rowan/Documents/GitHub/Senior-Project/currentVersion/DrumAndBass_V0.5/Mac.app
+  playerPath: C:/Users/rowan/Documents/GitHub/Senior-Project/currentVersion/DrumAndBass_V0.6/Mac/Mac.app

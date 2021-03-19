@@ -3630,6 +3630,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[12].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2013317034, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2013317035, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
       propertyPath: m_SizeDelta.y
       value: 660.7
