@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2202860606792064157}
   m_Layer: 0
   m_Name: PirateShip
-  m_TagString: Prop
+  m_TagString: PirateShip
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
