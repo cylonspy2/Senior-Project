@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ec2cbc375126fe48966429feb8315684
     GuidInternal: 
-    m_lastTime: -8585860990890819182
+    m_lastTime: -8585855587080428300
     List:
     - name: Main
       guid: 2ec9be35af3d224c9c5182e6a850ee7e
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 80e1366bd3871a4399f98f538d3d53b4
     GuidInternal: 
-    m_lastTime: -8585860991007200236
+    m_lastTime: -8585855587152928047
     List:
     - name: Game_Start_Event
       guid: 442dca91a0f4094683b67affde0f3626
@@ -243,9 +243,9 @@ MonoBehaviour:
       - ElementName: VI_Bass01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Bass01
-      maxAttenuation: 200
-      maxDuration: 16
-      minDuration: 16
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Bass02
       guid: 2a4406eb549ea143bbc69364a0446d74
       id: 1566012758
@@ -257,9 +257,9 @@ MonoBehaviour:
       - ElementName: VI_Bass02
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Bass02
-      maxAttenuation: 200
-      maxDuration: 16
-      minDuration: 16
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Bass03
       guid: baa1e0571a19f940a3aacbcc951f2109
       id: 1566012759
@@ -271,9 +271,9 @@ MonoBehaviour:
       - ElementName: VI_Bass03
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Bass03
-      maxAttenuation: 200
-      maxDuration: 8
-      minDuration: 8
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Percussion01
       guid: 546def2b4c7fcb40b4c0a438215fb459
       id: 1531115851
@@ -285,9 +285,9 @@ MonoBehaviour:
       - ElementName: VI_Percussion01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Percussion01
-      maxAttenuation: 200
-      maxDuration: 16
-      minDuration: 16
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Percussion02
       guid: fe525f4526a2994f9f6c314ce09cb9ff
       id: 1531115848
@@ -299,9 +299,9 @@ MonoBehaviour:
       - ElementName: VI_Percussion02
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Percussion02
-      maxAttenuation: 200
-      maxDuration: 16
-      minDuration: 16
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Percussion03
       guid: ba08f0041092174bb7518430ef09e9a5
       id: 1531115849
@@ -313,9 +313,9 @@ MonoBehaviour:
       - ElementName: VI_Percussion03
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Percussion03
-      maxAttenuation: 200
-      maxDuration: 16
-      minDuration: 16
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Piano01
       guid: 491771c31ca6e84588c811fcda75cf11
       id: 3922322737
@@ -327,9 +327,9 @@ MonoBehaviour:
       - ElementName: VI_Piano01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Piano01
-      maxAttenuation: 200
-      maxDuration: 32
-      minDuration: 32
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
     - name: VI_Piano02
       guid: 72e21d2c65149543ba77263559631d6a
       id: 3922322738
@@ -341,9 +341,9 @@ MonoBehaviour:
       - ElementName: VI_Piano02
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Piano02
-      maxAttenuation: 200
-      maxDuration: 32
-      minDuration: 32
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -352,7 +352,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b1b4cfd5b14df047a3103bda34ef8a11
     GuidInternal: 
-    m_lastTime: -8585860991007190224
+    m_lastTime: -8585855587152928047
     List:
     - name: Controller_Bass
       guid: 64791142e64d48478dc0bf42a593b737

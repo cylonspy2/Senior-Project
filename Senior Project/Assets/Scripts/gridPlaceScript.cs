@@ -17,13 +17,14 @@ public class gridPlaceScript : MonoBehaviour
     public GameObject[] gridTargets;
     public GameObject freePlaceFloor;
 
-    [HideInInspector]
+    [Header("PubAccessVariables")]
+
     public int choice;
-    [HideInInspector]
+    
     public GameObject selectedObj;
-    [HideInInspector]
+    
     public GameObject selectedPhish;
-    [HideInInspector]
+    
     public GameObject selectedPhishMaster;
 
     // Start is called before the first frame update
@@ -80,7 +81,8 @@ public class gridPlaceScript : MonoBehaviour
             layerMask = ~layerMask;
             if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
-                if(hit.transform.gameObject.tag == "Fish1" && Input.GetKeyDown(targetKey))
+                string baka = hit.transform.gameObject.tag;
+                if (hit.transform.gameObject.tag == "Fish1" && Input.GetKeyDown(targetKey))
                 {
                     GameObject phish = hit.transform.gameObject;
                     GameObject phishMaster = phish.transform.parent.gameObject;
@@ -91,7 +93,7 @@ public class gridPlaceScript : MonoBehaviour
                     selectedPhishMaster = phishMaster;
                     choice = 0;
                 }
-                else if (hit.transform.gameObject.tag == "Prop" && Input.GetKeyDown(targetKey))
+                else if ((baka == "Antenna" || baka == "Coral" || baka == "Metronome" || baka == "Oyster" || baka == "PirateShip" || baka == "PirateSkull") && Input.GetKeyDown(targetKey))
                 {
                     GameObject OObj = hit.transform.gameObject;
 
