@@ -47,13 +47,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   rotateSpeed: 0
+  timerForNewPos: 5
   visionDistance: 0
   rb: {fileID: 7993792610755800390}
   target: {x: 0, y: 0, z: 0}
+  allTarget: {x: 0, y: 0, z: 0}
   xa: 110
   ya: 110
   za: 110
   targetTime: 5
+  repel: 0
 --- !u!54 &7993792610755800390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -136,9 +139,9 @@ MonoBehaviour:
   _target: {fileID: 748094592836283646}
   Boid: {fileID: 5011327565069986045, guid: 279533dd1c16aab469b3e815ca95fb21, type: 3}
   speed: 4.61
-  rotSpeed: 1.94
-  avoidRange: 1.58
-  sightRange: 2.66
+  rotSpeed: 1.78
+  avoidRange: 2.08
+  sightRange: 3.61
   rotationPercentage: 0.95
   Kapu: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &-3254459007486830314
