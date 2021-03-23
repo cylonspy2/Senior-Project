@@ -15,6 +15,8 @@ public class CameraSwitch : MonoBehaviour
     public string optionOneCam;
     public string optionTwoCam;
 
+    
+
 
     Behaviour def;
     Behaviour one;

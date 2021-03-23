@@ -16,6 +16,10 @@ public class SpawnDecoration : MonoBehaviour
     public GameObject sample_6;
     public float heightAdjust;
 
+    public GameObject camera_1;
+    public GameObject camera_2;
+    public GameObject camera_3;
+
     // list that holds all created objects - enables deleting all instances
     public List<GameObject> createdObjects = new List<GameObject>();
 
@@ -30,7 +34,29 @@ public class SpawnDecoration : MonoBehaviour
     private void Update()
     {
         //CurrProp = sample_1;
-        
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            camera_1.SetActive(true);
+            camera_2.SetActive(false);
+            camera_3.SetActive(false);
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            camera_1.SetActive(false);
+            camera_2.SetActive(true);
+            camera_3.SetActive(false);
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            camera_1.SetActive(false);
+            camera_2.SetActive(false);
+            camera_3.SetActive(true);
+
+        }
     }
 
     //switches which prop to place
@@ -114,6 +140,8 @@ public class SpawnDecoration : MonoBehaviour
     {
         CurrProp = null;
     }
+
+    
 
     
 }
