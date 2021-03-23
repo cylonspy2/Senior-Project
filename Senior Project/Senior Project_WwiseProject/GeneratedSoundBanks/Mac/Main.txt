@@ -17,6 +17,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3773451286	reset_Cymbal01			\Default Work Unit\Resets\reset_Cymbal01	
 	3922322737	VI_Piano01			\Default Work Unit\Instruments\VI_Piano01	
 	3922322738	VI_Piano02			\Default Work Unit\Instruments\VI_Piano02	
+	4055567060	menu_Music			\Default Work Unit\Instruments\menu_Music	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	261899543	Reverb_Control			\Default Work Unit\Reverb_Control	
@@ -43,6 +44,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	231471481	musicTrack-Piano01	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Mac\SFX\musicTrack-Piano01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\music_Actor_Mixer\musicTrack-Piano01		6144064
 	307837311	Track-2-Snare Drum	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Mac\SFX\WayTooMuchFunTracks\Track-2-Snare Drum_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-2-Snare Drum		3168064
 	425941899	musicTrack-ACBass03	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Mac\SFX\musicTrack-ACBass03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\music_Actor_Mixer\musicTrack-ACBass03		1536064
+	495656107	menu_Music	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Mac\SFX\wavey_sampleSong03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\music_Actor_Mixer\menu_Music		6912064
 	582895261	musicTrack-Percussion03	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Mac\SFX\musicTrack-Percussion03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\music_Actor_Mixer\musicTrack-Percussion03		3072064
 	627535368	musicTrack-AcBass02	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Mac\SFX\musicTrack-AcBass02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\music_Actor_Mixer\musicTrack-AcBass02		3072064
 	634054871	Track-7-Cowbell	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Mac\SFX\WayTooMuchFunTracks\Track-7-Cowbell_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-7-Cowbell		3168064

@@ -17,6 +17,7 @@
 						<ObjectRef Name="VI_Piano01" ID="{C3711749-A61C-45E8-88C8-11FCDA75CF11}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Game_Start_Event" ID="{91CA2D44-F4A0-4609-83B6-7AFFDE0F3626}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_Solo01" ID="{C9D22059-D954-47F6-B4FF-0CECD20B7B35}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="menu_Music" ID="{C91BAAE8-520C-4953-8BE0-7D4EF8040736}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="VI_Percussion03" ID="{04F008BA-9210-4B17-B751-8430EF09E9A5}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="VI_Bass01" ID="{D59110B1-50F3-4BCB-9EC5-016BA460282D}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="reset_Cymbal01" ID="{E0DF4E83-B817-4DC2-8421-0D2F541530C7}" WorkUnitID="{6B36E180-87D3-431A-99F9-8F538D3D53B4}" Origin="Manual" Filter="7"/>

@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3890268306">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2405850316">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -54,6 +54,14 @@
 						<File Id="1066914197" Language="SFX">
 							<ShortName>WayTooMuchFunTracks\Track-5-Chords.wav</ShortName>
 							<Path>SFX\WayTooMuchFunTracks\Track-5-Chords_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4055567060" Name="menu_Music" ObjectPath="\Events\Default Work Unit\Instruments\menu_Music" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="36.000000" DurationMax="36.000000">
+					<IncludedMemoryFiles>
+						<File Id="495656107" Language="SFX">
+							<ShortName>wavey_sampleSong03.wav</ShortName>
+							<Path>SFX\wavey_sampleSong03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

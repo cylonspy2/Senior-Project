@@ -104,6 +104,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="menu_Music" ID="{C91BAAE8-520C-4953-8BE0-7D4EF8040736}">
+							<ChildrenList>
+								<Action Name="" ID="{61C2FED8-F3FD-41A7-9BA1-CC2D9613BCF3}" ShortID="473469754">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="menu_Music" ID="{A9E2B790-337C-43C3-8E64-803CAAFA8CCE}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Resets" ID="{49EBE974-0A0F-468C-AC4D-8EF10CF92B95}" ShortID="541358025">
@@ -234,6 +245,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Solo01" ID="{7B02C058-0D22-480C-828F-8353E38B441B}" WorkUnitID="{98050B15-3D40-4B60-82AF-94B2EB4E97D1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="reset_Menu_Music" ID="{6A8A3D83-B1A1-4CE5-8BD9-33F72F102C4F}">
+							<ChildrenList>
+								<Action Name="" ID="{353B9371-E5A2-47C6-816A-53C397C6BAC9}" ShortID="589550050">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="menu_Music" ID="{A9E2B790-337C-43C3-8E64-803CAAFA8CCE}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
