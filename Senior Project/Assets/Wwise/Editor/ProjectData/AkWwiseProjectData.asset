@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ec2cbc375126fe48966429feb8315684
     GuidInternal: 
-    m_lastTime: -8585855587080428300
+    m_lastTime: -8585849782855549484
     List:
     - name: Main
       guid: 2ec9be35af3d224c9c5182e6a850ee7e
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 80e1366bd3871a4399f98f538d3d53b4
     GuidInternal: 
-    m_lastTime: -8585855587152928047
+    m_lastTime: -8585849782923210872
     List:
     - name: Game_Start_Event
       guid: 442dca91a0f4094683b67affde0f3626
@@ -94,6 +94,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: menu_Music
+      guid: e8aa1bc90c5253498be07d4ef8040736
+      id: 4055567060
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 4
+      - ElementName: menu_Music
+        ObjectType: 3
+      Path: Default Work Unit\Instruments\menu_Music
+      maxAttenuation: 100
+      maxDuration: 36
+      minDuration: 36
     - name: reset_All
       guid: 2b67b582a7a1ec41bd80021f46de413f
       id: 2081023666
@@ -192,6 +206,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: reset_Menu_Music
+      guid: 833d8a6aa1b1e54c8bd933f72f102c4f
+      id: 288707048
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Resets
+        ObjectType: 4
+      - ElementName: reset_Menu_Music
+        ObjectType: 3
+      Path: Default Work Unit\Resets\reset_Menu_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: reset_SnareDrum01
       guid: a5874e83bea3cb4d9fd5da956b2a867a
       id: 2907261653

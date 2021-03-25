@@ -31,6 +31,9 @@ public class gridPlaceScript : MonoBehaviour
     void Start()
     {
         currCountDown = countDown;
+        selectedObj = new GameObject();
+        selectedPhish = new GameObject();
+        selectedPhishMaster = new GameObject();
     }
 
     // Update is called once per frame
@@ -135,5 +138,19 @@ public class gridPlaceScript : MonoBehaviour
                 }
             }
         }
+
+        if(selectedObj == null)
+        {
+            selectedObj = new GameObject();
+        }
+        if (selectedPhish == null)
+        {
+            selectedPhish = new GameObject();
+        }
+        if (selectedPhishMaster == null)
+        {
+            selectedPhishMaster = new GameObject();
+        }
+
     }
 }

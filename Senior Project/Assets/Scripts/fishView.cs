@@ -26,14 +26,15 @@ public class fishView : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        try
+        if (manager.selectedPhish == null)
         {
             fsh = manager.selectedPhish;
         }
-        catch
+        else if(fsh == null)
         {
             fsh = new GameObject();
         }
+
         foreach (Transform chld in fsh.transform)
         {
             if (chld.CompareTag("camRoot"))
