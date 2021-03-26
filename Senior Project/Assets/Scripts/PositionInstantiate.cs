@@ -23,5 +23,6 @@ public class PositionInstantiate : MonoBehaviour
     {
         targetPos = new Vector3(Random.Range(-4f, 4f), Random.Range(-4f, 4f), Random.Range(-4f, 4f));
         Instantiate(spawn, targetPos, transform.rotation);
+        Debug.Log("Fish was spawned");
     }
 }
