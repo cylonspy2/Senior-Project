@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.061110646, g: 0.30554926, b: 0.6806822, a: 1}
+  m_IndirectSpecularColor: {r: 0.061110698, g: 0.3055493, b: 0.6806823, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1029,6 +1029,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1546741324 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7251985881751928202, guid: ca941e2816f434e3e9bf4f34c53ee838,
+    type: 3}
+  m_PrefabInstance: {fileID: 7251985882875191515}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1561953222 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7251985882288612125, guid: ca941e2816f434e3e9bf4f34c53ee838,
@@ -1077,6 +1083,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4425717144527652090, guid: 8d5d968862e5df6449de96145e95d5e3,
     type: 3}
   m_PrefabInstance: {fileID: 4425717143239725047}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2053157444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7251985882434980638, guid: ca941e2816f434e3e9bf4f34c53ee838,
+    type: 3}
+  m_PrefabInstance: {fileID: 7251985882875191515}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3334080305280216899
 PrefabInstance:
@@ -1500,12 +1512,39 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 963194225}
+    - target: {fileID: 7251985882747571133, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: image1
+      value: 
+      objectReference: {fileID: 2053157444}
+    - target: {fileID: 7251985882747571133, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: image2
+      value: 
+      objectReference: {fileID: 1546741324}
+    - target: {fileID: 7251985883202106433, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7251985883202106435, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7251985883330076848, guid: ca941e2816f434e3e9bf4f34c53ee838,
         type: 3}
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 963194225}
-    m_RemovedComponents: []
+    - target: {fileID: 7251985883355098934, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7251985882747571134, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
+    - {fileID: 7251985882747571133, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
 --- !u!1001 &9205683113182073285
 PrefabInstance:
