@@ -57,6 +57,10 @@ public class SpawnDecoration : MonoBehaviour
             camera_3.SetActive(true);
 
         }
+
+        
+
+
     }
 
     //switches which prop to place
@@ -71,17 +75,21 @@ public class SpawnDecoration : MonoBehaviour
     {
         if (CurrProp != null)
         {
-            if (!IsPointerOverUIObject())
-            {
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
+            //if (!IsPointerOverUIObject())
+           // {
                 //avoids prop clutter but only allows two props total, still not right
                 if (createdObjects.Count >= 2)
                 {
                     GameObject oldProp = createdObjects[createdObjects.Count - 2];
                     if (oldProp.tag == CurrProp.tag)
-                    {
+                   {
+                        
                         createdObjects.Remove(oldProp);
                         Destroy(oldProp);
-                        Debug.Log("Old prop destroyed and removed from list of gameobjects");
+                       Debug.Log("Old prop destroyed and removed from list of gameobjects");
+                        
                     }
                     
                 }
@@ -89,8 +97,9 @@ public class SpawnDecoration : MonoBehaviour
 
                 GameObject go = (GameObject)Instantiate(CurrProp, targetPos, Quaternion.identity);
                 createdObjects.Add(go);
+                Debug.Log("calledcalled");
 
-            }
+            //}
         }
 
         
@@ -109,6 +118,7 @@ public class SpawnDecoration : MonoBehaviour
     public void TurnOn_Antenna()
     {
         CurrProp = sample_1;
+        
     }
 
     public void TurnOn_Coral()
