@@ -4894,7 +4894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisThing: {fileID: 6848040821557057696}
-  effectRange: 700
+  effectRange: 2500
 --- !u!54 &6352880380280957728
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4904,7 +4904,7 @@ Rigidbody:
   m_GameObject: {fileID: 6848040821557057696}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 2
   m_AngularDrag: 17.78
   m_UseGravity: 0
   m_IsKinematic: 0

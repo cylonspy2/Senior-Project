@@ -21,6 +21,8 @@ public class submerseScript : MonoBehaviour
     public float camSens = 0.25f;
     public float lerpSpeed = 1.0f;
     public float lerpClamp;
+    public float maxRotate = 90f;
+    public float mixRotate = -90f;
     public Vector2 camClamp;
     public Vector3 subClamp;
 
@@ -49,6 +51,7 @@ public class submerseScript : MonoBehaviour
         lastMouse = Input.mousePosition - lastMouse;
         lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
         //lastMouse = new Vector3(Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, -camClamp.x, camClamp.x), Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, -camClamp.y, camClamp.y), 0);
+        
         lastMouse = new Vector3(camControl.transform.eulerAngles.x + lastMouse.x, camControl.transform.eulerAngles.y + lastMouse.y, 0);
         camControl.transform.eulerAngles = lastMouse;
         lastMouse = Input.mousePosition;
