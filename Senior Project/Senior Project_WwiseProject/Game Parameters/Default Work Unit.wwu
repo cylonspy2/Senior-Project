@@ -52,6 +52,16 @@
 				</GameParameter>
 				<GameParameter Name="Pitch_Control" ID="{61592847-FDC7-4C0B-B11F-A0E74917AA08}"/>
 				<GameParameter Name="Speed_Control" ID="{BF25EA13-41A9-460A-92A9-A12A8EF96B2A}"/>
+				<GameParameter Name="LowPass_Control" ID="{03A48E3B-5677-40C6-AB48-B8BB4B7E36A9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="HighPass_Control" ID="{8E2FC4E2-34E3-452D-B511-F7624392C785}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

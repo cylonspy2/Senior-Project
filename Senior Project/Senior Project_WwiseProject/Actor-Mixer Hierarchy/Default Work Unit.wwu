@@ -6,6 +6,62 @@
 				<ActorMixer Name="music_Actor_Mixer" ID="{EA489583-C8C2-4441-B367-916510AECDEB}" ShortID="591507439">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Highpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{F3D80E6A-7258-468B-9822-7D67796B9D63}" ShortID="573887148">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="HighPass_Control" ID="{8E2FC4E2-34E3-452D-B511-F7624392C785}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{25D48654-D8F3-408C-A72F-68F3321B1F4E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>75</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{7577C293-6354-4EFF-91A7-A0E4DD5BC4AC}" ShortID="174736745">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="LowPass_Control" ID="{03A48E3B-5677-40C6-AB48-B8BB4B7E36A9}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B3E8AA98-66E8-4C5C-A0F0-582B416FF615}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>75</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>12</Value>

@@ -23,7 +23,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	261899543	Reverb_Control			\Default Work Unit\Reverb_Control	
 	507607291	Pitch_Control			\Default Work Unit\Pitch_Control	
 	549677646	Controller_Cowbell			\Default Work Unit\Controller_Cowbell	
+	582317620	HighPass_Control			\Default Work Unit\HighPass_Control	
 	1315107341	Controller_Bass			\Default Work Unit\Controller_Bass	
+	1785926232	LowPass_Control			\Default Work Unit\LowPass_Control	
 	2232728930	Master_Volume_Control			\Default Work Unit\Master_Volume_Control	
 	2417179647	Controller_SDrum			\Default Work Unit\Controller_SDrum	
 	2516872914	Controller_Cymbal			\Default Work Unit\Controller_Cymbal	

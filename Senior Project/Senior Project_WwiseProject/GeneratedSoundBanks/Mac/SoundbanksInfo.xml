@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1618728539">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2534604085">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2405850316">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3007091404">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -143,7 +143,9 @@
 				<GameParameter Id="261899543" Name="Reverb_Control" ObjectPath="\Game Parameters\Default Work Unit\Reverb_Control"/>
 				<GameParameter Id="507607291" Name="Pitch_Control" ObjectPath="\Game Parameters\Default Work Unit\Pitch_Control"/>
 				<GameParameter Id="549677646" Name="Controller_Cowbell" ObjectPath="\Game Parameters\Default Work Unit\Controller_Cowbell"/>
+				<GameParameter Id="582317620" Name="HighPass_Control" ObjectPath="\Game Parameters\Default Work Unit\HighPass_Control"/>
 				<GameParameter Id="1315107341" Name="Controller_Bass" ObjectPath="\Game Parameters\Default Work Unit\Controller_Bass"/>
+				<GameParameter Id="1785926232" Name="LowPass_Control" ObjectPath="\Game Parameters\Default Work Unit\LowPass_Control"/>
 				<GameParameter Id="2232728930" Name="Master_Volume_Control" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume_Control"/>
 				<GameParameter Id="2417179647" Name="Controller_SDrum" ObjectPath="\Game Parameters\Default Work Unit\Controller_SDrum"/>
 				<GameParameter Id="2516872914" Name="Controller_Cymbal" ObjectPath="\Game Parameters\Default Work Unit\Controller_Cymbal"/>

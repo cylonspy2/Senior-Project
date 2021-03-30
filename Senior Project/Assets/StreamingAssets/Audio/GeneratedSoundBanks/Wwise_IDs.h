@@ -44,6 +44,8 @@ namespace AK
         static const AkUniqueID CONTROLLER_CYMBAL = 2516872914U;
         static const AkUniqueID CONTROLLER_SDRUM = 2417179647U;
         static const AkUniqueID CONTROLLER_SOLO = 4203175449U;
+        static const AkUniqueID HIGHPASS_CONTROL = 582317620U;
+        static const AkUniqueID LOWPASS_CONTROL = 1785926232U;
         static const AkUniqueID MASTER_VOLUME_CONTROL = 2232728930U;
         static const AkUniqueID PITCH_CONTROL = 507607291U;
         static const AkUniqueID REVERB_CONTROL = 261899543U;
