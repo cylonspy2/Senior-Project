@@ -857,6 +857,8 @@ MonoBehaviour:
   camSens: 0.25
   lerpSpeed: 10
   lerpClamp: 0.51
+  maxRotate: 90
+  mixRotate: -90
   camClamp: {x: 60, y: 60}
   subClamp: {x: 500, y: 500, z: 500}
   forward: 119
@@ -1350,6 +1352,16 @@ PrefabInstance:
       propertyPath: Volume
       value: 
       objectReference: {fileID: 1489110131}
+    - target: {fileID: 7509457161790262372, guid: a1f8e841d2b9f4975aecbbccbfb378a0,
+        type: 3}
+      propertyPath: count
+      value: 1.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509457161790262372, guid: a1f8e841d2b9f4975aecbbccbfb378a0,
+        type: 3}
+      propertyPath: Tick
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1f8e841d2b9f4975aecbbccbfb378a0, type: 3}
 --- !u!114 &3334080305280216900 stripped
