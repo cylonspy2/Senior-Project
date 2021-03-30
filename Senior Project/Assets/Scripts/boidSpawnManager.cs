@@ -6,7 +6,7 @@ public class boidSpawnManager : MonoBehaviour
 {
 
     public int maxSize;
-    public float stickyRange;
+    public float stickyRange = 50f;
     public GameObject boidParent;
     public Transform _target;
 
@@ -46,10 +46,12 @@ public class boidSpawnManager : MonoBehaviour
         for(int i = 0; i < ceiling; i++)
         {
             float stick = stickyRange / 2;
-            Vector3 spawn = new Vector3(Random.Range(stick, -stick), Random.Range(stick, -stick), Random.Range(stick, -stick));
+            //Vector3 spawn = new Vector3(Random.Range(-stick, stick), Random.Range(-stick, stick), Random.Range(-stick, stick));
+            Vector3 spawn = new Vector3(Random.Range(-25f, 25f), Random.Range(-25f, 25f), Random.Range(-25f, 25f));
             GameObject spawnt = Instantiate(Boid, spawn, Quaternion.identity, boidParent.transform);
             swarm[i] = spawnt;
             swarmMass[i] = spawnt.GetComponent<Rigidbody>();
+            Debug.Log("Boid Spawned at: " + spawn);
             //spawnt.transform.Rotate(Random.Range(180, -180), Random.Range(180, -180), Random.Range(180, -180));
         }
     }
