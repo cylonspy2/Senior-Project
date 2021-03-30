@@ -68,6 +68,38 @@
 						</Property>
 					</PropertyList>
 				</Effect>
+				<Effect Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{A6D3A2B9-EB51-434F-A2B3-A835C0F62279}" ShortID="277056764">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Tremolo_Control" ID="{C84F1D88-5435-4192-9B87-3376717E03D7}" WorkUnitID="{D5CFB4B1-4DB1-47F0-A310-3BDA34EF8A11}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D8789B7A-343C-4077-BB16-74681F3D1EEC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1.5</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>10</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

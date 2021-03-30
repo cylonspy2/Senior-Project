@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 6357557959393626257}
   - component: {fileID: 6357557959393626258}
   - component: {fileID: 2202860606792064157}
+  - component: {fileID: -3823942579982409219}
   - component: {fileID: 7625908791812669819}
   m_Layer: 0
   m_Name: Metronome
@@ -204,12 +205,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6357557959393626271}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5eebeeed596c59438cef8626679785e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pos: 0
+--- !u!114 &-3823942579982409219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6357557959393626271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae86e853193e7f142af2f7b7da3acbd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tremVal: 0
 --- !u!65 &7625908791812669819
 BoxCollider:
   m_ObjectHideFlags: 0

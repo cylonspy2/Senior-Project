@@ -50,6 +50,7 @@ namespace AK
         static const AkUniqueID PITCH_CONTROL = 507607291U;
         static const AkUniqueID REVERB_CONTROL = 261899543U;
         static const AkUniqueID SPEED_CONTROL = 1451107664U;
+        static const AkUniqueID TREMOLO_CONTROL = 1507813305U;
         static const AkUniqueID VOLUME_CONTROL = 4194816893U;
     } // namespace GAME_PARAMETERS
 

@@ -131,6 +131,9 @@
 						<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 							<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
 						</Reference>
+						<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+							<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
 						</Reference>

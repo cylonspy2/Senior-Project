@@ -25,6 +25,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	549677646	Controller_Cowbell			\Default Work Unit\Controller_Cowbell	
 	582317620	HighPass_Control			\Default Work Unit\HighPass_Control	
 	1315107341	Controller_Bass			\Default Work Unit\Controller_Bass	
+	1507813305	Tremolo_Control			\Default Work Unit\Tremolo_Control	
 	1785926232	LowPass_Control			\Default Work Unit\LowPass_Control	
 	2232728930	Master_Volume_Control			\Default Work Unit\Master_Volume_Control	
 	2417179647	Controller_SDrum			\Default Work Unit\Controller_SDrum	
@@ -38,6 +39,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	163816149	pitch_Shifter	Wwise Pitch Shifter			
 	348963605	Reverb	Wwise Matrix Reverb			
+	4056223263	Tremolo	Wwise Tremolo			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	46701256	Track-4-Bass	D:\Senior-Project\Senior Project\Senior Project_WwiseProject\.cache\Windows\SFX\WayTooMuchFunTracks\Track-4-Bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_Music\WayTooMuchFunTracks\Track-4-Bass		3168064
