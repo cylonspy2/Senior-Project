@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6357557959393626257}
   - component: {fileID: 6357557959393626258}
   - component: {fileID: 2202860606792064157}
+  - component: {fileID: 1676316240357466160}
   - component: {fileID: 6387643018970674494}
   m_Layer: 0
   m_Name: PirateSkull
@@ -109,12 +110,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6357557959393626271}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5eebeeed596c59438cef8626679785e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pos: 0
+--- !u!114 &1676316240357466160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6357557959393626271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1148bf5e97fe7454ea6e23512ce43b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highPVal: 0
 --- !u!65 &6387643018970674494
 BoxCollider:
   m_ObjectHideFlags: 0
