@@ -21,9 +21,9 @@ public class submerseScript : MonoBehaviour
     public float camSens = 0.25f;
     public float lerpSpeed = 1.0f;
     public float lerpClamp;
-    public float maxRotate = 90f;
-    public float mixRotate = -90f;
-    public Vector2 camClamp;
+    //public float xRotateAngl = 90f;
+    float camRotateX, camRotateY;
+    public Vector3 camClamp;
     public Vector3 subClamp;
 
     public KeyCode forward;
@@ -60,7 +60,11 @@ public class submerseScript : MonoBehaviour
         p = p * mainSpeed * Time.deltaTime;
 
         subMerse.transform.eulerAngles = new Vector3(subMerse.transform.eulerAngles.x, subMerse.transform.eulerAngles.y + p.x, subMerse.transform.eulerAngles.z);
-        camControl.transform.eulerAngles = new Vector3(camControl.transform.eulerAngles.x, camControl.transform.eulerAngles.y + p.x, camControl.transform.eulerAngles.z);
+        // camRotateX = Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, -camClamp.x, camClamp.x);
+        // camRotateY = Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, -camClamp.y, camClamp.y);
+        camRotateX = Mathf.Clamp(camControl.transform.eulerAngles.x, -camClamp.x, camClamp.x);
+        camRotateY = Mathf.Clamp(camControl.transform.eulerAngles.y + p.x, -camClamp.y, camClamp.y);
+        camControl.transform.eulerAngles = new Vector3(camRotateX, camRotateY, camControl.transform.eulerAngles.z);
 
         Vector3 q = new Vector3(0, p.y, p.z);
         subMerse.transform.Translate(q);
