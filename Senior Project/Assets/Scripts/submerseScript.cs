@@ -102,11 +102,11 @@ public class submerseScript : MonoBehaviour
     {
         if(attract)
         {
-            Instantiate(foodPellet, fireNozzle.transform.position, fireNozzle.transform.rotation);
+            Instantiate(foodPellet, fireNozzle.transform.position, camControl.transform.rotation);
         }
         else
         {
-            Instantiate(repellant, fireNozzle.transform.position, fireNozzle.transform.rotation);
+            Instantiate(repellant, fireNozzle.transform.position, camControl.transform.rotation);
         }
     }
 
