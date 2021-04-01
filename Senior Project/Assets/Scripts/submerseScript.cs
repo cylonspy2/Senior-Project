@@ -21,10 +21,7 @@ public class submerseScript : MonoBehaviour
     public float camSens = 0.25f;
     public float lerpSpeed = 1.0f;
     public float lerpClamp;
-    public float maxRotate = 90f;
-    public float mixRotate = -90f;
-    public Vector2 camClamp;
-    public Vector3 subClamp;
+    public Vector3 subClamp, camClamp;
 
     public KeyCode forward;
     public KeyCode leftTurn;
@@ -98,11 +95,11 @@ public class submerseScript : MonoBehaviour
     {
         if(attract)
         {
-            Instantiate(foodPellet, fireNozzle.transform.position, fireNozzle.transform.rotation);
+            Instantiate(foodPellet, fireNozzle.transform.position, camControl.transform.rotation);
         }
         else
         {
-            Instantiate(repellant, fireNozzle.transform.position, fireNozzle.transform.rotation);
+            Instantiate(repellant, fireNozzle.transform.position, camControl.transform.rotation);
         }
     }
 
