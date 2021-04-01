@@ -1719,6 +1719,11 @@ PrefabInstance:
       propertyPath: heightAdjust
       value: 6.98
       objectReference: {fileID: 0}
+    - target: {fileID: 1542223891861732397, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: maxPropEachKind
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1719112121275716239, guid: ca941e2816f434e3e9bf4f34c53ee838,
         type: 3}
       propertyPath: m_AnchoredPosition.x

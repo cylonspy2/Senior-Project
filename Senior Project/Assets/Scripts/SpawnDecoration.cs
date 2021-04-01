@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class SpawnDecoration : MonoBehaviour
 {
+    public int maxPropEachKind = 2;
     public GameObject Cursor;
     private GameObject CurrProp;
     public GameObject sample_1;
@@ -80,9 +81,9 @@ public class SpawnDecoration : MonoBehaviour
             //if (!IsPointerOverUIObject())
            // {
                 //avoids prop clutter but only allows two props total, still not right
-                if (createdObjects.Count >= 2)
+                if (createdObjects.Count >= maxPropEachKind)
                 {
-                    GameObject oldProp = createdObjects[createdObjects.Count - 2];
+                    GameObject oldProp = createdObjects[createdObjects.Count - maxPropEachKind];
                     if (oldProp.tag == CurrProp.tag)
                    {
                         
