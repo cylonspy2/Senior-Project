@@ -11,7 +11,7 @@ public class moving : MonoBehaviour
     public Transform target;
     //public Transform target;
     public Vector3 startPos;
-    public KeyCode mouseMov, forward, left, right, back;
+    public KeyCode mouseMov;
     public bool Mov;
     private Vector3 previousPos;
     private Quaternion prevCamRot;
@@ -21,21 +21,28 @@ public class moving : MonoBehaviour
 
     public KeyCode followMov;
     public gridPlaceScript selectMov;
+    // Start is called before the first frame update
 
+<<<<<<< HEAD
     // public float mainSpeed = 100.0f; //regular speed
     // public float camSens = 0.25f; //How sensitive it with mouse
     // private Vector3 lastMouse = new Vector3(255, 255, 255); //kind of in the middle of the screen, rather than at the top (play)
+=======
+>>>>>>> parent of 8f33f621 (Main Camera wasd controls)
 
-    // Start is called before the first frame update
     void Start()
     {
         isFollowing = false;
+<<<<<<< HEAD
         // lastMouse = Input.mousePosition;
+=======
+>>>>>>> parent of 8f33f621 (Main Camera wasd controls)
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
 
         // lastMouse = Input.mousePosition - lastMouse;
         // lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
@@ -48,6 +55,11 @@ public class moving : MonoBehaviour
         {
 
 
+=======
+        if (Mov)
+        {
+
+>>>>>>> parent of 8f33f621 (Main Camera wasd controls)
             Vector3 direction = new Vector3(0,0,0);
             if (Input.GetKeyDown(mouseMov))
             {
@@ -97,9 +109,12 @@ public class moving : MonoBehaviour
             }
             else
             {
+<<<<<<< HEAD
                 
                 
                 Vector3 newPosition = transform.position;
+=======
+>>>>>>> parent of 8f33f621 (Main Camera wasd controls)
                 if ((Mathf.Abs(Vector3.Distance(cam.transform.position, target.position)) <= lerpClamp))
                 {
                     cam.transform.position = target.position;
@@ -109,6 +124,7 @@ public class moving : MonoBehaviour
                 {
                     cam.transform.position = Vector3.Lerp(cam.transform.position, target.position, Time.deltaTime * lerpSpeed);
                 }
+<<<<<<< HEAD
 
                 //cam.transform.position = target.position;
 
@@ -121,28 +137,17 @@ public class moving : MonoBehaviour
             }
 
         
+=======
 
-    }
-    
-    private Vector3 GetBaseInput()
-    { //returns the basic values, if it's 0 than it's not active.
-        Vector3 p_Velocity = new Vector3();
-        if (Input.GetKey(forward))
-        {
-            p_Velocity += new Vector3(0, 0, 1);
+                //cam.transform.position = target.position;
+>>>>>>> parent of 8f33f621 (Main Camera wasd controls)
+
+                //vector3.Lerp(cam.transform.position, startPos, Time.deltaTime * lerpSpeed);
+                cam.transform.Rotate(new Vector3(x: 1, y: 0, z: 0), angle: direction.y * 180);
+                cam.transform.Rotate(new Vector3(x: 0, y: -1, z: 0), angle: direction.x * 180, relativeTo: Space.World);
+            }
+
+            previousPos = cam.ScreenToViewportPoint(Input.mousePosition);
         }
-        if (Input.GetKey(back))
-        {
-            p_Velocity += new Vector3(0, 0, -1);
-        }
-        if (Input.GetKey(left))
-        {
-            p_Velocity += new Vector3(-1, 0, 0);
-        }
-        if (Input.GetKey(right))
-        {
-            p_Velocity += new Vector3(1, 0, 0);
-        }
-        return p_Velocity;
     }
 }
