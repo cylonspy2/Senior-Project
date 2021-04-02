@@ -15,6 +15,7 @@ public class CameraSwitch : MonoBehaviour
     public string optionOneCam;
     public string optionTwoCam;
 
+    public int camVal;
     
 
 
@@ -25,7 +26,9 @@ public class CameraSwitch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         //grab the various camera scripts using strings. Annoying to extend if we want to add more camera modes, but screw it. Not My Script. 
+        camVal = 1;
         var optDef = maincamera.GetComponent(startingCamScript);
         def = optDef as Behaviour;
         var optOne = maincamera.GetComponent(optionOneCam);
@@ -47,6 +50,7 @@ public class CameraSwitch : MonoBehaviour
             one.enabled = false;
             maincamera.GetComponent<CameraZoom>().enabled = true;
             def.enabled = true;
+            camVal = 1;
 
             UI_Bottom.SetActive(true);
         }
@@ -57,6 +61,7 @@ public class CameraSwitch : MonoBehaviour
             one.enabled = true;
             maincamera.GetComponent<CameraZoom>().enabled = false;
             def.enabled = false;
+            camVal = 2;
 
             UI_Bottom.SetActive(false);
         }
@@ -67,6 +72,7 @@ public class CameraSwitch : MonoBehaviour
             one.enabled = false;
             maincamera.GetComponent<CameraZoom>().enabled = false;
             def.enabled = false;
+            camVal = 3;
 
             UI_Bottom.SetActive(false);
         }

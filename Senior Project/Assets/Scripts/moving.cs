@@ -22,37 +22,37 @@ public class moving : MonoBehaviour
     public KeyCode followMov;
     public gridPlaceScript selectMov;
 
-    public float mainSpeed = 100.0f; //regular speed
-    public float camSens = 0.25f; //How sensitive it with mouse
-    private Vector3 lastMouse = new Vector3(255, 255, 255); //kind of in the middle of the screen, rather than at the top (play)
+    // public float mainSpeed = 100.0f; //regular speed
+    // public float camSens = 0.25f; //How sensitive it with mouse
+    // private Vector3 lastMouse = new Vector3(255, 255, 255); //kind of in the middle of the screen, rather than at the top (play)
 
     // Start is called before the first frame update
     void Start()
     {
         isFollowing = false;
-        lastMouse = Input.mousePosition;
+        // lastMouse = Input.mousePosition;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        lastMouse = Input.mousePosition - lastMouse;
-        lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
-        lastMouse = new Vector3(transform.eulerAngles.x + lastMouse.x, transform.eulerAngles.y + lastMouse.y, 0);
-        transform.eulerAngles = lastMouse;
-        lastMouse = Input.mousePosition;
+        // lastMouse = Input.mousePosition - lastMouse;
+        // lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
+        // lastMouse = new Vector3(transform.eulerAngles.x + lastMouse.x, transform.eulerAngles.y + lastMouse.y, 0);
+        // transform.eulerAngles = lastMouse;
+        // lastMouse = Input.mousePosition;
 
 
         if (Mov)
         {
 
 
-            Vector3 direction = GetBaseInput();
-            // if (Input.GetKeyDown(mouseMov))
-            // {
-            //     previousPos = cam.ScreenToViewportPoint(Input.mousePosition);
-            // }
+            Vector3 direction = new Vector3(0,0,0);
+            if (Input.GetKeyDown(mouseMov))
+            {
+                previousPos = cam.ScreenToViewportPoint(Input.mousePosition);
+            }
             if (Input.GetKeyDown(followMov))
             {
                 isFollowing = true;
@@ -83,9 +83,9 @@ public class moving : MonoBehaviour
             }
             else if (Input.GetKey(mouseMov))
             {
-                cam.transform.position = target.position;
-
                 //cam.transform.position = target.position;
+
+                cam.transform.position = target.position;
 
                 direction = previousPos - cam.ScreenToViewportPoint(Input.mousePosition);
 
@@ -98,29 +98,29 @@ public class moving : MonoBehaviour
             else
             {
                 
-                direction = direction * mainSpeed;
-                direction = direction * Time.deltaTime;
+                
                 Vector3 newPosition = transform.position;
-                // if ((Mathf.Abs(Vector3.Distance(cam.transform.position, target.position)) <= lerpClamp))
-                // {
-                //     cam.transform.position = target.position;
-                //     cam.transform.Translate(startPos, Space.Self);
-                // }
-                // else
-                // {
-                //     cam.transform.position = Vector3.Lerp(cam.transform.position, target.position, Time.deltaTime * lerpSpeed);
-                // }
+                if ((Mathf.Abs(Vector3.Distance(cam.transform.position, target.position)) <= lerpClamp))
+                {
+                    cam.transform.position = target.position;
+                    cam.transform.Translate(startPos, Space.Self);
+                }
+                else
+                {
+                    cam.transform.position = Vector3.Lerp(cam.transform.position, target.position, Time.deltaTime * lerpSpeed);
+                }
 
-                // //cam.transform.position = target.position;
+                //cam.transform.position = target.position;
 
-                // //vector3.Lerp(cam.transform.position, startPos, Time.deltaTime * lerpSpeed);
-                // cam.transform.Rotate(new Vector3(x: 1, y: 0, z: 0), angle: direction.y * 180);
-                // cam.transform.Rotate(new Vector3(x: 0, y: -1, z: 0), angle: direction.x * 180, relativeTo: Space.World);
+                //vector3.Lerp(cam.transform.position, startPos, Time.deltaTime * lerpSpeed);
+                cam.transform.Rotate(new Vector3(x: 1, y: 0, z: 0), angle: direction.y * 180);
+                cam.transform.Rotate(new Vector3(x: 0, y: -1, z: 0), angle: direction.x * 180, relativeTo: Space.World);
             }
 
-            //previousPos = cam.ScreenToViewportPoint(Input.mousePosition);
-            transform.Translate(direction);
-        }
+                previousPos = cam.ScreenToViewportPoint(Input.mousePosition);
+            }
+
+        
 
     }
     
