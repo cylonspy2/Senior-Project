@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraZoom : MonoBehaviour
+public class CameraZoomOLD : MonoBehaviour
 {
     public float minFOV;
     public float maxFOV;
