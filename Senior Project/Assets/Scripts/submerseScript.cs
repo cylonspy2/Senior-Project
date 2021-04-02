@@ -21,7 +21,10 @@ public class submerseScript : MonoBehaviour
     public float camSens = 0.25f;
     public float lerpSpeed = 1.0f;
     public float lerpClamp;
-    public Vector3 subClamp, camClamp;
+    //public float xRotateAngl = 90f;
+    float camRotateX, camRotateY;
+    public Vector3 camClamp;
+    public Vector3 subClamp;
 
     public KeyCode forward;
     public KeyCode leftTurn;
@@ -34,36 +37,47 @@ public class submerseScript : MonoBehaviour
 
     private Vector3 lastMouse;
 
+    Vector3 baka;
+
     // Start is called before the first frame update
     void Start()
     {
-        lastMouse = new Vector3(Screen.width/2, Screen.height/2, 0);
+        lastMouse = new Vector3(Screen.width / 2, Screen.height / 2, 0);
+        Vector3 baka = new Vector3(0, 0, 0);
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
-        
+
 
         lastMouse = Input.mousePosition - lastMouse;
         lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
         //lastMouse = new Vector3(Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, -camClamp.x, camClamp.x), Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, -camClamp.y, camClamp.y), 0);
-        
-        lastMouse = new Vector3(camControl.transform.eulerAngles.x + lastMouse.x, camControl.transform.eulerAngles.y + lastMouse.y, 0);
-        camControl.transform.eulerAngles = lastMouse;
-        lastMouse = Input.mousePosition;
 
         Vector3 p = GetBaseInput();
         p = p * mainSpeed * Time.deltaTime;
 
         subMerse.transform.eulerAngles = new Vector3(subMerse.transform.eulerAngles.x, subMerse.transform.eulerAngles.y + p.x, subMerse.transform.eulerAngles.z);
-        camControl.transform.eulerAngles = new Vector3(camControl.transform.eulerAngles.x, camControl.transform.eulerAngles.y + p.x, camControl.transform.eulerAngles.z);
+        // camRotateX = Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, -camClamp.x, camClamp.x);
+        // camRotateY = Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, -camClamp.y, camClamp.y);
+
+        lastMouse = new Vector3(camControl.transform.eulerAngles.x + lastMouse.x, camControl.transform.eulerAngles.y + lastMouse.y, 0);
+        camControl.transform.eulerAngles = lastMouse;
+        lastMouse = Input.mousePosition;
+
+        baka = new Vector3(baka.x + (Input.GetAxis("Mouse Y") * mainRotMult), baka.y - (Input.GetAxis("Mouse X") * mainRotMult), 0);
+        Vector3 buku = new Vector3(Mathf.Clamp(baka.x, -camClamp.x, camClamp.x), Mathf.Clamp(baka.y + subMerse.transform.eulerAngles.y, -camClamp.y + subMerse.transform.eulerAngles.y, camClamp.y + subMerse.transform.eulerAngles.y), camControl.transform.eulerAngles.z);
+
+        camControl.transform.rotation = Quaternion.Euler(buku);
+
+
 
         Vector3 q = new Vector3(0, p.y, p.z);
         subMerse.transform.Translate(q);
         subMerse.transform.position = new Vector3(Mathf.Clamp(subMerse.transform.position.x, -subClamp.x, subClamp.x), Mathf.Clamp(subMerse.transform.position.y, -subClamp.y, subClamp.y), Mathf.Clamp(subMerse.transform.position.z, -subClamp.z, subClamp.z));
 
-        if((Mathf.Abs((camControl.transform.position.x - camRoot.transform.position.x) * (camControl.transform.position.y - camRoot.transform.position.y) * (camControl.transform.position.z - camRoot.transform.position.z)) <= lerpClamp))
+        if ((Mathf.Abs((camControl.transform.position.x - camRoot.transform.position.x) * (camControl.transform.position.y - camRoot.transform.position.y) * (camControl.transform.position.z - camRoot.transform.position.z)) <= lerpClamp))
         {
             camControl.transform.position = camRoot.transform.position;
         }
@@ -71,7 +85,7 @@ public class submerseScript : MonoBehaviour
         {
             camControl.transform.position = Vector3.Lerp(camControl.transform.position, camRoot.transform.position, Time.deltaTime * lerpSpeed);
         }
-        
+
 
         if (Input.GetKeyDown(fire))
         {
@@ -93,13 +107,13 @@ public class submerseScript : MonoBehaviour
 
     public void shootGun()
     {
-        if(attract)
+        if (attract)
         {
-            Instantiate(foodPellet, fireNozzle.transform.position, camControl.transform.rotation);
+            Instantiate(foodPellet, fireNozzle.transform.position, fireNozzle.transform.rotation);
         }
         else
         {
-            Instantiate(repellant, fireNozzle.transform.position, camControl.transform.rotation);
+            Instantiate(repellant, fireNozzle.transform.position, fireNozzle.transform.rotation);
         }
     }
 
@@ -126,7 +140,7 @@ public class submerseScript : MonoBehaviour
         {
             p_Velocity += new Vector3(0, 1, 0);
         }
-        if(Input.GetKey(down))
+        if (Input.GetKey(down))
         {
             p_Velocity += new Vector3(0, -1, 0);
         }
