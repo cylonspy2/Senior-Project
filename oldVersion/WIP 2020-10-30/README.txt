@@ -1,1 +1,0 @@
-Just click on the exe in the folder that came with this README, and the rest is self explanatory. The only operable buttons are the ones that rotate the camera and the one that spawns fish on the far left.
