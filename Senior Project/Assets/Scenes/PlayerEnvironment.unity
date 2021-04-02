@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.061110646, g: 0.30554926, b: 0.6806822, a: 1}
+  m_IndirectSpecularColor: {r: 0.061110698, g: 0.3055493, b: 0.6806823, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -402,7 +402,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 242719828}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &242719831 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5077429302047249446, guid: 714b957eaba3d9042b7524e451901615,
@@ -567,8 +566,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658546914}
   m_CullTransparentMesh: 0
-=======
->>>>>>> ClampTest
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,14 +999,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.1686287, y: -0, z: -0, w: 0.98567975}
   m_LocalPosition: {x: 0, y: 0.2, z: -29.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1960274038}
+  m_Children: []
   m_Father: {fileID: 847403163}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 19.416, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1167,21 +1163,17 @@ MonoBehaviour:
     type: 3}
   repellant: {fileID: 1385769793421108492, guid: 906bfc2aafabe99459a74feb3d2dff22,
     type: 3}
-  fireNozzle: {fileID: 1960274037}
+  fireNozzle: {fileID: 242719831}
   propPlacementSystem: {fileID: 3334080305280216900}
   attract: 1
   mainSpeed: 20
-  mainRotMult: -4
+  mainRotMult: 0.25
   camSens: 0.25
   lerpSpeed: 10
   lerpClamp: 0.51
-<<<<<<< HEAD
   maxRotate: 90
   mixRotate: -90
   camClamp: {x: 60, y: 60}
-=======
-  camClamp: {x: 60, y: 60, z: 0}
->>>>>>> ClampTest
   subClamp: {x: 500, y: 500, z: 500}
   forward: 119
   leftTurn: 97
@@ -1693,7 +1685,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4425717143239725047}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1001 &1542223891140739051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2209,38 +2200,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca941e2816f434e3e9bf4f34c53ee838, type: 3}
-=======
---- !u!1 &1960274037
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1960274038}
-  m_Layer: 0
-  m_Name: fireNozzle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1960274038
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960274037}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.05, z: 1.33}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 963194228}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> ClampTest
 --- !u!1001 &3334080305280216899
 PrefabInstance:
   m_ObjectHideFlags: 0

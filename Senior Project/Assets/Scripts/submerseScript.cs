@@ -34,13 +34,10 @@ public class submerseScript : MonoBehaviour
 
     private Vector3 lastMouse;
 
-    Vector3 baka;
-
     // Start is called before the first frame update
     void Start()
     {
         lastMouse = new Vector3(Screen.width/2, Screen.height/2, 0);
-        Vector3 baka = new Vector3(0,0,0);
     }
 
     // Update is called once per frame
@@ -52,27 +49,15 @@ public class submerseScript : MonoBehaviour
         lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
         //lastMouse = new Vector3(Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, -camClamp.x, camClamp.x), Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, -camClamp.y, camClamp.y), 0);
         
-        Vector3 p = GetBaseInput();
-        p = p * mainSpeed * Time.deltaTime;
-
-        subMerse.transform.eulerAngles = new Vector3(subMerse.transform.eulerAngles.x, subMerse.transform.eulerAngles.y + p.x, subMerse.transform.eulerAngles.z);
-<<<<<<< HEAD
-        camControl.transform.eulerAngles = new Vector3(camControl.transform.eulerAngles.x, camControl.transform.eulerAngles.y + p.x, camControl.transform.eulerAngles.z);
-=======
-        // camRotateX = Mathf.Clamp(camControl.transform.eulerAngles.x + lastMouse.x, -camClamp.x, camClamp.x);
-        // camRotateY = Mathf.Clamp(camControl.transform.eulerAngles.y + lastMouse.y, -camClamp.y, camClamp.y);
-
         lastMouse = new Vector3(camControl.transform.eulerAngles.x + lastMouse.x, camControl.transform.eulerAngles.y + lastMouse.y, 0);
         camControl.transform.eulerAngles = lastMouse;
         lastMouse = Input.mousePosition;
 
-        baka = new Vector3(baka.x + (Input.GetAxis("Mouse Y") * mainRotMult), baka.y - (Input.GetAxis("Mouse X") * mainRotMult), 0);
-        Vector3 buku = new Vector3(Mathf.Clamp(baka.x, -camClamp.x, camClamp.x), Mathf.Clamp(baka.y + subMerse.transform.eulerAngles.y, -camClamp.y + subMerse.transform.eulerAngles.y, camClamp.y + subMerse.transform.eulerAngles.y), camControl.transform.eulerAngles.z);
-        
-        camControl.transform.rotation = Quaternion.Euler(buku);
+        Vector3 p = GetBaseInput();
+        p = p * mainSpeed * Time.deltaTime;
 
-
->>>>>>> ClampTest
+        subMerse.transform.eulerAngles = new Vector3(subMerse.transform.eulerAngles.x, subMerse.transform.eulerAngles.y + p.x, subMerse.transform.eulerAngles.z);
+        camControl.transform.eulerAngles = new Vector3(camControl.transform.eulerAngles.x, camControl.transform.eulerAngles.y + p.x, camControl.transform.eulerAngles.z);
 
         Vector3 q = new Vector3(0, p.y, p.z);
         subMerse.transform.Translate(q);
