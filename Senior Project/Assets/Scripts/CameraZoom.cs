@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraZoom : MonoBehaviour
 {
+    public float defaultFOV;
     public float minFOV;
     public float maxFOV;
     public float foxSpeed = 10f;
@@ -13,11 +14,16 @@ public class CameraZoom : MonoBehaviour
 
     private Camera cam;
     private float initialFOV;
+    public float initialZOOM;
+    public float minZOOM;
+    public float maxZOOM;
     // Start is called before the first frame update
     void Start()
     {
         cam = this.GetComponent<Camera>();
+        cam.fieldOfView = defaultFOV;
         initialFOV = cam.fieldOfView;
+
     }
 
     // Update is called once per frame
@@ -25,10 +31,12 @@ public class CameraZoom : MonoBehaviour
     {
         if (!camMovSys.isFollowing)
         {
-            initialFOV -= Input.GetAxis("Mouse ScrollWheel") * foxSpeed;
+            initialZOOM -= Input.GetAxis("Mouse ScrollWheel") * foxSpeed;
             //Debug.Log(initialFOV);
-            initialFOV = Mathf.Clamp(initialFOV, minFOV, maxFOV);
-            cam.fieldOfView = initialFOV;
+            initialZOOM = Mathf.Clamp(initialZOOM, minZOOM, maxZOOM);
+            initialFOV = defaultFOV;
+            camMovSys.startPos = new Vector3(camMovSys.startPos.x, camMovSys.startPos.y, Mathf.Clamp(initialZOOM, minZOOM, maxZOOM));
+            cam.fieldOfView = Mathf.Clamp(initialFOV, minFOV, maxFOV);
         }
         else
         {
@@ -45,7 +53,4 @@ public class CameraZoom : MonoBehaviour
             cam.fieldOfView = Mathf.Clamp(peep, minFOV, maxFOV);
         }
     }
-
-    
-    
 }

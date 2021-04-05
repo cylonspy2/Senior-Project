@@ -19,6 +19,35 @@ public class moving : MonoBehaviour
 
     public bool isFollowing;
 
+    /*
+    void Update()
+    {
+        if (!camMovSys.isFollowing)
+        {
+            initialZOOM -= Input.GetAxis("Mouse ScrollWheel") * foxSpeed;
+            //Debug.Log(initialFOV);
+            initialZOOM = Mathf.Clamp(initialZOOM, minFOV, maxFOV);
+            initialFOV = Mathf.Clamp(initialZOOM, minFOV, maxFOV);
+            camMovSys.startPos = new Vector3(camMovSys.startPos.x, camMovSys.startPos.y, Mathf.Clamp(initialZOOM, minFOV, maxFOV));
+            cam.fieldOfView = Mathf.Clamp(initialFOV, minFOV, maxFOV);
+        }
+        else
+        {
+            float peep = minFOV;
+            switch (CursorManager.choice)
+            {
+                case 0:
+                    peep = maxFOV - (Vector3.Distance(cam.transform.position, CursorManager.selectedPhish.transform.position) / zoomSize);
+                    break;
+                case 1:
+                    peep = maxFOV - (Vector3.Distance(cam.transform.position, CursorManager.selectedObj.transform.position) / zoomSize);
+                    break;
+            }
+            cam.fieldOfView = Mathf.Clamp(peep, minFOV, maxFOV);
+        }
+    }
+    */
+
     public KeyCode followMov;
     public gridPlaceScript selectMov;
     // Start is called before the first frame update

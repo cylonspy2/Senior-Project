@@ -130,12 +130,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1542223891140739051}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &93579180 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5945937292422939928, guid: fe7b64d12d3ed49a8830ce0c837e2b53,
-    type: 3}
-  m_PrefabInstance: {fileID: 5945937290759492794}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &102737522
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,6 +916,7 @@ GameObject:
   - component: {fileID: 963194236}
   - component: {fileID: 963194237}
   - component: {fileID: 963194238}
+  - component: {fileID: 963194232}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1013,12 +1008,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68194fb668afe9d49b77e137670e3e91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minFOV: 15
-  maxFOV: 120
-  foxSpeed: 30
+  defaultFOV: 60
+  minFOV: 10
+  maxFOV: 75
+  foxSpeed: 70
   camMovSys: {fileID: 963194234}
   CursorManager: {fileID: 3334080305280216900}
-  zoomSize: 0.38
+  zoomSize: 0.46
+  initialZOOM: -90
+  minZOOM: -200
+  maxZOOM: 200
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1062,6 +1061,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb12169a53df97e46ac1f0635085dc33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &963194232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad080516c81c2794ca29933f1e75d1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 847403163}
+  forward: 119
+  backward: 115
+  left: 97
+  right: 100
+  speed: 100
 --- !u!114 &963194233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1099,7 +1116,7 @@ MonoBehaviour:
   lerpSpeed: 2
   lerpClamp: 3648
   cam: {fileID: 963194227}
-  target: {fileID: 93579180}
+  target: {fileID: 847403163}
   startPos: {x: 0, y: 0, z: -60}
   mouseMov: 324
   Mov: 1
