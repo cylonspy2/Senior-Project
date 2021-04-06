@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 7244035667543873167}
   m_Layer: 0
   m_Name: RainbowfishSpawner
-  m_TagString: Fish1
+  m_TagString: Rainbow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

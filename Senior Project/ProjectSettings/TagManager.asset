@@ -15,6 +15,14 @@ TagManager:
   - Oyster
   - fishTarg
   - Coral
+  - Koi
+  - Minnow
+  - Angler
+  - Clown
+  - Lion
+  - Pennant
+  - Rainbow
+  - Rob
   layers:
   - Default
   - TransparentFX

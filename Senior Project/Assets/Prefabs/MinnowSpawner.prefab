@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: -2689146258771628524}
   m_Layer: 0
   m_Name: MinnowSpawner
-  m_TagString: Fish1
+  m_TagString: Minnow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

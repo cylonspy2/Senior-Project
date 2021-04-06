@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: -447816369896247729}
   m_Layer: 0
   m_Name: AnglerSpawner
-  m_TagString: Fish1
+  m_TagString: Angler
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
