@@ -19,7 +19,10 @@ Space - move up
 Left CTRL - move down
 Left click - fire food while in Bassosphere
 
-Right click - hold to rotate camera in default cam
+(while in default cam)
+W/S - move camera North/South
+A/D - move camera East/West 
+Right click - hold to rotate camera
 Left click - select menu options, select fish/props, place props
 (hold) Tab - zoom in on selected fish or prop
 Space - delete selected fish or prop

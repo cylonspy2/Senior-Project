@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CamCenterMove : MonoBehaviour
 {
+    public Transform camControl;
     public Transform target;
     public KeyCode forward, backward, left, right;
     public float speed;
@@ -38,5 +39,6 @@ public class CamCenterMove : MonoBehaviour
 
 
         target.position = blep;
+        //target.rotation = new Quaternion(target.rotation.x, camControl.rotation.y, target.rotation.z, target.rotation.w);
     }
 }

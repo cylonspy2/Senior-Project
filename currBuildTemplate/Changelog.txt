@@ -1,5 +1,9 @@
 CHANGELOG
 
+0.76
+Added wasd support to default camera
+Updated default camera zoom
+
 0.75
 Added perameters for all props
 Added icon to start menu
