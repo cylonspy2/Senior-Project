@@ -49,7 +49,8 @@ public class MovementTwo : MonoBehaviour
         while(true){
             InCoRoutine = true;
             print("timerForNewPos = " + timerForNewPos);
-            if (timerForNewPos < 0f) { //if food in tank go to food
+            if (timerForNewPos < 1f) { //if food in tank go to food
+                print("Alltarget is: " + allTarget);
                 target = allTarget;
                 setNewPath();
                 yield return new WaitForSeconds(targetTime);
@@ -81,8 +82,8 @@ public class MovementTwo : MonoBehaviour
     void setNewPath()
     {
         //target = getNewRandomPosition();
-        rb.velocity = (target - transform.position).normalized*speed;
         rb.transform.LookAt(target);
+        rb.velocity = (target - transform.position).normalized*speed;
 
         RaycastHit hit;
         Ray DetectRay = new Ray(transform.position, Vector3.forward);

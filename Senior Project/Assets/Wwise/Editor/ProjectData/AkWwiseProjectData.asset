@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 27fe401bcb0e8244bcc29e51e273e8ab
     GuidInternal: 
-    m_lastTime: -8585877419203200824
+    m_lastTime: -8585843017709695087
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: acd53ee086b4714babbbe56116590036
     GuidInternal: 
-    m_lastTime: -8585877419217130141
+    m_lastTime: -8585843017722257456
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ec2cbc375126fe48966429feb8315684
     GuidInternal: 
-    m_lastTime: -8585849782855549484
+    m_lastTime: -8585843017709715021
     List:
     - name: Main
       guid: 2ec9be35af3d224c9c5182e6a850ee7e
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 80e1366bd3871a4399f98f538d3d53b4
     GuidInternal: 
-    m_lastTime: -8585849782923210872
+    m_lastTime: -8585843017731682307
     List:
     - name: Game_Start_Event
       guid: 442dca91a0f4094683b67affde0f3626
@@ -380,7 +380,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b1b4cfd5b14df047a3103bda34ef8a11
     GuidInternal: 
-    m_lastTime: -8585855587152928047
+    m_lastTime: -8585842873359051943
     List:
     - name: Controller_Bass
       guid: 64791142e64d48478dc0bf42a593b737
@@ -454,6 +454,24 @@ MonoBehaviour:
       - ElementName: Controller_Solo
         ObjectType: 13
       Path: Default Work Unit\Controller_Solo
+    - name: HighPass_Control
+      guid: e2c42f8ee3342d45b511f7624392c785
+      id: 582317620
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: HighPass_Control
+        ObjectType: 13
+      Path: Default Work Unit\HighPass_Control
+    - name: LowPass_Control
+      guid: 3b8ea4037756c640ab48b8bb4b7e36a9
+      id: 1785926232
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LowPass_Control
+        ObjectType: 13
+      Path: Default Work Unit\LowPass_Control
     - name: Master_Volume_Control
       guid: 774a1769cc411f409995d190c01493df
       id: 2232728930
@@ -490,6 +508,15 @@ MonoBehaviour:
       - ElementName: Speed_Control
         ObjectType: 13
       Path: Default Work Unit\Speed_Control
+    - name: Tremolo_Control
+      guid: 881d4fc8355492419b873376717e03d7
+      id: 1507813305
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Tremolo_Control
+        ObjectType: 13
+      Path: Default Work Unit\Tremolo_Control
     - name: Volume_Control
       guid: d1b266cf7a177e4382a1dbffa602971b
       id: 4194816893
@@ -507,7 +534,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7d2bcb2622a41e468029b0c87fef008c
     GuidInternal: 
-    m_lastTime: -8585877419203260877
+    m_lastTime: -8585843017709705058
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -517,7 +544,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5a2e430526e78740b2a9bad5abec5f2f
     GuidInternal: 
-    m_lastTime: -8585877419203240858
+    m_lastTime: -8585843017709705058
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -527,7 +554,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3a51e36ee5a7464e8a590137a34066e4
     GuidInternal: 
-    m_lastTime: -8585877419203230849
+    m_lastTime: -8585843017709695087
     List: []
   ExpandedItems:
   - /Senior Project_WwiseProject
