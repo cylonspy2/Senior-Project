@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class gridPlaceScript : MonoBehaviour
 {
@@ -46,6 +48,8 @@ public class gridPlaceScript : MonoBehaviour
 
         if (isGridPlace)
         {
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             int layerMask = 1 << 4;
@@ -77,7 +81,9 @@ public class gridPlaceScript : MonoBehaviour
         }
         else
         {
-            
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
+
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             int layerMask = 1 << 4;
@@ -152,5 +158,14 @@ public class gridPlaceScript : MonoBehaviour
             selectedPhishMaster = new GameObject();
         }
 
+    }
+
+    private bool IsPointerOverUIObject()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
     }
 }
