@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class defaultCamMove : MonoBehaviour
 {
-    public CameraSwitch cam;
+    public CameraSwitch camSel;
     public KeyCode forward, left, right, back;
     private Vector3 direction;
     public float mainSpeed = 100.0f; //regular speed
@@ -19,17 +19,17 @@ public class defaultCamMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (cam.camVal == 1) 
+        if (camSel.camVal == 1) 
         {
             direction = GetBaseInput();
-            Debug.Log("This is the original direction " + direction + "THis is the Y position !!!!!::!!!!!! " + transform.position.y);
+            // Debug.Log("This is the original direction " + direction + "THis is the Y position !!!!!::!!!!!! " + transform.position.y);
             direction = direction * mainSpeed;
-            Debug.Log("This is the direction after multiplied by mainSpeed " + direction + "THis is the Y position !!!!!::!!!!!! " + transform.position.y);
+            // Debug.Log("This is the direction after multiplied by mainSpeed " + direction + "THis is the Y position !!!!!::!!!!!! " + transform.position.y);
             direction = direction * Time.deltaTime;
-            Debug.Log("This is the direction multiplied by time.deltatime " + direction + "THis is the Y position !!!!!::!!!!!! " + transform.position.y);
+            // Debug.Log("This is the direction multiplied by time.deltatime " + direction + "THis is the Y position !!!!!::!!!!!! " + transform.position.y);
             Vector3 dirt = new Vector3(direction.x + transform.position.x, transform.position.y, direction.z + transform.position.z);
             transform.Translate(dirt);
-            // Debug.Log("THis is the Y position !!!!!::!!!!!! " + transform.position.y);
+            Debug.Log("THis is the Vector3 dirt !!!!!::!!!!!! " + dirt);
         }
     }
 
@@ -39,18 +39,22 @@ public class defaultCamMove : MonoBehaviour
         if (Input.GetKey(forward))
         {
             p_Velocity += new Vector3(0, 0, 1);
+            Debug.Log("Forward");
         }
         if (Input.GetKey(back))
         {
             p_Velocity += new Vector3(0, 0, -1);
+            Debug.Log("back");
         }
         if (Input.GetKey(left))
         {
             p_Velocity += new Vector3(-1, 0, 0);
+            Debug.Log("left");
         }
         if (Input.GetKey(right))
         {
             p_Velocity += new Vector3(1, 0, 0);
+            Debug.Log("right");
         }
         return p_Velocity;
     }

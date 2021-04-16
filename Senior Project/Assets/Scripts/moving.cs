@@ -64,7 +64,7 @@ public class moving : MonoBehaviour
         if (Mov)
         {
 
-            Vector3 direction = new Vector3(0,0,0);
+            Vector3 direction = new Vector3(); //default value is (0,0,0)
             if (Input.GetKeyDown(mouseMov))
             {
                 previousPos = cam.ScreenToViewportPoint(Input.mousePosition);

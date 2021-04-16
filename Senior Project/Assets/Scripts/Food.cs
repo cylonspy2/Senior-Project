@@ -10,7 +10,6 @@ public class Food : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
     }
 
     void OnDestroy()
@@ -44,9 +43,9 @@ public class Food : MonoBehaviour
 
             if (distSqr <= effectRange)
             {
-                buul.GetComponent<MovementTwo>().speed = 5f;
+                buul.GetComponent<MovementTwo>().speed = 10f;
                 buul.GetComponent<MovementTwo>().allTarget = thisThing.transform.position;
-                buul.GetComponent<MovementTwo>().timerForNewPos = 0.01f;
+                buul.GetComponent<MovementTwo>().timerForNewPos = -1f;
             }
             else
             {

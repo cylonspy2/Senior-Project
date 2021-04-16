@@ -56,6 +56,7 @@ public class MovementTwo : MonoBehaviour
                 setNewPath();
                 yield return new WaitForSeconds(targetTime);
                 timerForNewPos = targetTime;
+                Debug.Log("TArGET TIME: " + targetTime);
             } else if (repel == true) { //if repel avoid the object
                 print("Repel is set to = " + repel);
                 target = getNewRandomPosition();
