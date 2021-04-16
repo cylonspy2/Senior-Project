@@ -43,7 +43,7 @@ public class Food : MonoBehaviour
 
             if (distSqr <= effectRange)
             {
-                buul.GetComponent<MovementTwo>().speed += 5f;
+                buul.GetComponent<MovementTwo>().speed = 10f;
                 buul.GetComponent<MovementTwo>().allTarget = thisThing.transform.position;
                 buul.GetComponent<MovementTwo>().timerForNewPos = -1f;
             }
