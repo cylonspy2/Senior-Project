@@ -2127,6 +2127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad080516c81c2794ca29933f1e75d1b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camControl: {fileID: 0}
   target: {fileID: 847403163}
   forward: 119
   backward: 115
