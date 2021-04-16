@@ -84,6 +84,7 @@ public class gridPlaceScript : MonoBehaviour
             if (EventSystem.current.IsPointerOverGameObject())
                 return;
 
+            print(Input.mousePosition);
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             int layerMask = 1 << 4;

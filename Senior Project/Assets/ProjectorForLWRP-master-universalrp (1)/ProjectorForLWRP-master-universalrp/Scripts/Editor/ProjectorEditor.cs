@@ -26,6 +26,7 @@ namespace ProjectorForLWRP
 			m_stencilOptionProperty = null;
 			m_stencilPassProperty = null;
 		}
+        /*
 		private void OnDisable()
 		{
 			// Revert the hide flags so that Projector can be visible in Inspector when ProjectorForLWRP component is removed.
@@ -36,8 +37,10 @@ namespace ProjectorForLWRP
 				projector.projector.hideFlags &= ~HideFlags.HideInInspector;
 			}
 		}
+        */
 		public override void OnInspectorGUI()
 		{
+            //return;
 			ProjectorForLWRP projector = target as ProjectorForLWRP;
 			DrawDefaultInspector();
 			bool useStencil = EditorGUILayout.Toggle("Use Stencil Test", projector.useStencilTest);
@@ -121,6 +124,7 @@ namespace ProjectorForLWRP
 		SerializedProperty m_ignoreLayersProperty = null;
 		private void DrawUnityProjectorGUI()
 		{
+            //return;
 			Projector projector = ((ProjectorForLWRP)target).projector;
 			if (m_serializedProjectorObject == null)
 			{
