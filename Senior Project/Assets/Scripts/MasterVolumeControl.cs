@@ -13,8 +13,9 @@ public class MasterVolumeControl : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         AkSoundEngine.SetRTPCValue("Master_Volume_Control", Volume.value*100);
+        
     }
 }
