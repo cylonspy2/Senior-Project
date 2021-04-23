@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class MasterVolumeControl : MonoBehaviour
 {
     public Slider Volume;
+
+    public GameObject inventory;
     // Start is called before the first frame update
     void Start()
     {

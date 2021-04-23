@@ -11,7 +11,7 @@ public class PauseMenu : MonoBehaviour
     private float time=1f;
     private float cameraStance=1f;
 
-    public GameObject inventory;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -22,17 +22,7 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (inventory.activeSelf==true)
-            {
-                inventory.SetActive(false);
-            }
-            else
-            {
-                inventory.SetActive(true);
-            }
-        }
+        
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
@@ -49,7 +39,7 @@ public class PauseMenu : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            inventory.SetActive(false);
+            
 
             if (GameIsPaused)
             {

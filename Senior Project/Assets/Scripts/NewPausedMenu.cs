@@ -12,6 +12,10 @@ public class NewPausedMenu : MonoBehaviour
 
     public Slider Volume;
 
+    public GameObject inventory;
+
+    public GameObject helpMenu;
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +28,8 @@ public class NewPausedMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            inventory.SetActive(false);
+            helpMenu.SetActive(false);
             isPaused = !isPaused;
         }
 
@@ -41,6 +47,31 @@ public class NewPausedMenu : MonoBehaviour
         AkSoundEngine.SetRTPCValue("Master_Volume_Control", Volume.value * 100);
 
         Debug.Log("currentvolume" + Volume.value);
+
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            if (inventory.activeSelf == true)
+            {
+                inventory.SetActive(false);
+            }
+            else
+            {
+                inventory.SetActive(true);
+            }
+        }
+
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            if (helpMenu.activeSelf == true)
+            {
+                helpMenu.SetActive(false);
+            }
+            else
+            {
+                helpMenu.SetActive(true);
+            }
+        }
     }
 
     public void ActivateMenu()
