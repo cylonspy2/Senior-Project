@@ -18,8 +18,8 @@ RenderSettings:
   m_FogColor: {r: 0.007843138, g: 0.4431373, b: 0.82745105, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.001
-  m_LinearFogStart: 38
-  m_LinearFogEnd: 354.6
+  m_LinearFogStart: 9.1
+  m_LinearFogEnd: 460.3
   m_AmbientSkyColor: {r: 0, g: 0.038915098, b: 0.103773594, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.061110698, g: 0.3055493, b: 0.6806823, a: 1}
+  m_IndirectSpecularColor: {r: 0.061110646, g: 0.30554926, b: 0.6806822, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1097,9 +1097,9 @@ MonoBehaviour:
   camMovSys: {fileID: 963194234}
   CursorManager: {fileID: 3334080305280216900}
   zoomSize: 0.38
-  initialZOOM: 0
-  minZOOM: 0
-  maxZOOM: 0
+  initialZOOM: -60
+  minZOOM: -100
+  maxZOOM: 20
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
