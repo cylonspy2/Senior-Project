@@ -29,7 +29,7 @@ public class defaultCamMove : MonoBehaviour
             direction = direction * Time.deltaTime;
             // Debug.Log("This is the direction multiplied by time.deltatime " + direction + "THis is the Y position !!!!!::!!!!!! " + transform.position.y);
             Vector3 dirt = new Vector3(direction.x, 0, direction.z);
-            targe.transform.Translate(dirt);
+            targe.transform.Translate(dirt, Camera.main.transform);
             Debug.Log("THis is the Vector3 dirt !!!!!::!!!!!! " + dirt);
         }
     }
