@@ -139,446 +139,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="BassDrum01" ID="{37741A7F-0AA3-407C-8A39-BAF6238CD300}" ShortID="49298849">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Track-1-Bass Drum" ID="{13A0F563-AD79-429C-8016-2E342ABF7EFA}">
-									<Language>SFX</Language>
-									<AudioFile>Track-1-Bass Drum.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="812095860"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Track-1-Bass Drum" ID="{13A0F563-AD79-429C-8016-2E342ABF7EFA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SnareDrum01" ID="{043ADA34-0CFD-4135-9162-83EC7A4D5432}" ShortID="69193490">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Track-2-Snare Drum" ID="{7A375FEB-AE71-474C-95C5-E7294E53FDDE}">
-									<Language>SFX</Language>
-									<AudioFile>Track-2-Snare Drum.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="58300401"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Track-2-Snare Drum" ID="{7A375FEB-AE71-474C-95C5-E7294E53FDDE}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Cymbal01" ID="{1D7E0439-C79D-4817-B179-4863F44649D8}" ShortID="785975528">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Track-3-Cymbal" ID="{01729A74-F159-4B97-B363-72804859A796}">
-									<Language>SFX</Language>
-									<AudioFile>Track-3-Cymbal.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="38553108"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Track-3-Cymbal" ID="{01729A74-F159-4B97-B363-72804859A796}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Bass01" ID="{F35057B6-1276-439D-A3A8-1A6DD2113A41}" ShortID="607783519">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Track-4-Bass" ID="{9DB1A021-D685-4752-851B-19ADBE537668}">
-									<Language>SFX</Language>
-									<AudioFile>Track-4-Bass.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="25700626"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Track-4-Bass" ID="{9DB1A021-D685-4752-851B-19ADBE537668}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Chords01" ID="{214F79FC-6A5F-493C-963E-16E80011FA04}" ShortID="786519887">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Track-5-Chords" ID="{DE6FF483-13A6-41D6-891A-92DACAD7E46C}">
-									<Language>SFX</Language>
-									<AudioFile>Track-5-Chords.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="256753979"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Track-5-Chords" ID="{DE6FF483-13A6-41D6-891A-92DACAD7E46C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Solo01" ID="{EFF00F73-B098-4B14-BFBA-A0BC65548995}" ShortID="1043455865">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Track-6-Solo" ID="{CED86BA6-7DBB-4374-905B-90F29EE09060}">
-									<Language>SFX</Language>
-									<AudioFile>Track-6-Solo.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="131098360"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Track-6-Solo" ID="{CED86BA6-7DBB-4374-905B-90F29EE09060}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Cowbell01" ID="{0052AF9C-DB88-4A7A-9B9E-B19BE711473D}" ShortID="749480734">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Track-7-Cowbell" ID="{A5F1C309-638D-45C3-97C7-3AA2973973C7}">
-									<Language>SFX</Language>
-									<AudioFile>Track-7-Cowbell.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="739007233"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Track-7-Cowbell" ID="{A5F1C309-638D-45C3-97C7-3AA2973973C7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Cowbell02" ID="{37308239-B299-4C44-8D47-5B45BC9A8D20}" ShortID="882567249">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Track-8-MOAR COWBELL" ID="{755E5697-A1D3-492B-9029-FF1C2980A352}">
-									<Language>SFX</Language>
-									<AudioFile>Track-8-MOAR COWBELL.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="9502657"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Track-8-MOAR COWBELL" ID="{755E5697-A1D3-492B-9029-FF1C2980A352}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="musicTrack-AcBass01" ID="{6AD58BB2-1548-4200-BA54-4B782C9A562A}" ShortID="148651935">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="musicTrack-AcBass01" ID="{FEE53B35-7B04-4706-BDF4-FC431B4D2805}">
-									<Language>SFX</Language>
-									<AudioFile>musicTrack-AcBass01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="883452480"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="musicTrack-AcBass01" ID="{FEE53B35-7B04-4706-BDF4-FC431B4D2805}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="musicTrack-AcBass02" ID="{CB175C93-3C43-4E4D-B3D4-B2F6316F33E0}" ShortID="172034378">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="musicTrack-AcBass02" ID="{A8BE1802-99D5-4E95-8D0B-8C6CC2E51002}">
-									<Language>SFX</Language>
-									<AudioFile>musicTrack-AcBass02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="627535368"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="musicTrack-AcBass02" ID="{A8BE1802-99D5-4E95-8D0B-8C6CC2E51002}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="musicTrack-ACBass03" ID="{BCD22200-F874-4C85-83B3-97221E010B56}" ShortID="24698593">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="musicTrack-ACBass03" ID="{51CA6995-C3E5-4214-8371-844676F3ADA8}">
-									<Language>SFX</Language>
-									<AudioFile>musicTrack-ACBass03.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="425941899"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="musicTrack-ACBass03" ID="{51CA6995-C3E5-4214-8371-844676F3ADA8}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="musicTrack-Percussion01" ID="{DCCC88E8-1A82-4BBB-BADF-E9C45C355CAF}" ShortID="211350218">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="musicTrack-Percussion01" ID="{F8356626-3755-4046-B456-3A38923148A4}">
-									<Language>SFX</Language>
-									<AudioFile>musicTrack-Percussion01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="230581524"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="musicTrack-Percussion01" ID="{F8356626-3755-4046-B456-3A38923148A4}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="musicTrack-Percussion02" ID="{AC2134CA-F1D1-4FC1-80B7-1B39037617B5}" ShortID="636287859">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="musicTrack-Percussion02" ID="{804B26AC-0B83-4C29-902D-87B98E756D5F}">
-									<Language>SFX</Language>
-									<AudioFile>musicTrack-Percussion02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="86761749"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="musicTrack-Percussion02" ID="{804B26AC-0B83-4C29-902D-87B98E756D5F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="musicTrack-Percussion03" ID="{74A1F104-D8A8-40C3-BF6A-0612ABCD6846}" ShortID="962176484">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="musicTrack-Percussion03" ID="{5B17A914-3C3B-464E-9611-D43C028BE96F}">
-									<Language>SFX</Language>
-									<AudioFile>musicTrack-Percussion03.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="582895261"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="musicTrack-Percussion03" ID="{5B17A914-3C3B-464E-9611-D43C028BE96F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="musicTrack-Piano01" ID="{961BD4B7-4956-4BC6-A405-1AA358B1B372}" ShortID="4967698">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="musicTrack-Piano01" ID="{E0AE0972-06C9-46A1-B73B-F00E6F1AADF0}">
-									<Language>SFX</Language>
-									<AudioFile>musicTrack-Piano01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="231471481"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="musicTrack-Piano01" ID="{E0AE0972-06C9-46A1-B73B-F00E6F1AADF0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="musicTrack-Piano02" ID="{C8D64856-5E2B-4846-A384-88E7E49545F1}" ShortID="112328981">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>20</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="musicTrack-Piano02" ID="{CC2B8737-4B7B-425B-AC33-B34C1351DC41}">
-									<Language>SFX</Language>
-									<AudioFile>musicTrack-Piano02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="776578335"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="musicTrack-Piano02" ID="{CC2B8737-4B7B-425B-AC33-B34C1351DC41}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="menu_Music" ID="{A9E2B790-337C-43C3-8E64-803CAAFA8CCE}" ShortID="390001968">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -613,6 +173,899 @@
 								<ActiveSource Name="wavey_sampleSong03" ID="{FCE61FD3-61D3-49BB-9778-84F3F669BD0B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Folder Name="Old sounds" ID="{C40AAFFC-39D8-4657-801B-E6FE1A227278}" ShortID="773494844">
+							<ChildrenList>
+								<Sound Name="Bass01" ID="{F35057B6-1276-439D-A3A8-1A6DD2113A41}" ShortID="607783519">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-4-Bass" ID="{9DB1A021-D685-4752-851B-19ADBE537668}">
+											<Language>SFX</Language>
+											<AudioFile>Track-4-Bass.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="25700626"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Track-4-Bass" ID="{9DB1A021-D685-4752-851B-19ADBE537668}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chords01" ID="{214F79FC-6A5F-493C-963E-16E80011FA04}" ShortID="786519887">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-5-Chords" ID="{DE6FF483-13A6-41D6-891A-92DACAD7E46C}">
+											<Language>SFX</Language>
+											<AudioFile>Track-5-Chords.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="256753979"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Track-5-Chords" ID="{DE6FF483-13A6-41D6-891A-92DACAD7E46C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cymbal01" ID="{1D7E0439-C79D-4817-B179-4863F44649D8}" ShortID="785975528">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-3-Cymbal" ID="{01729A74-F159-4B97-B363-72804859A796}">
+											<Language>SFX</Language>
+											<AudioFile>Track-3-Cymbal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="38553108"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Track-3-Cymbal" ID="{01729A74-F159-4B97-B363-72804859A796}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cowbell02" ID="{37308239-B299-4C44-8D47-5B45BC9A8D20}" ShortID="882567249">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-8-MOAR COWBELL" ID="{755E5697-A1D3-492B-9029-FF1C2980A352}">
+											<Language>SFX</Language>
+											<AudioFile>Track-8-MOAR COWBELL.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="9502657"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Track-8-MOAR COWBELL" ID="{755E5697-A1D3-492B-9029-FF1C2980A352}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BassDrum01" ID="{37741A7F-0AA3-407C-8A39-BAF6238CD300}" ShortID="49298849">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-1-Bass Drum" ID="{13A0F563-AD79-429C-8016-2E342ABF7EFA}">
+											<Language>SFX</Language>
+											<AudioFile>Track-1-Bass Drum.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="812095860"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Track-1-Bass Drum" ID="{13A0F563-AD79-429C-8016-2E342ABF7EFA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cowbell01" ID="{0052AF9C-DB88-4A7A-9B9E-B19BE711473D}" ShortID="749480734">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-7-Cowbell" ID="{A5F1C309-638D-45C3-97C7-3AA2973973C7}">
+											<Language>SFX</Language>
+											<AudioFile>Track-7-Cowbell.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="739007233"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Track-7-Cowbell" ID="{A5F1C309-638D-45C3-97C7-3AA2973973C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SnareDrum01" ID="{043ADA34-0CFD-4135-9162-83EC7A4D5432}" ShortID="69193490">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-2-Snare Drum" ID="{7A375FEB-AE71-474C-95C5-E7294E53FDDE}">
+											<Language>SFX</Language>
+											<AudioFile>Track-2-Snare Drum.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="58300401"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Track-2-Snare Drum" ID="{7A375FEB-AE71-474C-95C5-E7294E53FDDE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Solo01" ID="{EFF00F73-B098-4B14-BFBA-A0BC65548995}" ShortID="1043455865">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Track-6-Solo" ID="{CED86BA6-7DBB-4374-905B-90F29EE09060}">
+											<Language>SFX</Language>
+											<AudioFile>Track-6-Solo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="131098360"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Track-6-Solo" ID="{CED86BA6-7DBB-4374-905B-90F29EE09060}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="4-27 Music" ID="{F94544C9-25F6-43DA-AB7A-95C18A02D525}" ShortID="428306116">
+							<ChildrenList>
+								<Sound Name="New-musicTrack-Ac New Bass03" ID="{BDFCB2F7-E871-48BF-9CAF-0A410866893B}" ShortID="25923804">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Ac Bass Combined-3" ID="{ACFEADAE-9DE9-4E8E-B6E6-FB10ADA38370}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Ac Bass Combined-3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="359751784"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Ac Bass Combined-3" ID="{ACFEADAE-9DE9-4E8E-B6E6-FB10ADA38370}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="New-musicTrack-Ac New Bass01" ID="{3951BD6F-FF6B-491C-9A0F-DB1B0981F8AE}" ShortID="694758577">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Ac New Bass 1-4" ID="{137E7442-0843-4799-A4F5-5B1E5D7E537A}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Ac New Bass 1-4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="131587696"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Ac New Bass 1-4" ID="{137E7442-0843-4799-A4F5-5B1E5D7E537A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="New-musicTrack-Ac New Bass02" ID="{281674E1-3E16-42AE-986F-72E9DAD91FA3}" ShortID="858023123">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Ac New Bass 2-5" ID="{D62B071E-FED3-4113-A2BA-BCD021E64119}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Ac New Bass 2-5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="330683586"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Ac New Bass 2-5" ID="{D62B071E-FED3-4113-A2BA-BCD021E64119}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="New-musicTrack-Percussion01" ID="{1361BA1C-F7E2-432B-AD2B-02ACA92BB405}" ShortID="218331761">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Percussion01 Take2-7" ID="{5BC4902C-FECD-493C-B843-AA7A1A3FAE6F}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Percussion01 Take2-7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="238508414"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Percussion01 Take2-7" ID="{5BC4902C-FECD-493C-B843-AA7A1A3FAE6F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="New-musicTrack-Percussion02" ID="{F8BBA322-DBDA-42F5-99EC-DD1FD1614CAE}" ShortID="186524329">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Percussion02 Take 2-8" ID="{5B4DE59F-C84D-4E20-9D85-BABD4657181A}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Percussion02 Take 2-8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="528164378"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Percussion02 Take 2-8" ID="{5B4DE59F-C84D-4E20-9D85-BABD4657181A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="New-musicTrack-Percussion03" ID="{CE9206FE-A570-44FE-A1A0-BB694F6E39B3}" ShortID="398910360">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Percussion03-2" ID="{44C0800E-7292-446D-9467-77F3348C9863}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="16"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Percussion03-2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="846758229"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Percussion03-2" ID="{44C0800E-7292-446D-9467-77F3348C9863}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="New-musicTrack-Piano01" ID="{F3C2DEAF-DEE1-4321-BCEB-7231563B8AE6}" ShortID="921924440">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Piano01Extended-6" ID="{5FD42028-7E49-40FC-A45D-56FD2F8E88EF}">
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Piano01Extended-6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="258742098"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Piano01Extended-6" ID="{5FD42028-7E49-40FC-A45D-56FD2F8E88EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="New-musicTrack-Piano02" ID="{39282495-FDC2-4AA3-A43D-931FC4BB015B}" ShortID="31500113">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Piano02-1" ID="{F966DF73-5D0F-4D03-9A49-BC6625A9153A}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="32"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Piano02-1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="48875403"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Piano02-1" ID="{F966DF73-5D0F-4D03-9A49-BC6625A9153A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="4-27 Music Pre" ID="{274FED46-F837-4936-96A9-08ABB4A6C413}" ShortID="204363396">
+							<ChildrenList>
+								<Sound Name="musicTrack-Piano01" ID="{961BD4B7-4956-4BC6-A405-1AA358B1B372}" ShortID="4967698">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Piano01" ID="{E0AE0972-06C9-46A1-B73B-F00E6F1AADF0}">
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Piano01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="231471481"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Piano01" ID="{E0AE0972-06C9-46A1-B73B-F00E6F1AADF0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="musicTrack-AcBass01" ID="{6AD58BB2-1548-4200-BA54-4B782C9A562A}" ShortID="148651935">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-AcBass01" ID="{FEE53B35-7B04-4706-BDF4-FC431B4D2805}">
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-AcBass01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="883452480"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-AcBass01" ID="{FEE53B35-7B04-4706-BDF4-FC431B4D2805}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="musicTrack-Percussion02" ID="{AC2134CA-F1D1-4FC1-80B7-1B39037617B5}" ShortID="636287859">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Percussion02" ID="{804B26AC-0B83-4C29-902D-87B98E756D5F}">
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Percussion02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="86761749"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Percussion02" ID="{804B26AC-0B83-4C29-902D-87B98E756D5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="musicTrack-AcBass02" ID="{CB175C93-3C43-4E4D-B3D4-B2F6316F33E0}" ShortID="172034378">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-AcBass02" ID="{A8BE1802-99D5-4E95-8D0B-8C6CC2E51002}">
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-AcBass02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="627535368"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-AcBass02" ID="{A8BE1802-99D5-4E95-8D0B-8C6CC2E51002}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="musicTrack-ACBass03" ID="{BCD22200-F874-4C85-83B3-97221E010B56}" ShortID="24698593">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-ACBass03" ID="{51CA6995-C3E5-4214-8371-844676F3ADA8}">
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-ACBass03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="425941899"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-ACBass03" ID="{51CA6995-C3E5-4214-8371-844676F3ADA8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="musicTrack-Percussion03" ID="{74A1F104-D8A8-40C3-BF6A-0612ABCD6846}" ShortID="962176484">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Percussion03" ID="{5B17A914-3C3B-464E-9611-D43C028BE96F}">
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Percussion03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="582895261"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Percussion03" ID="{5B17A914-3C3B-464E-9611-D43C028BE96F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="musicTrack-Piano02" ID="{C8D64856-5E2B-4846-A384-88E7E49545F1}" ShortID="112328981">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Piano02" ID="{CC2B8737-4B7B-425B-AC33-B34C1351DC41}">
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Piano02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="776578335"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Piano02" ID="{CC2B8737-4B7B-425B-AC33-B34C1351DC41}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="musicTrack-Percussion01" ID="{DCCC88E8-1A82-4BBB-BADF-E9C45C355CAF}" ShortID="211350218">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="fish_Attenuation" ID="{DE0B0943-0A48-4A13-ADA3-712D290822FE}" WorkUnitID="{E3CC3ECA-FF9D-4648-9C67-335F2E8B11A5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C9C72A7E-7B87-45DB-9B8F-1A79B6A92F65}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="pitch_Shifter" ID="{3541E761-F673-4824-AFA8-475A5CFFF3F4}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Reverb" ID="{BE59A419-4D8C-453C-ABBD-333114AC172D}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="Effect2" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+											<ObjectRef Name="Tremolo" ID="{26154B32-E827-40D0-9BCE-4AC1AD8CD07A}" WorkUnitID="{CC7FEB8C-7FB0-4FD6-9266-C4FDCF404BC1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E03ED5AC-B486-4B71-ABBB-E56116590036}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="musicTrack-Percussion01" ID="{F8356626-3755-4046-B456-3A38923148A4}">
+											<Language>SFX</Language>
+											<AudioFile>musicTrack-Percussion01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="230581524"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="musicTrack-Percussion01" ID="{F8356626-3755-4046-B456-3A38923148A4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

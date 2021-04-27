@@ -21,7 +21,7 @@
 								<Action Name="" ID="{52473BB3-D9A1-4DD5-8D34-55D7A2C73930}" ShortID="197476824">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="musicTrack-ACBass03" ID="{BCD22200-F874-4C85-83B3-97221E010B56}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
+											<ObjectRef Name="New-musicTrack-Ac New Bass03" ID="{BDFCB2F7-E871-48BF-9CAF-0A410866893B}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -32,7 +32,7 @@
 								<Action Name="" ID="{76D50B5B-6F31-4A33-83F5-9E33579CD240}" ShortID="231020576">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="musicTrack-Percussion03" ID="{74A1F104-D8A8-40C3-BF6A-0612ABCD6846}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
+											<ObjectRef Name="New-musicTrack-Percussion03" ID="{CE9206FE-A570-44FE-A1A0-BB694F6E39B3}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -43,7 +43,7 @@
 								<Action Name="" ID="{4D14C0C9-B26D-46BB-843B-42033A63D416}" ShortID="298880228">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="musicTrack-Percussion01" ID="{DCCC88E8-1A82-4BBB-BADF-E9C45C355CAF}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
+											<ObjectRef Name="New-musicTrack-Percussion01" ID="{1361BA1C-F7E2-432B-AD2B-02ACA92BB405}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -54,7 +54,7 @@
 								<Action Name="" ID="{4EA42D90-43B3-4AEB-A5CE-5300FD8F74FF}" ShortID="20126928">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="musicTrack-AcBass01" ID="{6AD58BB2-1548-4200-BA54-4B782C9A562A}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
+											<ObjectRef Name="New-musicTrack-Ac New Bass01" ID="{3951BD6F-FF6B-491C-9A0F-DB1B0981F8AE}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -65,7 +65,7 @@
 								<Action Name="" ID="{CE0DADED-E1F5-462F-BC4C-1BB7C2A46C2E}" ShortID="478821119">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="musicTrack-Piano01" ID="{961BD4B7-4956-4BC6-A405-1AA358B1B372}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
+											<ObjectRef Name="New-musicTrack-Piano01" ID="{F3C2DEAF-DEE1-4321-BCEB-7231563B8AE6}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -76,7 +76,7 @@
 								<Action Name="" ID="{00D679BE-9060-4A25-AB23-0F26D87F4101}" ShortID="312603015">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="musicTrack-AcBass02" ID="{CB175C93-3C43-4E4D-B3D4-B2F6316F33E0}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
+											<ObjectRef Name="New-musicTrack-Ac New Bass02" ID="{281674E1-3E16-42AE-986F-72E9DAD91FA3}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -87,7 +87,7 @@
 								<Action Name="" ID="{7B5650FC-514A-430E-9822-8D4A22201DC7}" ShortID="640251107">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="musicTrack-Piano02" ID="{C8D64856-5E2B-4846-A384-88E7E49545F1}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
+											<ObjectRef Name="New-musicTrack-Piano02" ID="{39282495-FDC2-4AA3-A43D-931FC4BB015B}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -98,7 +98,7 @@
 								<Action Name="" ID="{16B1D651-E57D-4554-91BB-183470C68706}" ShortID="929429352">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="musicTrack-Percussion02" ID="{AC2134CA-F1D1-4FC1-80B7-1B39037617B5}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
+											<ObjectRef Name="New-musicTrack-Percussion02" ID="{F8BBA322-DBDA-42F5-99EC-DD1FD1614CAE}" WorkUnitID="{8C531608-646D-4959-A33B-0814F5B202F7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

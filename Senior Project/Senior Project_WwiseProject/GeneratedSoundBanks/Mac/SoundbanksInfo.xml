@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3555170923">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2030266720">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="617151283">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3485784718">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -57,7 +57,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4055567060" Name="menu_Music" ObjectPath="\Events\Default Work Unit\Instruments\menu_Music" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="36.000000" DurationMax="36.000000">
+				<Event Id="4055567060" Name="menu_Music" ObjectPath="\Events\Default Work Unit\Instruments\menu_Music" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="36.000000" DurationMax="36.000000">
 					<IncludedMemoryFiles>
 						<File Id="495656107" Language="SFX">
 							<ShortName>wavey_sampleSong03.wav</ShortName>
@@ -74,67 +74,67 @@
 				<Event Id="3773451286" Name="reset_Cymbal01" ObjectPath="\Events\Default Work Unit\Resets\reset_Cymbal01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2907261653" Name="reset_SnareDrum01" ObjectPath="\Events\Default Work Unit\Resets\reset_SnareDrum01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2676278653" Name="reset_Solo01" ObjectPath="\Events\Default Work Unit\Resets\reset_Solo01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1566012757" Name="VI_Bass01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Bass01" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="1566012757" Name="VI_Bass01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Bass01" MaxAttenuation="150.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="883452480" Language="SFX">
-							<ShortName>musicTrack-AcBass01.wav</ShortName>
-							<Path>SFX\musicTrack-AcBass01_D79FB2B7.wem</Path>
+						<File Id="131587696" Language="SFX">
+							<ShortName>musicTrack-Ac New Bass 1-4.wav</ShortName>
+							<Path>SFX\musicTrack-Ac New Bass 1-4_DE355E31.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1566012758" Name="VI_Bass02" ObjectPath="\Events\Default Work Unit\Instruments\VI_Bass02" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="1566012758" Name="VI_Bass02" ObjectPath="\Events\Default Work Unit\Instruments\VI_Bass02" MaxAttenuation="150.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="627535368" Language="SFX">
-							<ShortName>musicTrack-AcBass02.wav</ShortName>
-							<Path>SFX\musicTrack-AcBass02_D79FB2B7.wem</Path>
+						<File Id="330683586" Language="SFX">
+							<ShortName>musicTrack-Ac New Bass 2-5.wav</ShortName>
+							<Path>SFX\musicTrack-Ac New Bass 2-5_DE355E31.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1566012759" Name="VI_Bass03" ObjectPath="\Events\Default Work Unit\Instruments\VI_Bass03" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="1566012759" Name="VI_Bass03" ObjectPath="\Events\Default Work Unit\Instruments\VI_Bass03" MaxAttenuation="150.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="425941899" Language="SFX">
-							<ShortName>musicTrack-ACBass03.wav</ShortName>
-							<Path>SFX\musicTrack-ACBass03_D79FB2B7.wem</Path>
+						<File Id="359751784" Language="SFX">
+							<ShortName>musicTrack-Ac Bass Combined-3.wav</ShortName>
+							<Path>SFX\musicTrack-Ac Bass Combined-3_BCF0DAA7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1531115851" Name="VI_Percussion01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Percussion01" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="1531115851" Name="VI_Percussion01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Percussion01" MaxAttenuation="150.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="230581524" Language="SFX">
-							<ShortName>musicTrack-Percussion01.wav</ShortName>
-							<Path>SFX\musicTrack-Percussion01_D79FB2B7.wem</Path>
+						<File Id="238508414" Language="SFX">
+							<ShortName>musicTrack-Percussion01 Take2-7.wav</ShortName>
+							<Path>SFX\musicTrack-Percussion01 Take2-7_BCF0DAA7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1531115848" Name="VI_Percussion02" ObjectPath="\Events\Default Work Unit\Instruments\VI_Percussion02" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="1531115848" Name="VI_Percussion02" ObjectPath="\Events\Default Work Unit\Instruments\VI_Percussion02" MaxAttenuation="150.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="86761749" Language="SFX">
-							<ShortName>musicTrack-Percussion02.wav</ShortName>
-							<Path>SFX\musicTrack-Percussion02_D79FB2B7.wem</Path>
+						<File Id="528164378" Language="SFX">
+							<ShortName>musicTrack-Percussion02 Take 2-8.wav</ShortName>
+							<Path>SFX\musicTrack-Percussion02 Take 2-8_BCF0DAA7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1531115849" Name="VI_Percussion03" ObjectPath="\Events\Default Work Unit\Instruments\VI_Percussion03" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="1531115849" Name="VI_Percussion03" ObjectPath="\Events\Default Work Unit\Instruments\VI_Percussion03" MaxAttenuation="150.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="582895261" Language="SFX">
-							<ShortName>musicTrack-Percussion03.wav</ShortName>
-							<Path>SFX\musicTrack-Percussion03_D79FB2B7.wem</Path>
+						<File Id="846758229" Language="SFX">
+							<ShortName>musicTrack-Percussion03-2.wav</ShortName>
+							<Path>SFX\musicTrack-Percussion03-2_BCF0DAA7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3922322737" Name="VI_Piano01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Piano01" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="3922322737" Name="VI_Piano01" ObjectPath="\Events\Default Work Unit\Instruments\VI_Piano01" MaxAttenuation="150.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="231471481" Language="SFX">
-							<ShortName>musicTrack-Piano01.wav</ShortName>
-							<Path>SFX\musicTrack-Piano01_D79FB2B7.wem</Path>
+						<File Id="258742098" Language="SFX">
+							<ShortName>musicTrack-Piano01Extended-6.wav</ShortName>
+							<Path>SFX\musicTrack-Piano01Extended-6_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3922322738" Name="VI_Piano02" ObjectPath="\Events\Default Work Unit\Instruments\VI_Piano02" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="3922322738" Name="VI_Piano02" ObjectPath="\Events\Default Work Unit\Instruments\VI_Piano02" MaxAttenuation="150.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="776578335" Language="SFX">
-							<ShortName>musicTrack-Piano02.wav</ShortName>
-							<Path>SFX\musicTrack-Piano02_D79FB2B7.wem</Path>
+						<File Id="48875403" Language="SFX">
+							<ShortName>musicTrack-Piano02-1.wav</ShortName>
+							<Path>SFX\musicTrack-Piano02-1_E2C022B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

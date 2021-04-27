@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meta: {fileID: 0}
-  selectedMusic: VI_Piano01
+  selectedMusic: VI_Bass01
 --- !u!1001 &8718940567350712154
 PrefabInstance:
   m_ObjectHideFlags: 0
