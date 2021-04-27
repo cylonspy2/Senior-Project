@@ -17659,6 +17659,23 @@ MonoBehaviour:
   camera_2: {fileID: 6297933529332535807}
   camera_3: {fileID: 3062145100423387060}
   createdObjects: []
+  createdObjectsCoral: []
+  createdObjectsMetronome: []
+  createdObjectsOyster: []
+  createdObjectsPirateShip: []
+  createdObjectsPirateSkull: []
+  oldProp: {fileID: 0}
+  newProp: {fileID: 0}
+  oldPropCoral: {fileID: 0}
+  newPropCoral: {fileID: 0}
+  oldPropMetronome: {fileID: 0}
+  newPropMetronome: {fileID: 0}
+  oldPropOyster: {fileID: 0}
+  newPropOyster: {fileID: 0}
+  oldPropPirateShip: {fileID: 0}
+  newPropPirateShip: {fileID: 0}
+  oldPropPirateSkull: {fileID: 0}
+  newPropPirateSkull: {fileID: 0}
 --- !u!114 &6453683592759305375
 MonoBehaviour:
   m_ObjectHideFlags: 0
