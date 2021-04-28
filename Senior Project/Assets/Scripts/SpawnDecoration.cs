@@ -289,6 +289,12 @@ public class SpawnDecoration : MonoBehaviour
         }
     }
 
+    public void DeleteOldProp()
+    {
+        createdObjects.Remove(oldProp);
+        Destroy(oldProp);
+    }
+
     public void DeleteNewPropCoral()
     {
         
@@ -313,6 +319,12 @@ public class SpawnDecoration : MonoBehaviour
         }
     }
 
+    public void DeleteOldPropCoral()
+    {
+        createdObjectsCoral.Remove(oldPropCoral);
+        Destroy(oldPropCoral);
+    }
+
     public void DeleteNewPropMetronome()
     {
         createdObjectsMetronome.Remove(newPropMetronome);
@@ -332,6 +344,12 @@ public class SpawnDecoration : MonoBehaviour
         }
     }
 
+    public void DeleteOldPropMetronome()
+    {
+        createdObjectsMetronome.Remove(oldPropMetronome);
+        Destroy(oldPropMetronome);
+    }
+
     public void DeleteNewPropOyster()
     {
         createdObjectsOyster.Remove(newPropOyster);
@@ -349,6 +367,11 @@ public class SpawnDecoration : MonoBehaviour
 
 
         }
+    }
+    public void DeleteOldPropOyster()
+    {
+        createdObjectsOyster.Remove(oldPropOyster);
+        Destroy(oldPropOyster);
     }
 
     public void DeleteNewPropPirateShip()
@@ -370,6 +393,12 @@ public class SpawnDecoration : MonoBehaviour
         }
     }
 
+    public void DeleteOldPropPirateShip()
+    {
+        createdObjectsPirateShip.Remove(oldPropPirateShip);
+        Destroy(oldPropPirateShip);
+    }
+
     public void DeleteNewPropPirateSkull()
     {
         createdObjectsPirateSkull.Remove(newPropPirateSkull);
@@ -387,6 +416,12 @@ public class SpawnDecoration : MonoBehaviour
 
 
         }
+    }
+
+    public void DeleteOldPropPirateSkull()
+    {
+        createdObjectsPirateSkull.Remove(oldPropPirateSkull);
+        Destroy(oldPropPirateSkull);
     }
 
 
