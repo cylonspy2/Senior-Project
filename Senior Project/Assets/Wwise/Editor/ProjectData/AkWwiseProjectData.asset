@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 27fe401bcb0e8244bcc29e51e273e8ab
     GuidInternal: 
-    m_lastTime: -8585843017709695087
+    m_lastTime: -8585842281878808904
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: acd53ee086b4714babbbe56116590036
     GuidInternal: 
-    m_lastTime: -8585843017722257456
+    m_lastTime: -8585842281889372285
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ec2cbc375126fe48966429feb8315684
     GuidInternal: 
-    m_lastTime: -8585843017709715021
+    m_lastTime: -8585842281878834806
     List:
     - name: Main
       guid: 2ec9be35af3d224c9c5182e6a850ee7e
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 80e1366bd3871a4399f98f538d3d53b4
     GuidInternal: 
-    m_lastTime: -8585843017731682307
+    m_lastTime: -8585820203977816839
     List:
     - name: Game_Start_Event
       guid: 442dca91a0f4094683b67affde0f3626
@@ -105,7 +105,7 @@ MonoBehaviour:
       - ElementName: menu_Music
         ObjectType: 3
       Path: Default Work Unit\Instruments\menu_Music
-      maxAttenuation: 100
+      maxAttenuation: 150
       maxDuration: 36
       minDuration: 36
     - name: reset_All
@@ -271,7 +271,7 @@ MonoBehaviour:
       - ElementName: VI_Bass01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Bass01
-      maxAttenuation: 100
+      maxAttenuation: 150
       maxDuration: -1
       minDuration: -1
     - name: VI_Bass02
@@ -285,7 +285,7 @@ MonoBehaviour:
       - ElementName: VI_Bass02
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Bass02
-      maxAttenuation: 100
+      maxAttenuation: 150
       maxDuration: -1
       minDuration: -1
     - name: VI_Bass03
@@ -299,7 +299,7 @@ MonoBehaviour:
       - ElementName: VI_Bass03
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Bass03
-      maxAttenuation: 100
+      maxAttenuation: 150
       maxDuration: -1
       minDuration: -1
     - name: VI_Percussion01
@@ -313,7 +313,7 @@ MonoBehaviour:
       - ElementName: VI_Percussion01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Percussion01
-      maxAttenuation: 100
+      maxAttenuation: 150
       maxDuration: -1
       minDuration: -1
     - name: VI_Percussion02
@@ -327,7 +327,7 @@ MonoBehaviour:
       - ElementName: VI_Percussion02
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Percussion02
-      maxAttenuation: 100
+      maxAttenuation: 150
       maxDuration: -1
       minDuration: -1
     - name: VI_Percussion03
@@ -341,7 +341,7 @@ MonoBehaviour:
       - ElementName: VI_Percussion03
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Percussion03
-      maxAttenuation: 100
+      maxAttenuation: 150
       maxDuration: -1
       minDuration: -1
     - name: VI_Piano01
@@ -355,7 +355,7 @@ MonoBehaviour:
       - ElementName: VI_Piano01
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Piano01
-      maxAttenuation: 100
+      maxAttenuation: 150
       maxDuration: -1
       minDuration: -1
     - name: VI_Piano02
@@ -369,7 +369,7 @@ MonoBehaviour:
       - ElementName: VI_Piano02
         ObjectType: 3
       Path: Default Work Unit\Instruments\VI_Piano02
-      maxAttenuation: 100
+      maxAttenuation: 150
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
@@ -380,7 +380,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b1b4cfd5b14df047a3103bda34ef8a11
     GuidInternal: 
-    m_lastTime: -8585842873359051943
+    m_lastTime: -8585820203977816839
     List:
     - name: Controller_Bass
       guid: 64791142e64d48478dc0bf42a593b737
@@ -499,15 +499,6 @@ MonoBehaviour:
       - ElementName: Reverb_Control
         ObjectType: 13
       Path: Default Work Unit\Reverb_Control
-    - name: Speed_Control
-      guid: 13ea25bfa9410a4692a9a12a8ef96b2a
-      id: 1451107664
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Speed_Control
-        ObjectType: 13
-      Path: Default Work Unit\Speed_Control
     - name: Tremolo_Control
       guid: 881d4fc8355492419b873376717e03d7
       id: 1507813305
@@ -534,7 +525,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7d2bcb2622a41e468029b0c87fef008c
     GuidInternal: 
-    m_lastTime: -8585843017709705058
+    m_lastTime: -8585842281878821798
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -544,7 +535,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5a2e430526e78740b2a9bad5abec5f2f
     GuidInternal: 
-    m_lastTime: -8585843017709705058
+    m_lastTime: -8585842281878821798
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -554,7 +545,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3a51e36ee5a7464e8a590137a34066e4
     GuidInternal: 
-    m_lastTime: -8585843017709695087
+    m_lastTime: -8585842281878808904
     List: []
   ExpandedItems:
   - /Senior Project_WwiseProject

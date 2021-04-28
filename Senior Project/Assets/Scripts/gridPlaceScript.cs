@@ -145,7 +145,7 @@ public class gridPlaceScript : MonoBehaviour
                         if (selectedObj == SpawnManager.oldProp)
                         {
                             
-                            SpawnManager.RemoveProp();
+                            SpawnManager.DeleteOldProp();
                         }
                          if (selectedObj == SpawnManager.newProp) 
                         {
@@ -154,7 +154,7 @@ public class gridPlaceScript : MonoBehaviour
                         }
                          if(selectedObj == SpawnManager.oldPropCoral)
                         {
-                            SpawnManager.RemovePropCoral();
+                            SpawnManager.DeleteOldPropCoral();
                         }
                          if (selectedObj == SpawnManager.newPropCoral)
                         {
@@ -163,7 +163,7 @@ public class gridPlaceScript : MonoBehaviour
                         }
                         if (selectedObj == SpawnManager.oldPropMetronome)
                         {
-                            SpawnManager.RemovePropMetronome();
+                            SpawnManager.DeleteOldPropMetronome();
                         }
                         if (selectedObj == SpawnManager.newPropMetronome)
                         {
@@ -173,7 +173,7 @@ public class gridPlaceScript : MonoBehaviour
                         if (selectedObj == SpawnManager.oldPropOyster)
                         {
 
-                            SpawnManager.RemovePropOyster();
+                            SpawnManager.DeleteOldPropOyster();
                         }
                         if (selectedObj == SpawnManager.newPropOyster)
                         {
@@ -184,7 +184,7 @@ public class gridPlaceScript : MonoBehaviour
                         if (selectedObj == SpawnManager.oldPropPirateShip)
                         {
 
-                            SpawnManager.RemovePropPirateShip();
+                            SpawnManager.DeleteOldPropPirateShip();
                         }
                         if (selectedObj == SpawnManager.newPropPirateShip)
                         {
@@ -194,7 +194,7 @@ public class gridPlaceScript : MonoBehaviour
                         if (selectedObj == SpawnManager.oldPropPirateSkull)
                         {
 
-                            SpawnManager.RemovePropPirateSkull();
+                            SpawnManager.DeleteOldPropPirateSkull();
                         }
                         if (selectedObj == SpawnManager.newPropPirateSkull)
                         {
