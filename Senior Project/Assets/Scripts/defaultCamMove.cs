@@ -5,6 +5,7 @@ using UnityEngine;
 public class defaultCamMove : MonoBehaviour
 {
     public GameObject targe;
+    public GameObject rel;
     public CameraSwitch cam;
     public KeyCode forward, left, right, back;
     public Vector3 direction;
@@ -29,7 +30,7 @@ public class defaultCamMove : MonoBehaviour
             direction = direction * Time.deltaTime;
             // Debug.Log("This is the direction multiplied by time.deltatime " + direction + "THis is the Y position !!!!!::!!!!!! " + transform.position.y);
             Vector3 dirt = new Vector3(direction.x, 0, direction.z);
-            targe.transform.Translate(dirt, Camera.main.transform);
+            targe.transform.Translate(dirt, rel.transform);
             Debug.Log("THis is the Vector3 dirt !!!!!::!!!!!! " + dirt);
         }
     }
