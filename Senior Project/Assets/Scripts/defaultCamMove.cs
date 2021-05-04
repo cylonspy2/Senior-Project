@@ -10,6 +10,7 @@ public class defaultCamMove : MonoBehaviour
     public KeyCode forward, left, right, back;
     public Vector3 direction;
     public float mainSpeed = 100.0f; //regular speed
+    public float horiBound; //horizontal camera movement boundaries
 
 
     // Start is called before the first frame update
@@ -31,6 +32,10 @@ public class defaultCamMove : MonoBehaviour
             // Debug.Log("This is the direction multiplied by time.deltatime " + direction + "THis is the Y position !!!!!::!!!!!! " + transform.position.y);
             Vector3 dirt = new Vector3(direction.x, 0, direction.z);
             targe.transform.Translate(dirt, rel.transform);
+            Vector3 clampPos = transform.position;
+            clampPos.x = Mathf.Clamp(clampPos.x, -horiBound, horiBound);
+            clampPos.z = Mathf.Clamp(clampPos.z, -horiBound, horiBound);
+            targe.transform.position = clampPos;
             Debug.Log("THis is the Vector3 dirt !!!!!::!!!!!! " + dirt);
         }
     }
