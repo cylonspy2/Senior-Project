@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.061110646, g: 0.30554926, b: 0.6806822, a: 1}
+  m_IndirectSpecularColor: {r: 0.061110698, g: 0.3055493, b: 0.6806823, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -448,6 +448,7 @@ MonoBehaviour:
   back: 115
   direction: {x: 0, y: 0, z: 0}
   mainSpeed: 50
+  horiBound: 0
 --- !u!1 &930674910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,6 +1267,11 @@ PrefabInstance:
       propertyPath: Cursor
       value: 
       objectReference: {fileID: 5945937290759492795}
+    - target: {fileID: 1542223891861732397, guid: ca941e2816f434e3e9bf4f34c53ee838,
+        type: 3}
+      propertyPath: maxPropEachKind
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2092302771568619506, guid: ca941e2816f434e3e9bf4f34c53ee838,
         type: 3}
       propertyPath: mainCamera

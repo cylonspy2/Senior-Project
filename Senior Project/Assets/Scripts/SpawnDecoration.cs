@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class SpawnDecoration : MonoBehaviour
 {
-    public int maxPropEachKind = 2;
+    public int maxPropEachKind = 1;
     public GameObject Cursor;
     private GameObject CurrProp;
     public GameObject sample_1;
