@@ -1,5 +1,13 @@
 CHANGELOG
 
+0.8
+Updated default camera motion
+Updated play platform
+Fixed deleting props bug
+
+known bugs:
+Some props spawn twice at once
+
 0.76
 Added wasd support to default camera
 Updated default camera zoom

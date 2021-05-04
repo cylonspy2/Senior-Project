@@ -47,7 +47,7 @@ public class boidSpawnManager : MonoBehaviour
         {
             float stick = stickyRange / 2;
             //Vector3 spawn = new Vector3(Random.Range(-stick, stick), Random.Range(-stick, stick), Random.Range(-stick, stick));
-            Vector3 spawn = new Vector3(Random.Range(-25f, 25f), Random.Range(-25f, 25f), Random.Range(-25f, 25f));
+            Vector3 spawn = new Vector3(Random.Range(-25f, 25f), Random.Range(-25f, 25f), Random.Range(-25f, 25f)) + boidParent.transform.position;
             GameObject spawnt = Instantiate(Boid, spawn, Quaternion.identity, boidParent.transform);
             swarm[i] = spawnt;
             swarmMass[i] = spawnt.GetComponent<Rigidbody>();
