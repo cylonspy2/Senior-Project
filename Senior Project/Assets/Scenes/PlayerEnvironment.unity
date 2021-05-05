@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.061110698, g: 0.3055493, b: 0.6806823, a: 1}
+  m_IndirectSpecularColor: {r: 0.061110646, g: 0.30554926, b: 0.6806822, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -833,7 +833,7 @@ MonoBehaviour:
   lerpSpeed: 10
   lerpClamp: 0.51
   camClamp: {x: 60, y: 60, z: 0}
-  subClamp: {x: 500, y: 500, z: 500}
+  subClamp: {x: 250, y: 80, z: 250}
   forward: 119
   leftTurn: 97
   rightTurn: 100
