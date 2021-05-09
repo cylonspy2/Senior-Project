@@ -17628,6 +17628,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fish: {fileID: 9205683114194142766, guid: 5b81d3057ec3d494392efac7e49c35e8, type: 3}
+  rangeMax: {x: 80, y: 10, z: 80}
+  rangeMin: {x: -80, y: -4, z: -80}
 --- !u!114 &1542223891861732397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17640,7 +17642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a089b9d37256b74abd2867dadc9d00c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPropEachKind: 2
+  maxPropEachKind: 1
   Cursor: {fileID: 0}
   sample_1: {fileID: 6357557959393626271, guid: f33296b7ce4a96a45ac70e121f9072fd,
     type: 3}
