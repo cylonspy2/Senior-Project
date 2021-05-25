@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.061110698, g: 0.3055493, b: 0.6806823, a: 1}
+  m_IndirectSpecularColor: {r: 0.061110646, g: 0.30554926, b: 0.6806822, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -448,7 +448,13 @@ MonoBehaviour:
   back: 115
   direction: {x: 0, y: 0, z: 0}
   mainSpeed: 50
-  horiBound: 0
+  horiBound: 80
+--- !u!212 &871693360 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4425717144527652088, guid: 8d5d968862e5df6449de96145e95d5e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4425717143239725047}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &930674910
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,6 +860,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16ce05f1bf792084dad09db458246370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camToggle: {fileID: 81847841}
+  baseCamMove: {fileID: 963194234}
   manager: {fileID: 3334080305280216900}
   cam: {fileID: 963194227}
   activ: 101
@@ -882,7 +890,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053264903}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.99, z: 0.97}
+  m_LocalPosition: {x: 0, y: -1.91, z: 2.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 963194228}
@@ -1388,6 +1396,18 @@ PrefabInstance:
       propertyPath: UI_Bottom
       value: 
       objectReference: {fileID: 20275}
+    - target: {fileID: 2133141953, guid: a1f8e841d2b9f4975aecbbccbfb378a0, type: 3}
+      propertyPath: optionOneCam
+      value: FlyCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133141953, guid: a1f8e841d2b9f4975aecbbccbfb378a0, type: 3}
+      propertyPath: toggleToTwo
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133141953, guid: a1f8e841d2b9f4975aecbbccbfb378a0, type: 3}
+      propertyPath: toggleToOne
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 3334080304718205092, guid: a1f8e841d2b9f4975aecbbccbfb378a0,
         type: 3}
       propertyPath: m_Name
@@ -1499,6 +1519,16 @@ PrefabInstance:
       propertyPath: offset
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4425717144527652089, guid: 8d5d968862e5df6449de96145e95d5e3,
+        type: 3}
+      propertyPath: baka
+      value: 
+      objectReference: {fileID: 963194234}
+    - target: {fileID: 4425717144527652089, guid: 8d5d968862e5df6449de96145e95d5e3,
+        type: 3}
+      propertyPath: targImage
+      value: 
+      objectReference: {fileID: 871693360}
     - target: {fileID: 4425717144527652090, guid: 8d5d968862e5df6449de96145e95d5e3,
         type: 3}
       propertyPath: m_LocalPosition.x

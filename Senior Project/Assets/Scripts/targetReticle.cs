@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class targetReticle : MonoBehaviour
 {
+    public SpriteRenderer targImage;
     public GameObject targetRet;
     public GameObject camera;
     public gridPlaceScript selectionSys;
     public GameObject curTarget;
+    public moving baka;
     public float offset;
 
 
@@ -34,6 +36,15 @@ public class targetReticle : MonoBehaviour
         if(curTarget.name == "New Game Object")
         {
             curTarget = camera;
+        }
+
+        if(baka.enabled == false)
+        {
+            targImage.enabled = false;
+        }
+        else
+        {
+            targImage.enabled = true;
         }
 
         targetRet.transform.position = curTarget.transform.position;

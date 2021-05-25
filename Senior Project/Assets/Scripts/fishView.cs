@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class fishView : MonoBehaviour
 {
+    public CameraSwitch camToggle;
+    public moving baseCamMove;
     public gridPlaceScript manager;
     public Camera cam;
     public KeyCode activ;
@@ -26,7 +28,13 @@ public class fishView : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (manager.selectedPhish == null)
+        if (camToggle.camVal != 1)
+        {
+            return;
+        }
+
+
+        if (manager.selectedPhish != null)
         {
             fsh = manager.selectedPhish;
         }
@@ -45,6 +53,9 @@ public class fishView : MonoBehaviour
 
         if (Input.GetKeyDown(activ))
         {
+            Debug.Log("switching to fish view");
+            camToggle.enabled = false;
+            baseCamMove.enabled = false;
             jeef = cam.transform.position;
             beef = cam.transform.rotation;
         }
@@ -56,6 +67,8 @@ public class fishView : MonoBehaviour
         }
         if (Input.GetKeyUp(activ))
         {
+            camToggle.enabled = true;
+            baseCamMove.enabled = true;
             lerpCount = 0;
             cam.transform.position = jeef;
             cam.transform.rotation = beef;
