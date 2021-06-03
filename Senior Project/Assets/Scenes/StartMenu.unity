@@ -1013,12 +1013,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68194fb668afe9d49b77e137670e3e91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultFOV: 0
   minFOV: 15
   maxFOV: 120
   foxSpeed: 30
   camMovSys: {fileID: 963194234}
   CursorManager: {fileID: 3334080305280216900}
   zoomSize: 0.38
+  initialZOOM: 0
+  minZOOM: 0
+  maxZOOM: 0
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1166,9 +1170,7 @@ MonoBehaviour:
   camSens: 0.25
   lerpSpeed: 10
   lerpClamp: 0.51
-  maxRotate: 90
-  mixRotate: -90
-  camClamp: {x: 60, y: 60}
+  camClamp: {x: 60, y: 60, z: 0}
   subClamp: {x: 500, y: 500, z: 500}
   forward: 119
   leftTurn: 97
@@ -1190,6 +1192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16ce05f1bf792084dad09db458246370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camToggle: {fileID: 0}
+  baseCamMove: {fileID: 0}
   manager: {fileID: 3334080305280216900}
   cam: {fileID: 963194227}
   activ: 101
