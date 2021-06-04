@@ -1,5 +1,13 @@
 CHANGELOG
 
+1.0
+revamped shadow and water caustics
+revamped UI
+added credit page
+updated pause menu
+overhauled bugs
+
+
 0.8
 Updated default camera motion
 Updated play platform
